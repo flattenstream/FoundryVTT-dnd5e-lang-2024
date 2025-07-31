@@ -1,3 +1,3 @@
 # CHANGELOG
 
-- v0.5.0 : v10 migration
+- v2.0 : v13 migration
