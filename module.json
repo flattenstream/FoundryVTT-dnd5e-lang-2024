@@ -1,7 +1,7 @@
 {
-	"id": "dnd5e-ko",
-	"name": "dnd5e-ko",
-	"title": "Translation: Korean [D&D 5e](SRD)",
+	"id": "dnd5e-ko-2024",
+	"name": "dnd5e-ko-2024",
+	"title": "Translation: Korean [D&D 5e](SRD 2024)",
 	"description": "D&D 5e 시스템의 한국어화 모듈입니다.",
 	"version":  "2.0",
 	"library": "false",
@@ -48,7 +48,7 @@
       "system": "dnd5e",
       "label": "굴림표(보조)",
       "path": "./packs/rolltables_24sub.db",
-      "module": "dnd5e-ko",
+      "module": "dnd5e-ko-2024",
       "type": "RollTable"
     }
 	],
