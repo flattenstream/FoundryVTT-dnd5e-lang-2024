@@ -1,0 +1,1143 @@
+{
+	"label": "장비",
+	"folders": {
+		"Ammunition": "탄약",
+		"Armor": "갑옷",
+		"Light": "경갑",
+		"Medium": "평갑",
+		"Heavy": "중갑",
+		"Magical": "마법적",
+		"Containers": "용기",
+		"Equipment": "장비(마법)",
+		"Bags of Tricks": "마술의 가방",
+		"Belts of Giant Strength": "거인 힘의 허리띠",
+		"Figurines": "조각상",
+		"Horns of Valhalla": "발할라의 뿔나팔",
+		"Ioun Stones": "아이운석",
+		"Mysterious Deck Cards": "신비로운 카드덱",
+		"Rings": "반지",
+		"Rods": "마법막대",
+		"Wands": "마법봉",
+		"Adventuring Gear": "모험 장비",
+		"Spellcasting Focuses": "주문시전 매개체",
+		"Arcane Focus": "비전 매개체",
+		"Druidic Focus": "드루이드 매개체",
+		"Holy Symbol": "성표",
+		"Consumables": "소모품",
+		"Elemental Gems": "원소 보석",
+		"Feather Tokens": "깃털 토큰",
+		"Potions": "물약",
+		"Poisons": "독",
+		"Potion": "물약",
+		"Scrolls": "두루마리",
+		"Supplemental": "보조품",
+		"Tools": "도구",
+		"Artisan": "장인",
+		"Other": "기타",
+		"Traps": "덫",
+		"Weapons": "무기",
+		"Simple Melee": "단순 근접 무기",
+		"Simple Ranged": "단순 원거리 무기",
+		"Martial Melee": "무술 근접 무기",
+		"Martial Ranged": "무술 원거리 무기",
+		"Gaming Set": "게임 세트",
+		"Musical Instrument": "악기",
+		"Healing": "치유",
+		"Staff": "지팡이"
+	},
+	"entries": {
+		"Acid": {
+			"name": "산",
+			"description": "<p>공격 행동을 할 때, 공격 중 하나를 산 약병 던지기로 대체할 수 있습니다. 자신으로부터 20피트 이내에 보이는 크리쳐나 물체 하나를 목표로 삼습니다. 대상은 민첩 내성 굴림(DC는 8에 자신의 민첩 수정치와 숙련 보너스를 더함)에 실패시 2d6 산성 피해를 받습니다.</p>"
+		},
+		"Adamantine Armor": {
+			"name": "아다만틴 갑옷",
+			"description": "<p><em>Armor (Any Medium or Heavy, Except Hide Armor), Uncommon</em></p><p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any &amp;Reference[CriticalHits] against you becomes a normal hit.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+		},
+		"Alchemist's Fire": {
+			"name": "연금술사의 불",
+			"description": "<p>공격 행동을 할 때, 공격 중 하나를 연금술사의 불 플라스크 던지기로 대체할 수 있습니다. 자신으로부터 20피트 이내에 보이는 크리쳐나 물체 하나를 대상으로 합니다. 대상은 민첩 내성 굴림(DC는 8에 자신의 민첩 수정치와 숙련 보너스를 더함)에 실패시 1d4 화염 피해를 받고 불에 타기 시작합니다(규칙 용어집 참조)</p>"
+		},
+		"Alchemist's Supplies": {
+			"name": "연금술사의 보급품",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 물질 식별하기 (DC 15), 불 붙이기 (DC 15)</p><p><strong>제작:</strong> 산, 연금술사의 불, 구성요소 주머니, 기름, 종이, 향수</p>"
+		},
+		"Amulet": {
+			"name": "호부",
+			"description": "<p><em><strong>사용조건: </strong>착용 혹은 들기</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{성표 Holy Symbol (다양)}는 성표 표의 형태 중 하나를 취하며, 신성한 마법에 연결되기 위해 보석으로 장식하거나 색칠합니다. 클레릭이나 팔라딘은 성표를 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Amulet of Health": {
+			"name": "건강의 호부",
+			"description": "<p><em>경이로운 물건 (조율 필요)</em></p><p>이 아뮬렛을 착용한 동안 내 건강 능력치는 19가 됩니다. 건강이 이미 19 이상인 경우, 아무런 효과가 없습니다.</p>"
+		},
+		"Antitoxin": {
+			"name": "해독제",
+			"description": "<p>추가 행동으로 해독제 한 병을 마시면 중독 상태를 끝내는 내성 굴림이 1시간동안 유리합니다.</p>"
+		},
+		"Ammunition (Varies)": {
+			"name": "탄약(다양)",
+			"description": "<p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p><table><caption>탄약</caption><thead><tr><td>유형</td><td>양</td><td>보관통</td><td>무게</td><td>가격</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoArrows0000]{화살}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{화살통}</td><td>1 lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBolts00000]{석궁살}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{통}</td><td>1½ lb.</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsFir]{탄약, 화기}</td><td>10</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니}</td><td>2 lb.</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoBulletsSli]{탄약, 무릿매}</td><td>20</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니}</td><td>1½ lb.</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbamoNeedles000]{바늘}</td><td>50</td><td>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니}</td><td>1 lb.</td><td>1 GP</td></tr></tbody></table>"
+		},
+		"Arrows": {
+			"name": "화살",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{화살통 Quiver}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Bullets, Sling": {
+			"name": "총알, 무릿매",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Bullets, Firearm": {
+			"name": "총알, 화기",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Needles": {
+			"name": "바늘",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Backpack": {
+			"name": "배낭",
+			"description": "<p>배낭에는 최대 1세제곱피트 크기, 30파운드 무게까지 수납할 수 있습니다. 안장 주머니로도 사용할 수 있습니다.</p>"
+		},
+		"Bag of Beans": {
+			"name": "콩의 가방",
+			"description": "<p><em>경이로운 물품, 희귀</em></p><p>이 무거운 천 가방은 3d4개의 건조된 콩이 든 채로 발견됩니다. 가방은 들어있는 콩의 수와 관계없이 반 파운드의 무게를 유지하며, 콩이 모두 소진되면 @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{비마법적 물품}으로 변합니다.</p> <p>가방에서 한 개 이상의 콩을 버리면, 그 콩을 중심으로 반경 10피트 범위에 폭발이 일어납니다. 버린 모든 콩은 폭발로 파괴되며, 범위 내의 모든 크리쳐(나를 포함)은 DC 15 민첩 내성 굴림을 합니다. 실패 시 5d4 역장 피해를 입으며, 성공 시 그 절반의 피해를 입습니다.</p> <p>가방에서 콩을 꺼내 흙이나 모래에 심고 물을 주면, 콩은 심긴 땅에서 1분 후 효과를 발생시키며 사라집니다. DM은 다음 표에서 효과를 선택하거나 무작위로 결정할 수 있습니다.</p> <details><summary>콩의 가방 효과 (클릭해서 보기)</summary> <p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgBagOfBeansEff rollable caption=false]</p> </details><p></p><section class=\"secret\" id=\"secret-Ksf2KyYXOK1HhLmm\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템을 획득하면 <strong>콩 숫자 확인</strong> 활동을 사용하여 해당 아이템 내부에 포함된 건조된 콩의 수를 확인하고, 이에 따라 이 아이템의 사용 횟수를 설정할 수 있습니다.</p> </section>",
+			"activities": {
+			"pCPfWEoVCDCMzl58": {
+          		"name": "콩 숫자 확인"
+       		},
+			"2OuJC3aroy0tJ8SW": {
+          		"name": "콩 쏟기"
+       		},
+			"fo7GQpsx1ryDXtPU": {
+          		"name": "콩 심기"
+       		}
+			}
+		},
+		"Bag of Holding": {
+			"name": "소유의 가방",
+			"description": "<div><p><em>경이로운 물건, 비범</em></p><p>이 가방의 내부 공간은 외부 크기보다 훨씬 큽니다. 정사각형 약 2피트 둘레에 내부 깊이 약 4피트입니다. 이 가방은 최대 500파운드까지 수납할 수 있으며 부피는 64세제곱피트를 넘지 않습니다. 가방의 무게는 내용물에 관계없이 5파운드입니다. 가방에서 물건을 꺼내려면 활용 행동이 필요합니다.</p><p>가방에 과부하가 걸리거나 구멍이 뚫리거나 찢어지면 가방은 파괴되고 내용물은 천문계에 흩어집니다. 가방을 뒤집으면 내용물은 손상되지 않고 쏟아지지만, 가방을 다시 사용하려면 가방을 바로 세워야 합니다. 가방 안에는 10분 동안 호흡할 수 있는 양의 공기가 들어 있으며, 그 양을 안에 있는 호흡하는 크리쳐의 수로 나눕니다.</p><p>편리한 배낭, 휴대용 구멍, 또는 이와 유사한 아이템으로 생성된 초차원 공간 안에 소유의 가방을 놓으면 즉시 두 물품이 파괴되고 천문계로 통하는 관문이 열립니다. 관문은 한 물품이 다른 물품 안에 놓여 있던 곳에서 시작됩니다. 관문을 중심으로 반경 10피트 구체 안에 있는 모든 크리쳐는 관문을 통해 천문계의 임의의 위치로 빨려 들어갑니다. 그런 다음 문이 닫힙니다. 관문은 일방통행이며 다시 열 수 없습니다.</p></div>"
+		},
+		"Bagpipes": {
+			"name": "백파이프",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Ball Bearings": {
+			"name": "볼 베어링",
+			"description": "<p>활용 행동으로 주머니에서 볼 베어링을 쏟을 수 있습니다. 볼 베어링은 자신으로부터 10피트 이내의 평평한 10피트 정사각형 영역을 덮으며 퍼집니다. 턴에 처음으로 이 영역에 들어오는 크리쳐는 DC 10 민첩 내성 굴림에 실패시 쓰러집니다. 볼 베어링을 다시 줍는데 10분이 걸립니다.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The <strong>Recover Ball Bearings</strong> activity grants another use of this item.</p></section>"
+		},
+		"Barrel": {
+			"name": "맥주통",
+			"description": "<p>목재 통에는 최대 40갤런의 액체 또는 최대 4입방피트의 건조물을 담을 수 있습니다.</p>"
+		},
+		"Poison, Basic": {
+			"name": "독, 기본",
+			"description": "<p>추가 행동으로 기본 독 약병을 사용하여 무기 하나 또는 탄약 최대 3개에 독을 바를 수 있습니다. 독이 든 무기나 탄약으로 관통이나 참격 피해를 받는 크리쳐는 추가로 1d4 독성 피해를 받습니다. 한 번 바른 독은 1분 후 또는 피해를 입힐 때, 둘 중 먼저 발생하는 시점까지 효과가 유지됩니다.</p><section class=\"secret\" id=\"secret-YwO5GX35V4XweNWL\"><p><strong>Foundry Note</strong></p><p>This feature includes a roll for the Poison damage.</p></section>"
+		},
+		"Basket": {
+			"name": "바구니",
+			"description": "<p>바구니에는 최대 2세제곱피트 크기, 40파운드까지 담을 수 있습니다.</p>"
+		},
+		"Battleaxe": {
+			"name": "전투도끼",
+			"description": ""
+		},
+		"Bedroll": {
+			"name": "침낭",
+			"description": "<p>침낭 하나에 소형이나 중형 크리쳐 하나가 잘 수 있습니다. 침낭 안에 있는 동안에는 극한의 추위에 대한 내성 굴림에 자동으로 성공합니다(던전 마스터 안내서 참조).</p>"
+		},
+		"Bell": {
+			"name": "종",
+			"description": "<p>활용 행동으로 종을 울리면 최대 60피트 떨어진 곳까지 들리는 소리가 납니다.</p>"
+		},
+		"Blanket": {
+			"name": "담요",
+			"description": "<p>담요를 두르고 있는 동안 극한의 추위에 대한 내성 굴림에 유리합니다.(던전 마스터 안내서 참조).</p>"
+		},
+		"Block and Tackle": {
+			"name": "도르래와 걸쇠",
+			"description": "<p>도르래를 사용하면 평소 들어 올릴 수 있는 무게의 최대 4배까지 들어 올릴 수 있습니다.</p>"
+		},
+		"Blowgun": {
+			"name": "취관",
+			"description": ""
+		},
+		"Book": {
+			"name": "책",
+			"description": "<p>책에는 픽션 또는 논픽션 내용이 쓰여 있습니다. 판정의 주제에 대한 정확한 논픽션 책을 참고하면 그에 대한 지능(비전학, 역사, 자연, 종교) 판정에 +5 보너스를 얻습니다.</p>"
+		},
+		"Breastplate": {
+			"name": "브레스트플레이트",
+			"description": ""
+		},
+		"Brewer's Supplies": {
+			"name": "양조사의 보급품",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 독을 탄 음료 탐지하기 (DC 15), 알코올 식별하기 (DC 10)</p><p><strong>제작:</strong> 해독제</p>"
+		},
+		"Bucket": {
+			"name": "양동이",
+			"description": "<p>양동이에는 최대 0.5세제곱피트의 내용물을 담을 수 있습니다.</p>"
+		},
+		"Lantern, Bullseye": {
+			"name": "불스아이 랜턴",
+			"description": "<p>불스아이 손전등은 기름을 연료로 태워 60피트 원뿔에 밝은 빛을, 추가로 60피트에 희미한 빛을 비춥니다.</p>"
+		},
+		"Burglar's Pack": {
+			"name": "도둑의 꾸러미",
+			"description": "<p>도둑의 꾸러미에는 다음 물품들이 들어 있습니다: 배낭, 볼 베어링, 종, 양초 10개, 지렛대, 후드가 달린 랜턴, 기름 7병, 식량 5일분, 밧줄, 부싯깃통, 가죽 부대.</p>"
+		},
+		"Calligrapher's Supplies": {
+			"name": "서예가의 보급품",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 위조를 방지하는 인상적인 글 작성하기 (DC 15)</p><p><strong>제작:</strong> 잉크, 주문 두루마리</p>"
+		},
+		"Caltrops": {
+			"name": "마름쇠",
+			"description": "<p>활용 행동으로, 가방에서 마름쇠를 꺼내 펼쳐 던져서 자신으로부터 5피트 이내의 5제곱피트 영역을 덮을 수 있습니다. 한 턴에 처음으로 이 영역에 들어온 크리쳐는 민첩 내성 굴림에 실패시1 관통 피해를 받고 다음 턴이 시작될 때까지 속도가 0으로 감소합니다. 마름쇠를 다시 회수하는 데 10분이 걸립니다.</p>"
+		},
+		"Candle": {
+			"name": "양초",
+			"description": "<p>불이 켜진 양초는 1시간 동안 5피트 반경에 밝은 빛을, 추가로 5피트 반경에 희미한 빛을 발산합니다.</p>"
+		},
+		"Carpenter's Tools": {
+			"name": "목수의 도구",
+			"description": "<p><strong>능력치:</strong> 근력</p><p><strong>활용:</strong> 문이나 용기를 봉인하거나 열기 (DC 20)</p><p><strong>제작:</strong> 곤봉, 대곤봉, 육척봉, 목재 통, 상자, 사다리, 장대, 휴대 공성추, 횃불</p>"
+		},
+		"Cartographer's Tools": {
+			"name": "지도 제작자의 도구",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 작은 지역의 지도 초안 작성하기 (DC 15)</p><p><strong>제작:</strong> 지도</p>"
+		},
+		"Chain": {
+			"name": "사슬",
+			"description": "<p>활용 행동으로, DC 13 근력(운동) 판정에 성공하면 자신으로부터 5피트 이내에 있는 붙잡힘, 무력화, 포박 상태의 비협조적 크리쳐를 사슬로 묶을 수 있습니다. 크리쳐의 다리가 묶인 경우, 탈출할 때까지 포박 상태가 됩니다. 사슬에서 탈출하려면 행동으로 DC 18 민첩(곡예) 판정에 성공해야 합니다. 사슬을 끊으려면 행동으로 DC 20의 근력(운동) 판정에 성공해야 합니다.</p>"
+		},
+		"Chain Mail": {
+			"name": "사슬 갑옷",
+			"description": ""
+		},
+		"Chain Shirt": {
+			"name": "사슬 셔츠",
+			"description": ""
+		},
+		"Dragonchess": {
+			"name": "드래곤체스",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 누군가의 부정행위 여부 식별하기 (DC 10), 게임에서 승리하기 (DC 20)</p>"
+		},
+		"Three-dragon ante": {
+			"name": "삼룡 앤티",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 누군가의 부정행위 여부 식별하기 (DC 10), 게임에서 승리하기 (DC 20)</p>"
+		},
+		"Chest": {
+			"name": "상자",
+			"description": "<p>상자에는 최대 12제곱피트의 내용물을 수납할 수 있습니다.</p>"
+		},
+		"Climber's Kit": {
+			"name": "등반가의 용품",
+			"description": "<p>등반가의 용품에는 부츠 미끄럼 방지대, 장갑, 등반용 못, 하네스가 포함되어 있습니다. 활용 행동으로 등반가의 용품을 사용하여 스스로를 고정할 수 있으며, 고정중에는 고정 지점에서 25피트 이상 떨어지지 않아야 하고, 추가 행동으로 고정을 풀지 않고는 그곳에서 25피트 이상 이동할 수 없습니다.</p>"
+		},
+		"Club": {
+			"name": "곤봉",
+			"description": ""
+		},
+		"Cobbler's Tools": {
+			"name": "구두 수선공의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 신발을 고쳐 착용자의 다음번 민첩(곡예) 판정에 유리 부여하기 (DC 10)</p><p><strong>제작:</strong> 등반가의 용품</p>"
+		},
+		"Component Pouch": {
+			"name": "구성요소 주머니",
+			"description": "<p>구성요소 주머니는 주문의 모든 무료 물질 구성요소를 보관할 수 있는 칸으로 채워진 방수 주머니입니다.</p>"
+		},
+		"Cook's Utensils": {
+			"name": "요리사의 기구",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 음식의 풍미를 향상시키기 (DC 10), 상하거나 독이 든 음식을 탐지하기 (DC 15).</p><p><strong>제작:</strong> 식량</p>"
+		},
+		"Costume": {
+			"name": "변장복",
+			"description": "<p>변장복을 착용한 상태에서는 옷이 나타내는 인물이나 유형으로 가장할 수 있는 모든 능력 판정에서 유리합니다.</p>"
+		},
+		"Bolts": {
+			"name": "석궁살",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagCaseCrossbo]{통, 석궁살 Case, Crossbow Bolt}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Case, Crossbow Bolt": {
+			"name": "통, 석궁살",
+			"description": "<p>석궁살 통에는 최대 20개의 석궁살을 보관할 수 있습니다.</p>"
+		},
+		"Crowbar": {
+			"name": "쇠지렛대",
+			"description": "<p>지렛대를 사용하면 이를 활용할 수 있는 근력 판정에 유리합니다.</p>"
+		},
+		"Crystal": {
+			"name": "수정",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{비전 매개체 Arcane Focus (다양)}는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Dagger": {
+			"name": "단검",
+			"description": ""
+		},
+		"Dart": {
+			"name": "다트",
+			"description": ""
+		},
+		"Dice": {
+			"name": "주사위",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 누군가의 부정행위 여부 식별하기 (DC 10), 게임에서 승리하기 (DC 20)</p>"
+		},
+		"Water, fresh (Pint)": {
+			"name": "물, 신선함(파인트)",
+			"description": "<p>물을 충분히 마시지 않으면 탈수의 위험이 있습니다.</p>"
+		},
+		"Water, salt (Pint)": {
+			"name": "물, 소금(파인트)",
+			"description": ""
+		},
+		"Diplomat's Pack": {
+			"name": "외교관의 꾸러미",
+			"description": "<p>외교관의 꾸러미에는 다음 물품이 들어 있습니다: 상자, 고급 옷, 잉크, 잉크 펜 5개, 등잔, 지도나 두루마리 통 2개, 기름 4병, 종이 5장, 양피지 5장, 향수, 부싯깃통.</p>"
+		},
+		"Disguise Kit": {
+			"name": "변장 용품",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 화장하기 (DC 10)</p><p><strong>제작:</strong> 변장복</p>"
+		},
+		"Drum": {
+			"name": "드럼",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Dulcimer": {
+			"name": "덜시머",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Dungeoneer's Pack": {
+			"name": "던전 탐험가의 꾸러미",
+			"description": "<p>던전 탐험가의 꾸러미에는 다음 물품이 들어 있습니다: 배낭, 마름쇠, 지렛대, 기름 플라스크 2병, 식량 10일분, 밧줄, 부싯깃통, 횃불 10개, 가죽부대.</p>"
+		},
+		"Dust of Disappearance": {
+			"name": "사라짐의 가루",
+			"description": "<p><em>경이로운 물건, 비범</em></p></div><p>이 파우더는 고운 모래처럼 생겼습니다. 한 번 사용하기에 충분한 양입니다. 활용 행동으로 가루를 공중으로 던지면, 자신과 자신으로부터 10피트 범위 내에 있는 모든 크리쳐와 물체가 2d4분 동안 투명 상태가 됩니다. 지속 시간은 모든 대상에게 동일하게 적용되며, 마법이 효과를 발휘할 때 가루가 소모됩니다. 영향을 받은 크리쳐가 공격 굴림을 하거나 피해를 주거나 주문을 시전한 직후, 해당 크리쳐의 투명 상태는 종료됩니다.</p>"
+		},
+		"Emblem": {
+			"name": "상징",
+			"description": "<p><em><strong>사용조건: </strong>천이나 방패에 부착</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{성표 Holy Symbol (다양)}는 성표 표의 형태 중 하나를 취하며, 신성한 마법에 연결되기 위해 보석으로 장식하거나 색칠합니다. 클레릭이나 팔라딘은 성표를 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Entertainer's Pack": {
+			"name": "연예인의 꾸러미",
+			"description": "<p>연예인의 꾸러미에는 다음 물품이 들어 있습니다: 배낭, 침낭, 종, 불스아이 손전등, 변장복 3벌, 거울, 기름 플라스크 8병, 식량 9일분, 부싯깃통, 가죽부대.</p>"
+		},
+		"Explorer's Pack": {
+			"name": "탐험가의 꾸러미",
+			"description": "<p>탐험가의 꾸러미에는 다음 물품이 들어 있습니다: 배낭, 침낭, 기름 플라스크 2병, 식량 10일분, 밧줄, 부싯깃통, 횃불 10개, 가죽부대.</p>"
+		},
+		"Clothes, Fine": {
+			"name": "옷, 고급",
+			"description": "<p>고급 옷은 값비싼 원단으로 만들며 전문적으로 제작된 부분들로 장식되어 있습니다. 일부 행사와 장소에서는 이 옷을 입은 사람만 입장할 수 있습니다.</p>"
+		},
+		"Flail": {
+			"name": "편곤",
+			"description": ""
+		},
+		"Flask": {
+			"name": "플라스크",
+			"description": "<p>플라스크에는 최대 1파인트까지 담을 수 있습니다.</p>"
+		},
+		"Holy Water": {
+			"name": "성수",
+			"description": "<p>공격 행동을 할 때, 공격 중 하나를 성수병 던지기로 대체할 수 있습니다. 자신의 20피트 이내에서 볼 수 있는 크리쳐 하나를 대상으로 합니다. 대상이 악마나 언데드라면 민첩 내성 굴림(DC는 8에 자신의 민첩 수정치와 숙련 보너스를 더함)에 실패시 2d8의 광휘 피해를 받습니다.</p>"
+		},
+		"Flute": {
+			"name": "플루트",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Forgery Kit": {
+			"name": "위조 용품",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 다른 사람의 손글씨를 10단어 이하로 모방하기 (DC 15), 왁스 도장을 복제하기 (DC 20)</p>"
+		},
+		"Gem of Brightness": {
+			"name": "광채의 보석",
+			"description": "<p><em>신비로운 아이템, 비범</em></p><p>이 프리즘은 50의 충전량을 가지고 있습니다. 이 프리즘을 들고 있을 때, 마법 행동으로 세 가지 명령어 중 하나를 선택해 다음 효과 중 하나를 발동할 수 있습니다:</p><p><strong>첫 번째 명령어.</strong> 보석은 30피트 반경 내에 밝은 빛을 발산하고 추가로 30피트 범위 내에 희미한 빛을 발산합니다. 이 효과는 충전량을 소모하지 않습니다. 이 효과는 추가 행동을 사용하여 명령어를 반복하거나 보석의 다른 기능을 사용할 때까지 지속됩니다.</p><p><strong>두 번째 명령어.</strong> 1 충전량을 소모하고, 60피트 이내에서 내가 볼 수 있는 한 크리쳐에게 보석으로 밝은 광선을 발사합니다. 크리쳐는 DC 15 건강 내성 굴림에 실패하면 1분 동안 실명 상태가 됩니다. 크리쳐는 자신의 턴이 끝날 때마다 내성 굴림을 반복하고, 성공하면 자신에 대한 효과가 종료됩니다.</p><p><strong>세 번째 명령어.</strong> 5개의 충전을 소모하고 보석이 30피트 원뿔형으로 강렬한 빛을 내뿜도록 합니다. 원뿔 안에 있는 각 크리쳐는 두 번째 명령어로 생성된 광선에 맞은 것처럼 내성 굴림을 합니다.</p><p>보석의 충전이 모두 소모되면 보석은 50 GP 상당의 비마법 보석이 됩니다.</p>"
+		},
+		"Glaive": {
+			"name": "장도",
+			"description": ""
+		},
+		"Bottle, Glass": {
+			"name": "병, 유리",
+			"description": "<p>유리병에는 최대 1½파인트까지 담을 수 있습니다.</p>"
+		},
+		"Glassblower's Tools": {
+			"name": "유리공예가의 도구",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 지난 24시간 동안 유리 물체가 무엇을 담았는지 파악하기 (DC 15)</p><p><strong>제작:</strong> 유리병, 돋보기, 망원경, 약병</p>"
+		},
+		"Grappling Hook": {
+			"name": "고정 갈고리",
+			"description": "<p>활용 행동으로 난간, 벼랑 또는 자신으로부터 50피트 이내에 있는 다른 붙잡을만한 것에 고정 갈고리를 던져 DC 13 민첩(곡예) 판정에 성공하면 갈고리가 목표에 걸립니다. 밧줄을 갈고리에 묶었다면, 그 다음에는 타고 오를 수 있습니다.</p>"
+		},
+		"Greataxe": {
+			"name": "대도끼",
+			"description": ""
+		},
+		"Greatclub": {
+			"name": "대곤봉",
+			"description": ""
+		},
+		"Greatsword": {
+			"name": "대검",
+			"description": ""
+		},
+		"Halberd": {
+			"name": "미늘창",
+			"description": ""
+		},
+		"Half Plate Armor": {
+			"name": "반판금 갑옷",
+			"description": ""
+		},
+		"Hand Crossbow": {
+			"name": "손석궁",
+			"description": ""
+		},
+		"Handaxe": {
+			"name": "손도끼",
+			"description": ""
+		},
+		"Hat of Disguise": {
+			"name": "변장의 모자",
+			"description": "<p><em>경이로운 물품, 비범 (조율 필요)</em></p><p>이 모자를 쓰고 있을 때 @UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{자기 위장} 주문을 시전할 수 있습니다. 이 주문은 모자를 벗으면 종료됩니다.</p>"
+		},
+		"Healer's Kit": {
+			"name": "치유사의 용품",
+			"description": "<p>치유사의 용품에는 10번의 사용량이 있습니다. 활용 행동으로, 사용량 중 하나를 소모하여 체력 점수가 0인 무의식 상태의 크리쳐를 지혜(의학) 판정 없이 안정화시킬 수 있습니다.</p>"
+		},
+		"Heavy Crossbow": {
+			"name": "중석궁",
+			"description": ""
+		},
+		"Rope": {
+			"name": "밧줄",
+			"description": "<p>활용 행동으로 DC 10 민첩(손놀림) 판정에 성공하면 밧줄로 매듭을 묶을 수 있습니다. 밧줄은 DC 20 근력(운동) 판정에 성공하면 뜯을 수 있습니다.</p><p>크리쳐가 붙잡힘, 무력화, 포박 등의 상태인 경우에만 비협조적 크리쳐를 밧줄로 묶을 수 있습니다. 크리쳐의 다리가 묶인 경우, 탈출할 때까지 포박 상태가 됩니다. 밧줄에서 탈출하려면 크리쳐가 행동으로 DC 15 민첩(곡예) 판정에 성공해야 합니다.</p>"
+		},
+		"Herbalism Kit": {
+			"name": "약초학 용품",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 식물 식별하기 (DC 10)</p><p><strong>제작:</strong> 해독제, 양초, 치유사의 용품, 치유의 물약</p>"
+		},
+		"Hide Armor": {
+			"name": "날가죽 갑옷",
+			"description": ""
+		},
+		"Lantern, Hooded": {
+			"name": "손전등, 덮개",
+			"description": "<p>덮개 랜턴은 주변 30ft 반경을 밝은 빛 환경으로, 추가로 30ft까지는 약한 빛 환경으로 밝힙니다. 일단 밝히며 기름 한 병(1 파인트)으로 6시간 정도를 사용할 수 있습니다. 당신은 행동을 사용하여 덮개를 내릴 수 있으며, 그러면 주위 5ft 반경에 약한 빛 환경으로 밝히는 것 외에는 조명이 차단됩니다.</p>"
+		},
+		"Horn": {
+			"name": "뿔나팔",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Horn of Blasting": {
+			"name": "폭발의 뿔나팔",
+			"description": "<p><em>경이로운 물품, 희귀</em></p><p>마법 행동으로 뿔피리를 불면 30피트 원뿔 범위에서 600피트 밖까지 들리는 천둥 같은 폭발음을 내뿜습니다. 원뿔 안에 있는 각 크리쳐는 DC 15 건강 내성 굴림을 합니다. 굴림에 실패하면 크리쳐는 5d8 천둥 피해를 받고 1분 동안 실청 상태가 됩니다. 굴림에 성공하면 크리쳐는 절반의 피해만 받습니다. 장비하거나 소지하고 있지 않은 원뿔 속의 유리 또는 수정 물체는 10d8 천둥 피해를 받습니다.</p> <p>뿔피리의 마법을 사용할 때마다 20%의 확률로 뿔피리가 폭발합니다. 폭발하면 사용자에게 10d6의 역장 피해를 입히고 뿔피리가 파괴됩니다.</p> <section class=\"secret\" id=\"secret-rkHeC2mFJBKqNOh0\"> <p>파운드리 노트</p><p><strong>폭발 확률 굴림</strong> 활동은 폭발 시 1이 나오고 그 외에는 0이 나옵니다.</p> </section>",
+			"activities": {
+			"FMTcQOb5MZKBohdN": {
+          		"name": "뿔나팔 불기"
+       		},
+			"CohXMZ4aojCQTIpk": {
+          		"name": "물체 피해"
+       		},
+			"FIPuYfZI5jKkVYYo": {
+          		"name": "폭발 확률 굴림"
+       		},
+			"q8PShLHyh2ItXbkQ": {
+          		"name": "폭발 피해"
+       		}
+			}
+		},
+		"Hunting Trap": {
+			"name": "사냥덫",
+			"description": "<p>활용 행동으로 사냥덫을 설치할 수 있으며, 이는 크리쳐가 중앙의 압력판을 밟으면 닫히는 톱니 모양의 강철 고리입니다. 이 함정은 나무나 땅에 박힌 스파이크처럼 움직이지 않는 물체에 무거운 사슬로 부착합니다. 이 판을 밟은 크리쳐는 DC 13 민첩 내성 굴림에 실패시 1d4 관통 피해를 받고 크리쳐의 다음 턴이 시작될 때까지 이동 속도가 0으로 감소합니다. 그 후 크리쳐가 덫에서 벗어날 때까지는 사슬의 길이만큼(일반적으로 3피트)으로 이동이 제한됩니다. 크리쳐는 행동으로 DC 13 근력(운동) 판정을 하고, 성공하면 자신 또는 근거리 내에 있는 다른 크리쳐를 풀어줄 수 있습니다. 판정에 실패할 때마다 잡힌 크리쳐는 1 관통 피해을 받습니다.</p>"
+		},
+		"Ink": {
+			"name": "잉크",
+			"description": "<p>잉크는 1온스짜리 병으로 제공되며, 약 500페이지를 쓰기 충분한 양이 들어 있습니다.</p>"
+		},
+		"Ink Pen": {
+			"name": "펜",
+			"description": "<p>잉크를 사용하여 펜으로 글씨를 쓰거나 그림을 그립니다.</p>"
+		},
+		"Pot, Iron": {
+			"name": "냄비, 철",
+			"description": "<p>철제 냄비에는 최대 1갤런까지 담을 수 있습니다.</p>"
+		},
+		"Spikes, Iron": {
+			"name": "못, 쇠",
+			"description": "<p>쇠못은 10개 묶음으로 제공됩니다. 활용 행동으로, 경량 망치와 같은 무딘 물체를 사용하여 나무, 흙이나 이와 유사한 물질에 못을 박을 수 있습니다. 이렇게 해서 못으로 문을 열리지 않게 하거나, 못에 밧줄이나 사슬을 매어둘 수 있습니다.</p>"
+		},
+		"Javelin": {
+			"name": "투창",
+			"description": ""
+		},
+		"Jeweler's Tools": {
+			"name": "보석세공인의 도구",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 보석의 가치 파악하기 (DC 15)</p><p><strong>제작:</strong> 비전 매개체, 성표</p>"
+		},
+		"Jug": {
+			"name": "주전자",
+			"description": "<p>주전자에는 최대 1갤런까지 담을 수 있습니다.</p>"
+		},
+		"Ladder": {
+			"name": "사다리",
+			"description": "<p>사다리의 높이는 10피트입니다. 사다리를 오르거나 내려가려면 등반해야 합니다.</p>"
+		},
+		"Lamp": {
+			"name": "등잔",
+			"description": "<p>등잔은 기름을 연료로 태워 15피트 반경에 밝은 빛을, 추가로 30피트에 희미한 빛을 비춥니다.</p>"
+		},
+		"Lance": {
+			"name": "기마창",
+			"description": ""
+		},
+		"Leather Armor": {
+			"name": "가죽 갑옷",
+			"description": ""
+		},
+		"Leatherworker's Tools": {
+			"name": "가죽세공인의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 가죽 제품에 디자인 추가하기 (DC 10)</p><p><strong>제작:</strong> 무릿매, 채찍, 날가죽 갑옷, 가죽 갑옷, 징 박힌 가죽 갑옷, 배낭, 석궁살 통, 지도나 두루마리 통, 양피지, 주머니, 화살통, 가죽부대</p>"
+		},
+		"Light Crossbow": {
+			"name": "경석궁",
+			"description": ""
+		},
+		"Light Hammer": {
+			"name": "경량 망치",
+			"description": ""
+		},
+		"Lock": {
+			"name": "자물쇠",
+			"description": "<p>자물쇠에는 열쇠가 있습니다. 열쇠가 없을 시 크리쳐는 도둑의 도구를 사용해 DC 15 민첩(손놀림) 판정에 성공하면 이 자물쇠를 따낼 수 있습니다.</p>"
+		},
+		"Longbow": {
+			"name": "장궁",
+			"description": ""
+		},
+		"Longsword": {
+			"name": "장검",
+			"description": ""
+		},
+		"Lute": {
+			"name": "류트",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Lyre": {
+			"name": "리라",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Mace": {
+			"name": "철퇴",
+			"description": ""
+		},
+		"Magnifying Glass": {
+			"name": "돋보기",
+			"description": "<p>돋보기는 매우 세밀한 물품을 감정하거나 검사하는 능력 판정을 유리하게 만듭니다. 돋보기로 불을 붙이려면 햇빛만큼 밝은 빛으로 초점을 맞추어야 하고 부싯깃이 점화되어야 하며 불이 붙는 데 약 5분이 걸립니다.</p>"
+		},
+		"Manacles": {
+			"name": "구속구",
+			"description": "<p>활용 행동으로, 자신의 5피트 이내에 있는 붙잡힘, 무력화, 포박 등의 상태인 비협조적 소형 혹은 중형 크리쳐를 구속구를 사용하여 DC 13 민첩(손놀림) 판정에 성공하면 구속할 수 있습니다. 크리쳐는 구속되어 있는 동안 공격 굴림에 불리하며, 구속구가 사슬이나 갈고리에 고정되어 있으면 크리쳐는 포박 상태입니다. 구속구에서 탈출하려면 행동으로 DC 20의 민첩(손놀림) 판정에 성공해야 합니다. 구속구를 부수려면 행동으로 DC 25의 근력(운동) 판정에 성공해야 합니다.</p><p>각 구속구 세트에는 열쇠가 있습니다. 열쇠가 없으면 도둑의 도구를 사용해 DC 15 민첩(손놀림) 판정에 성공시 구속구의 잠금을 딸 수 있습니다.</p>"
+		},
+		"Mantle of Spell Resistance": {
+			"name": "주문 저항의 외투",
+			"description": "<p>활용 행동으로, 자신의 5피트 이내에 있는 붙잡힘, 무력화, 포박 등의 상태인 비협조적 소형 혹은 중형 크리쳐를 구속구를 사용하여 DC 13 민첩(손놀림) 판정에 성공하면 구속할 수 있습니다. 크리쳐는 구속되어 있는 동안 공격 굴림에 불리하며, 구속구가 사슬이나 갈고리에 고정되어 있으면 크리쳐는 포박 상태입니다. 구속구에서 탈출하려면 행동으로 DC 20의 민첩(손놀림) 판정에 성공해야 합니다. 구속구를 부수려면 행동으로 DC 25의 근력(운동) 판정에 성공해야 합니다.</p><p>각 구속구 세트에는 열쇠가 있습니다. 열쇠가 없으면 도둑의 도구를 사용해 DC 15 민첩(손놀림) 판정에 성공시 구속구의 잠금을 딸 수 있습니다.</p>"
+		},
+		"Case, Map or Scroll": {
+			"name": "통, 지도나 두루마리",
+			"description": "<p>지도나 두루마리 통에는 종이 10장 또는 양피지 5장까지 수납할 수 있습니다.</p>"
+		},
+		"Mason's Tools": {
+			"name": "석공의 도구",
+			"description": "<p><strong>능력치:</strong> 근력</p><p><strong>활용:</strong> 돌에 기호 새기기, 구멍 뚫기 (DC 10)</p><p><strong>제작:</strong> 도르래</p>"
+		},
+		"Maul": {
+			"name": "마울",
+			"description": ""
+		},
+		"Morningstar": {
+			"name": "모닝스타",
+			"description": ""
+		},
+		"Navigator's Tools": {
+			"name": "항해사의 도구",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 경로 설정하기 (DC 10), 별자리 관측을 통해 위치 알아내기 (DC 15)</p>"
+		},
+		"Net": {
+			"name": "그물",
+			"description": "<p>공격 행동을 할 때, 공격 중 하나를 그물 던지기로 대체할 수 있습니다. 자신의 15피트 이내에서 볼 수 있는 크리쳐를 대상으로 합니다. 대상은 민첩 내성 굴림(DC는 8에 자신의 민첩 수정치와 숙련 보너스를 더함)에 실패시 탈출할 때까지 포박 상태가 됩니다. 대상이 거대형 이상 크기이면 자동으로 성공합니다.</p><p>탈출하려면 대상이나 대상의 5피트 이내에 있는 크리쳐가 행동으로 DC 10의 근력(운동) 판정에 성공하여 포박된 크리쳐를 풀어주어야 합니다. 그물을 파괴(방어도 10, HP 5, 타격, 독성, 정신 피해에 면역)하면 대상도 해방되어 효과가 종료됩니다.</p>"
+		},
+		"Necklace of Fireballs": {
+			"name": "화염구의 목걸이",
+			"description": "<p><em>경이로운 물품, 희귀</em></p><p>이 목걸이에는 1d6 + 3개의 구슬이 매달려 있습니다. 마법 행동으로 구슬을 분리하여 최대 60피트 떨어진 곳으로 던질 수 있습니다. 구슬이 궤도 끝에 도달하면 3레벨 @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{화염구}가 되어 폭발합니다(내성 DC 15).</p> <p>한 번에 여러 개의 구슬을 던지거나 목걸이 전체를 던질 수도 있습니다. 이 경우, 첫 번째 구슬 이후 구슬 하나당 화염구의 피해가 1d6씩 증가합니다(최대 12d6).</p> <section class=\"secret\" id=\"secret-sVvONZCjIbxSR0Xs\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템에는 9회의 제한된 사용량이 있습니다. <strong>구슬 수 확인</strong> 활동으로 목걸이에 있는 구슬의 수(1d6 + 3에 해당하는 수)를 확인할 수 있습니다.</p> <p><strong>구슬 던지기</strong> 활동으로 화염구의 위력을 최대 12d6까지 강화할 수 있습니다.</p> </section>",
+			"activities": {
+			"Compendium.dnd5e.equipment24.Item.dmgNecklaceOfFir.Activity.EhXO2nrkALoZagWG": {
+          		"name": "구슬 수 확인"
+       		},
+			"Compendium.dnd5e.equipment24.Item.dmgNecklaceOfFir.Activity.v2sP2OkYkHfhR8hu": {
+          		"name": "구슬 던지기"
+       		 }
+			}
+		},
+		"Oil": {
+			"name": "기름",
+			"description": "<p>아래 설명된 대로 크리쳐, 물체나 공간에 기름을 뿌리거나 연료로 사용할 수 있습니다.</p><p>크리쳐나 물체에 기름 뿌리기. 공격 행동를 할 때, 공격 중 하나를 기름병 투척으로 대체할 수 있습니다. 자신의 20피트 이내에 있는 크리쳐나 물체 하나를 대상으로 합니다. 대상은 민첩 내성 굴림(DC는 8에 자신의 민첩 수정치와 숙련 보너스를 더함)에 실패시 기름으로 뒤덮입니다. 기름이 마르기 전에(1분 소요) 화염 피해를 받으면 대상은 불타는 기름으로 인해 추가 5 화염 피해를 받습니다.</p><p><strong>공간에 물 뿌리기.</strong> 활용 행동으로 평평한 바닥에 기름병을 부어 자신의 5피트 이내 5제곱미터 영역을 덮을 수 있습니다. 불을 붙이면 기름은 불을 붙인 시점부터 2라운드가 끝날 때까지(또는 12초) 타오르며, 해당 영역에 들어오거나 그곳에서 턴을 마치는 모든 크리쳐에게 5 화염 피해를 입힙니다. 크리쳐는 한 턴에 한 번만 이 피해를 받습니다.</p><p><strong>연료.</strong> 기름은 등잔과 손전등의 연료로 사용됩니다. 일단 불을 붙이면, 한 병의 기름은 등잔이나 손전등에서 6시간 동안 탑니다. 이 시간이 연속적으로 지속될 필요는 없으며, 타오르는 기름을 끈 후(활용 행동으로) 나중에 다시 불을 붙이는 식으로 총 6시간 동안 태울 수 있습니다.</p>"
+		},
+		"Orb": {
+			"name": "보주",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{비전 매개체 Arcane Focus (다양)}는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Padded Armor": {
+			"name": "천 갑옷",
+			"description": ""
+		},
+		"Painter's Supplies": {
+			"name": "화가의 보급품",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 본 적 있는 것을 알아볼 수 있도록 그리기 (DC 10)</p><p><strong>제작:</strong> 비전 매개체, 성표</p>"
+		},
+		"Pan Flute": {
+			"name": "팬 플루트",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Paper": {
+			"name": "종이",
+			"description": "<p>종이 한 장에는 약 250자의 손글씨 단어를 쓸 수 있습니다.</p>"
+		},
+		"Parchment": {
+			"name": "양피지",
+			"description": "<p>양피지 한 장에는 약 250자의 손글씨 단어를 쓸 수 있습니다.</p>"
+		},
+		"Perfume": {
+			"name": "향수",
+			"description": "<p>향수는 4온스짜리 약병으로 제공됩니다. 향수를 자신에게 뿌린 후 1시간 동안, 자신의 5피트 내에 있는 무관심한 인간형에게 영향을 주는 매력(설득) 판정을 유리하게 만들 수 있습니다.</p>"
+		},
+		"Pike": {
+			"name": "파이크",
+			"description": ""
+		},
+		"Plate Armor": {
+			"name": "판금 갑옷",
+			"description": ""
+		},
+		"Playing Cards": {
+			"name": "놀이 카드",
+			"description": "<p><strong>능력치:</strong> 지혜</p><p><strong>활용:</strong> 누군가의 부정행위 여부 식별하기 (DC 10), 게임에서 승리하기 (DC 20)</p>"
+		},
+		"Poisoner's Kit": {
+			"name": "독 제조사의 도구",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 독이 든 물체 탐지하기 (DC 10)</p><p><strong>제작:</strong> 기본 독</p>"
+		},
+		"Pole": {
+			"name": "장대",
+			"description": "<p>장대의 길이는 10피트입니다. 최대 10피트 떨어진 곳에 있는 물체에 접촉할 때 사용할 수 있습니다. 높이뛰기나 멀리뛰기 중에 근력(운동) 판정이 필요한 경우, 장대를 사용하여 판정을 유리하게 만들 수 있습니다.</p>"
+		},
+		"Ram, Portable": {
+			"name": "공성추, 휴대용",
+			"description": "<p>휴대용 공성추를 사용하여 문을 부술 수 있습니다. 사용할 때 근력 판정에 +4 보너스를 받습니다. 다른 캐릭터 한 명이 공성추 사용을 도와줄 수 있고, 그렇게 하면 이 판정에서 유리합니다.</p>"
+		},
+		"Potion of Healing": {
+			"name": "치유의 물약",
+			"description": "<p>이 물약은 마법 물품입니다. 추가 행동으로 이 물약을 마시거나 내 5피트 이내에 있는 다른 크리쳐에게 투여할 수 있습니다. 이 물약병에 들어 있는 마법적 붉은 액체를 마신 크리쳐는 2d4 + 2 체력 점수를 회복합니다.</p>",
+			"activities": {
+			"ZyWmXem7zzQwFFcF": {
+          		"name": "소모"
+       		 }
+			}
+		},
+		"Potion of Healing (Greater)": {
+			"name": "치유의 물약 (상급)",
+			"description": "<p><em>물약, 비범</em></p><p>이 물약을 마시면 4d4 + 4 체력 점수를 회복합니다.</p><p>잠재된 효능이 무엇이든, 물약의 붉은 액체는 흔들리면 반짝입니다.</p>",
+			"activities": {
+			"6pjLMRaAveRvnVpt": {
+          		"name": "소모"
+       		 }
+			}
+		},
+		"Potion of Healing (Superior)": {
+			"name": "치유의 물약 (우수)",
+			"description": "<p><em>물약, 희귀</em></p><p>이 물약을 마시면 8d4 + 8 체력 점수를 회복합니다.</p><p>잠재된 효능이 무엇이든, 물약의 붉은 액체는 흔들리면 반짝입니다.</p>",
+			"activities": {
+			"eT46ucSUynLRTs6N": {
+          		"name": "소모"
+       		 }
+			}
+		},
+		"Potion of Healing (Supreme)": {
+			"name": "치유의 물약 (최상급)",
+			"description": "<p><em>물약, 매우 희귀</em></p><p>이 물약을 마시면 10d4 + 20 체력 점수를 회복합니다.</p><p>잠재된 효능이 무엇이든, 물약의 붉은 액체는 흔들리면 반짝입니다.</p>",
+			"activities": {
+			"GsHW5KoST4fZ30YX": {
+          		"name": "소모"
+       		 }
+			}
+		},
+		"Potion of Giant Strength": {
+			"name": "거인 힘의 물약",
+			"description": "<p><em>물약, 희귀도 다양</em></p><p>이 물약을 마시면 1시간 동안 근력 점수가 변경됩니다. 거인의 유형이 점수를 결정합니다(아래 표 참조). 근력 점수가 그 점수보다 높거나 같으면 물약은 아무런 효과가 없습니다.</p><p>이 약의 투명한 액체 속에는 거인의 손톱을 닮은 빛의 조각이 떠다니고 있습니다.</p><table><thead><tr><td>물약</td><td>근력</td><td>희귀도</td></tr></thead><tbody><tr><td><em>거인 힘의 물약</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgHillPotionOfG]{언덕})</td><td>21</td><td>비범</td></tr><tr><td><em>거인 힘의 물약</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgFrostPotionOf]{숲} 혹은 @UUID[Compendium.dnd5e.equipment24.Item.dmgStonePotionOf]{돌})</td><td>23</td><td>희귀</td></tr><tr><td><em>거인 힘의 물약</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgFirePotionOfG]{화염})</td><td>25</td><td>희귀</td></tr><tr><td><em>거인 힘의 물약</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgCloudPotionOf]{구름})</td><td>27</td><td>매우 희귀</td></tr><tr><td><em>거인 힘의 물약</em> (@UUID[Compendium.dnd5e.equipment24.Item.dmgStormPotionOf]{폭풍})</td><td>29</td><td>전설</td></tr></tbody></table>"
+		},
+		"Potion of Longevity": {
+			"name": "장수의 물약",
+			"description": "<p><em>물약, 매우 희귀</em></p><p>이 물약을 마시면 자신의 실제 나이가 1d6 + 6년, 최소 13세까지 감소합니다. 이후 장수의 물약을 마실 때마다 10%의 누적 확률로 1d6 + 6세만큼 나이를 더 먹을 수 있습니다.</p> <p>이 호박색 액체 속에는 모든 이성을 거스르고 여전히 뛰고 있는 작은 심장이 들어 있습니다. 이 성분은 물약을 개봉하면 사라집니다.</p>",
+			"activities": {
+			"niBBHKpYLYlPmSar": {
+          		"name": "마시기"
+       		 }
+			}
+		},
+		"Potion of Invisibility": {
+			"name": "투명화의 물약",
+			"description": "<p><em>물약, 희귀</em></p><p>이 물약병은 비어 있는 것처럼 보이지만, 안에 액체가 들어 있는 것이 느껴집니다. 이 물약을 마시면 이후 1시간 동안 투명 상태가 됩니다. 이 효과는 공격을 가하거나 주문을 시전하면 일찍 끝납니다.</p>",
+			"activities": {
+			"qYmaJ6qeUuRzigNI": {
+          		"name": "마시기"
+       		 }
+			}
+		},
+		"Potion of Climbing": {
+			"name": "등반의 물약",
+			"description": "<p><em>물약, 일반</em></p><p>이 물약을 마시면, 이후 1시간 동안 보행 속도와 같은 속도로 등반할 수 있습니다. 이 시간 동안, 등반을 위해 근력(운동)판정을 할 때 유리합니다.</p><p>이 물약은 마치 지층처럼 갈색, 은색, 회색 층으로 나누어진 것으로 보입니다. 이 물약병을 흔들어 보아도 색깔은 서로 섞이지 않습니다.</p><section class=\"secret\" id=\"secret-HJGRSX6Nbv4iYQAX\"><p><strong>파운드리 노트</strong></p><p><strong>등반가</strong> 활성 효과는 추적용으로 사용할 수 있으나 약효를 자동화하지는 않습니다.</p></section>"
+		},
+		"Potion of Flying": {
+			"name": "비행의 물약",
+			"description": "<p><em>물약, 매우 희귀</em></p><p>이 물약을 마시면, 이후 1시간 동안 보행 속도와 같은 비행 속도를 얻으며, 허공에서 부양할 수 있게 됩니다. 만약 공중에 있을 때 이 물약의 효과가 떨어진다면, 다른 방식으로 공중에 떠있을 수 없는 한 추락하게 됩니다.</p><p>이 물약은 투명한 액체가 병 위쪽에 떠있으며, 그 안에는 하얀 구름 같은 불순물이 섞여 있습니다.</p><section class=\"secret\" id=\"secret-ZF077WzsqCDJpGtS\"><p><strong>파운드리 노트</strong><p><strong>비행자</strong> 활성 효과는 추적용으로 사용할 수 있으나 속도 적용을 자동화화지는 않습니다.</p></section>",
+			"activities": {
+			"2AbACjKwvLRXO0hR": {
+          		"name": "마시기"
+       		 }
+			}
+		},
+		"Potion of Water Breathing": {
+			"name": "수중 호흡의 물약",
+			"description": "<p><em>물약, 비범</em></p><p>이 물약을 마시고 이후 24시간 동안 수중에서 호흡할 수 있게 됩니다.</p><p>이 물약의 흐릿한 녹색 액체에서는 바다 냄새가 나며, 안에서는 해파리 같은 거품이 피어오릅니다.</p><section class=\"secret\" id=\"secret-Hak8pdfo1Rbwhrgv\"><p><strong>파운드리 노트</strong></p><p><strong>수중 호흡자</strong> 활성 효과는 추적용으로 사용할 수 있습니다.</p></section>",
+			"activities": {
+			"21kmAfoqMj4fSwrH": {
+          		"name": "마시기"
+       		 }
+			}
+		},
+		"Potion of Clairvoyance": {
+			"name": "천리안의 물약",
+			"description": "<p><em>물약, 희귀</em></p><p>이 물약를 마시면 천리안 주문(집중 필요 없음)의 효과를 얻습니다.</p><p>이 물약의 노란색 액체 속에서 눈알 하나가 떠다니는데, 물약을 열면 사라집니다.</p>"
+		},
+		"Potter's Tools": {
+			"name": "도공의 도구",
+			"description": "<p><strong>능력치:</strong> 지능</p><p><strong>활용:</strong> 지난 24시간 동안 도자기 물체가 무엇을 보관했는지 파악하기 (DC 15)</p><p><strong>제작:</strong> 주전자, 등잔</p>"
+		},
+		"Pouch": {
+			"name": "주머니",
+			"description": "<p>주머니는 1/5 세제곱피트 이내에서 최대 6파운드까지 보관할 수 있습니다.</p>"
+		},
+		"Priest's Pack": {
+			"name": "사제의 꾸러미",
+			"description": "<p>사제의 꾸러미에는 다음 물품이 들어 있습니다: 배낭, 담요, 성수, 등잔, 7일분 식량, 로브, 부싯깃통.</p>"
+		},
+		"Quarterstaff": {
+			"name": "육척봉",
+			"description": ""
+		},
+		"Quiver": {
+			"name": "화살통",
+			"description": "<p>화살통에는 최대 20개의 화살을 보관할 수 있습니다.</p>"
+		},
+		"Rapier": {
+			"name": "레이피어",
+			"description": ""
+		},
+		"Rations": {
+			"name": "식량",
+			"description": "<p>식량은 육포, 말린 과일, 하드택, 견과류 등 여행에 필요한 음식으로 구성됩니다. 식사를 하지 않을 경우의 위험은 규칙 용어집에서 \"영양실조\"를 참조하세요.</p>"
+		},
+		"Reliquary": {
+			"name": "성유물함",
+			"description": "<p><em><strong>사용조건: </strong>들기</em></p><p>@UUID[Compendium.dnd5e.equipment24.Item.phbagHolySymbolV]{성표 Holy Symbol (다양)}는 성표 표의 형태 중 하나를 취하며, 신성한 마법에 연결되기 위해 보석으로 장식하거나 색칠합니다. 클레릭이나 팔라딘은 성표를 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Ring": {
+			"name": "반지",
+			"description": ""
+		},
+		"Scroll": {
+			"name": "두루마리",
+			"description": ""
+		},
+		"Ring Mail": {
+			"name": "고리 갑옷",
+			"description": ""
+		},
+		"Ring of Spell Storing": {
+			"name": "주문 저장의 반지",
+			"description": "<p><em>반지, 희귀 (조율 필요)</em></p><p>이 반지는 안에 주문을 저장해 놓을 수 있고, 조율되어 있는 착용자가 그 저장된 주문을 사용할 수 있게 해 줍니다. 이 반지는 최대 5레벨까지의 주문을 저장해 둘 수 있습니다. 이 반지를 처음 발견 했을 때, 반지 안에는 1d6-1레벨 어치의 주문이 이미 들어 있을 수 있으며, 어떤 주문이 들어있는지는 GM의 결정에 따릅니다.</p><p>1레벨에서 5레벨까지의 주문을 시전할 수 있는 크리쳐는 주문 시전시 반지에 접촉하고 시전하여 주문을 저장해 둘 수 있습니다. 저장한 주문은 효력을 발휘하지 못하지만, 그 대신 반지에 저장됩니다. 만약 반지 내의 저장 용량이 부족하다면, 주문은 아무 효력을 발휘하지 못하고 소모됩니다. 주문 슬롯 레벨이 반지 내의 저장 용량을 얼마나 차지하는지 결정합니다.</p><p>이 반지를 끼고 있으면, 저장된 주문을 사용할 수 있습니다. 저장된 주문은 본래 시전자의 슬롯 레벨, 주문 내성 DC, 주문 명중 보너스를 사용하며 본래 시전자의 주문 시전 능력치를 씁니다. 하지만 그 외에는 마치 착용자가 주문을 시전하는 것처럼 사용할 수 있습니다. 반지로 시전하면 그 주문은 사라집니다.</p><section class=\"secret\" id=\"secret-HxkxM5cqqoVK0W9S\"><p><strong>Foundry Note</strong></p><p>To store a spell in this ring, drag the spell onto the Activities tab to create a \"Cast a Spell\" activity. Then change to the \"Spell\" tab, set the \"Casting Level\", check the \"Override Values\" box and enter the relevant Attack Bonus and Save DC from the original caster's values. You will then be able to cast that spell from this ring without expending your own slots. You will then need to delete the activity since each spell is a one-time use.</p></section>"
+		},
+		"Robe of the Archmagi": {
+			"name": "대마법사의 로브",
+			"description": "<p><em>경이로운 물건, (소서러나 워락, 위저드에 의한 조율 필요)</em></p><p>정교한 천으로 만들어진 우아한 의상입니다. 흰색, 회색, 또는 검은색이며 은빛 룬으로 장식되어 있습니다. 로브의 색은 각각 착용자의 성향에 대응합니다. 흰색 로브는 선 성향이 착용할 수 있으며, 회색은 중립, 검은색은 악 성향을 위한 것입니다. 자신의 성향과 맞지 않는 로브에 조율할 수 없습니다. 로브는 착용 중 다음과 같은 이점이 있습니다:</p><ul><li>갑옷을 입지 않은 상태라면, 기본 AC는 15 + 민첩 수정치입니다.</li><li>주문과 기타 마법 효과에 대한 내성 굴림에 유리함을 얻습니다.</li><li>주문 내성 DC와 주문 공격 보너스가 각각 2 상승합니다.</li></ul>"
+		},
+		"Robe": {
+			"name": "로브",
+			"description": "<p>로브에는 직업적 또는 의식적 의미가 있습니다. 일부 행사와 장소에서는 특정 색상이나 상징이 새겨진 로브를 착용한 사람만 입장할 수 있습니다.</p>"
+		},
+		"Rod": {
+			"name": "마법막대",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{비전 매개체 Arcane Focus (다양)}는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Sack": {
+			"name": "자루",
+			"description": "<p>자루는 1세제곱피트 내에서 최대 30파운드까지 보관할 수 있습니다.</p>"
+		},
+		"Scale Mail": {
+			"name": "비늘 갑옷",
+			"description": "<p>이 갑옷은 물고기 비늘처럼 겹쳐진 금속 조각으로 덮인 가죽 상의와 각반으로 구성되어 있습니다. (분리할 수 있는 치마가 포함된 경우도 있습니다) 건틀렛도 포함되어 있습니다.</p>"
+		},
+		"Scholar's Pack": {
+			"name": "학자의 꾸러미",
+			"description": "<p>학자의 꾸러미에는 다음 물품이 들어 있습니다: 배낭, 책, 잉크, 잉크펜, 등잔, 기름 플라스크 10개, 양피지 10장, 부싯깃통.</p>"
+		},
+		"Scimitar": {
+			"name": "곡도",
+			"description": ""
+		},
+		"Shawm": {
+			"name": "숌",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Shield": {
+			"name": "방패",
+			"description": "<p>훈련을 받아야만 방패의 방어도 이득을 얻습니다.</p>"
+		},
+		"Shortbow": {
+			"name": "단궁",
+			"description": ""
+		},
+		"Shortsword": {
+			"name": "소검",
+			"description": ""
+		},
+		"Shovel": {
+			"name": "삽",
+			"description": "<p>1시간 동안 삽을 사용하면 흙이나 그와 유사한 물질에 깊이와 넓이가 5피트 크기인 구멍을 팔 수 있습니다.</p>"
+		},
+		"Sickle": {
+			"name": "낫",
+			"description": ""
+		},
+		"Signal Whistle": {
+			"name": "신호 호루라기",
+			"description": "<p>활용 행동으로 호루라기를 불면 최대 600피트 떨어진 곳까지 들리는 소리를 냅니다.</p>"
+		},
+		"Sling": {
+			"name": "무릿매",
+			"description": ""
+		},
+		"Sling Bullet": {
+			"name": "총알, 무릿매",
+			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
+		},
+		"Spear": {
+			"name": "창",
+			"description": ""
+		},
+		"Spell Scroll, Level 1": {
+			"name": "주문 두루마리, 1레벨",
+			"description": "<p>주문 두루마리(소마법) 또는 주문 두루마리(1레벨)는 각각 소마법이나 1레벨 주문의 문구가 새겨진 마법 물품으로, 두루마리 제작자가 지정한 주문이 적혀 있습니다. 해당 주문이 클래스의 주문 목록에 있는 경우, 두루마리를 읽고 일반 시전 시간을 사용하여 물질 구성요소 없이 주문을 시전할 수 있습니다.</p><p>주문에 내성 굴림이나 공격 굴림이 필요한 경우, 주문 내성 DC는 13이고 공격 보너스는 +5입니다. 시전이 완료되면 두루마리가 분해됩니다.</p>"
+		},
+		"Spell Scroll, Cantrip": {
+			"name": "주문 두루마리, 소마법",
+			"description": "<p>주문 두루마리(소마법) 또는 주문 두루마리(1레벨)는 각각 소마법이나 1레벨 주문의 문구가 새겨진 마법 물품으로, 두루마리 제작자가 지정한 주문이 적혀 있습니다. 해당 주문이 클래스의 주문 목록에 있는 경우, 두루마리를 읽고 일반 시전 시간을 사용하여 물질 구성요소 없이 주문을 시전할 수 있습니다.</p><p>주문에 내성 굴림이나 공격 굴림이 필요한 경우, 주문 내성 DC는 13이고 공격 보너스는 +5입니다. 시전이 완료되면 두루마리가 분해됩니다.</p>"
+		},
+		"Splint Armor": {
+			"name": "미늘 갑옷",
+			"description": ""
+		},
+		"Sprig of mistletoe": {
+			"name": "겨우살이 가지",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{드루이드 매개체 Druidic Focus (다양)}는 드루이드 매개체 표의 형태 중 하나를 취하며, 원시 마법과 연결되기 위해 조각하거나 리본으로 묶거나 색칠합니다. 드루이드나 레인저는 이러한 물체를 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Spyglass": {
+			"name": "망원경",
+			"description": "<p>망원경을 통해 보이는 물체는 두 배로 확대됩니다.</p>"
+		},
+		"Staff": {
+			"name": "지팡이",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{비전 매개체 Arcane Focus (다양)}는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p><p>이 아이템은 육척봉으로도 기능합니다.</p><section class=\"secret\" id=\"secret-wJ4SJVg9unbYSBJb\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
+		},
+		"Staff of Power": {
+			"name": "힘의 지팡이",
+			"description": "<p>지팡이, 매우 희귀(소서러, 워락, 위저드의 조율 필요)</p><p>이 지팡이는 20의 충전량이 있으며, 굴림과 피해 굴림에 +2 보너스를 부여하는 마법 육척봉처럼 사용할 수 있습니다. 지팡이를 들고 있으면 방어도, 내성 굴림, 주문 공격 굴림에 +2 보너스를 받습니다.</p><p><strong>주문.</strong> 지팡이를 들고 있는 동안 지팡이로 다음 표의 주문 중 하나를 시전할 수 있으며, 내 주문 내성 DC를 사용할 수 있습니다. 표에는 주문을 시전하기 위해 소모해야 하는 충전량이 표시되어 있습니다.</p><details><summary>주문 소모 표</summary><table><colgroup><col></col><col></col></colgroup><thead><tr><th><p>주문</p></th><th><p>충전량 소모</p></th></tr></thead><tbody><tr><td><p>냉기의 원뿔Cone of Cold</p></td><td><p>5</p></td></tr><tr><td><p>화염구Fireball (5레벨로)</p></td><td><p>5</p></td></tr><tr><td><p>무적의 구체Globe of Invulnerability</p></td><td><p>6</p></td></tr><tr><td><p>몬스터 구속Hold Monster</p></td><td><p>5</p></td></tr><tr><td><p>부양Levitate</p></td><td><p>2</p></td></tr><tr><td><p>번개살Lightning Bolt (level 5 version)</p></td><td><p>5</p></td></tr><tr><td><p>마법 미사일Magic Missile</p></td><td><p>1</p></td></tr><tr><td><p>약화 광선Ray of Enfeeblement</p></td><td><p>1</p></td></tr><tr><td><p>역장의 벽Wall of Force</p></td><td><p>5</p></td></tr></tbody></table></details><div><p><strong>충전량 회복.</strong> 지팡이는 매일 새벽에 소모한 충전량을 2d8 + 4 회복합니다. 마지막 충전량을 소모하면 [[/r 1d20]]을 굴립니다. 1이면 지팡이는 공격력 굴림과 피해 굴림에 대한 +2 보너스를 유지하지만, 다른 모든 속성은 잃습니다. 20이면 지팡이는 1d8 + 2 충전량을 회복합니다.</p></div><p><strong>인과응보 타격.</strong> 마법 행동으로 지팡이를 무릎이나 단단한 표면에 부딪쳐 부술 수 있습니다. 부러지면서 지팡이를 원점으로 하는 30피트 발산체를 가득 채우는 폭발과 함께 마법을 방출합니다. 나는 50%의 확률로 즉시 임의의 존재 차원으로 이동해 폭발을 피할 가능성이 있습니다. 효과를 피하지 못하면 지팡이에 있는 충전 횟수의 16배에 해당하는 역장 피해를 받습니다. 해당 범위에 있는 각 크리쳐는 DC 17 민첩 내성 굴림을 합니다. 굴림에 실패하면, 크리쳐는 지팡이에 있는 충전 횟수의 4배에 해당하는 역장 피해를 받습니다. 굴림에 성공하면 크리쳐가 받는 피해가 절반으로 감소합니다.</p>"
+		},
+		"Staff of Frost": {
+			"name": "서리의 지팡이",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{지팡이}, 매우 희귀 (드루이드, 소서러, 워락, 위저드의 조율 필요)</em></p> <p>이 지팡이를 든 동안 화염 피해에 저항을 얻습니다.</p> <p><em><strong>주문.</strong></em> 이 지팡이를 든 동안, 다음 표의 주문 중 하나를 시전할 수 있으며 주문 내성 DC는 내 것을 사용합니다. 표에는 그 주문을 시전하는데 드는 충전량이 표기되어 있습니다.</p> <table><thead><tr><th>주문</th><th>소모하는 충전향</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]{냉기의 원뿔}</td> <td>5</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplIceStorm00]{얼음 폭풍}</td> <td>4</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{안개 구름}</td> <td>1</td></tr><tr><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplWallofIce0]{얼음의 벽}</td> <td>4</td></tr></tbody></table><p><em><strong>충전량 회복.</strong></em> 매일 새벽마다 소비한 충전을 1d6 + 4 만큼 회복합니다. 마지막 충전량을 다 소비하면 [[/r 1d20]]을 굴립니다. 1이 나오면, 지팡이는 물로 변해 파괴됩니다.</p> <p></p>"
+		},
+		"Mirror": {
+			"name": "거울",
+			"description": "<p>휴대용 강철 거울은 개인용 화장뿐만 아니라 구석진 곳을 들여다보거나 빛을 반사하여 신호로 사용하는 데도 유용합니다.</p>"
+		},
+		"Mithral Armor": {
+			"name": "미스랄 갑옷",
+			"description": "<p><em>방어구 (평갑 혹은 중갑 종류 중 하나, 날가죽 제외), 비범</em></p><p>미스랄은 가볍고 유연한 금속입니다. 미스랄 갑옷은 일반적인 옷 아래에 겹쳐 입을 수 있습니다. 만약 해당 갑옷이 일반적으로 민첩(은신) 판정에 불리함을 주거나 근력 요구치를 필요로 한다면, 미스랄로 만든 갑옷은 이러한 단점을 모두 무시할 수 있습니다.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+		},
+		"String": {
+			"name": "끈",
+			"description": "<p>끈의 길이는 10피트입니다. 활용 행동으로 매듭을 묶을 수 있습니다.</p>"
+		},
+		"Studded Leather Armor": {
+			"name": "징 박힌 가죽 갑옷",
+			"description": ""
+		},
+		"Smith's Tools": {
+			"name": "대장장이의 도구",
+			"description": "<p><strong>능력치:</strong> 근력</p> <p><strong>활용:</strong> 문이나 용기를 뜯어 열기 (DC 20)</p> <p><strong>제작:</strong> 아무 근접 무기 (곤봉, 대곤봉, 육척봉, 채찍 제외), 평장 갑옷 (날가죽 제외), 중장 갑옷, 볼 베어링, 양동이, 마름쇠, 사슬, 쇠지렛대, 화기 탄환, 고정 갈고리, 쇠 냄비, 쇠못, 무릿매 탄환</p>"
+		},
+		"Thieves' Tools": {
+			"name": "도둑의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 자물쇠 따기 (DC 15), 함정 해제하기 (DC 15)</p>"
+		},
+		"Tinderbox": {
+			"name": "부싯깃통",
+			"description": "<p>부싯깃통은 불을 붙일 때 사용하는 부싯돌, 점화철, 불쏘시개(보통 마른 천에 경유를 적신 것)를 담는 작은 용기입니다. 부싯깃통을 사용해 양초, 등잔, 손전등, 횃불 등 연료가 노출된 무언가에 불을 붙이는데 추가 행동이 듭니다. 그 외의 것에 불을 붙이는 데는 1분이 걸립니다.</p>"
+		},
+		"Tinker's Tools": {
+			"name": "수리가의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 폐품으로 구성된 초소형 물품을 조립하기, 1분후 망가짐 (DC 20)</p><p><strong>제작:</strong> 장총, 권총, 종, 불스아이 손전등, 플라스크, 덮개 손전등, 사냥덫, 자물쇠, 구속구, 거울, 삽, 호루라기, 부싯깃통</p>"
+		},
+		"Torch": {
+			"name": "횃불",
+			"description": "<p>횃불은 1시간 동안 타오르며 20피트 반경에 밝은 빛을, 추가로 20피트 범위에 희미한 빛을 비춥니다. 공격 행동으로 횃불을 단순 근접 무기로 사용하여 공격할 수 있습니다. 명중 시 대상은 1 화염 피해를 받습니다.</p>"
+		},
+		"Clothes, Traveler's": {
+			"name": "옷, 여행자용",
+			"description": "<p>여행자의 옷은 다양한 환경에서의 여행을 위해 도안한 탄력적인 의류입니다.</p>"
+		},
+		"Trident": {
+			"name": "삼지창",
+			"description": ""
+		},
+		"Unarmed Strike": {
+			"name": "비무장 공격",
+			"description": ""
+		},
+		"Vial": {
+			"name": "약병",
+			"description": "<p>약병에는 최대 4온스를 담을 수 있습니다.</p>"
+		},
+		"Viol": {
+			"name": "비올",
+			"description": "<p><strong>능력치:</strong> 매력</p><p><strong>활용:</strong> 알고 있는 곡 연주하기 (DC 10), 즉흥적으로 노래하기 (DC 15)</p>"
+		},
+		"Wand": {
+			"name": "마법봉",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{비전 매개체 Arcane Focus (다양)}는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Wand of Binding": {
+			"name": "결속의 마법봉",
+			"description": "<p>마법봉, 희귀 (조율 필요)</p><p>이 마법봉에는 7의 충전량이 있습니다.</p><p>주문. 이 마법봉을 들고 있는 동안 다음 표의 주문(내성 DC 17) 중 하나를 시전할 수 있습니다. 표에는 주문을 시전하기 위해 소모해야 하는 충전량이 표시되어 있습니다.</p> <table><thead><tr><th><p>주문</p></th><th><p>충전량 비용</p></th><th></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{몬스터 구속}</p> </td><td><p>5</p></td><td></td></tr><tr><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{인간형 구속}</p> </td><td><p>2</p></td><td></td></tr></tbody></table><p>마법봉은 매일 새벽에 소모한 충전량을 1d6 + 2 회복합니다. 마지막 충전량을 소모했다면 [[/r 1d20]]을 굴립니다. 1이면 지팡이가 먼지가 되어 파괴됩니다.</p>"
+		},
+		"Wand of Web": {
+			"name": "거미줄의 마법봉",
+			"description": "<p><em>마법봉, 비범 (주문시전자의 조율 필요)</em></p> <p>이 마법봉은 7회의 충전량이 있습니다. 마법봉을 들고 있으면, 행동으로 충전을 1회 소비해서 @UUID[Compendium.dnd5e.spells24.Item.phbsplWeb0000000]{거미줄} 주문(내성 DC 13)을 시전할 수 있습니다.</p> <p><em><strong>충전량 재충전</strong></em><strong>.</strong> 마법봉은 매일 새벽에 소모한 충전량을 1d6 + 1 회복합니다. 마법봉의 마지막 충전량을 소모했다면 [[/r 1d20]]을 굴립니다. 1이면 지팡이가 먼지가 되어 파괴됩니다.만약 마법봉의 충전을 모두 소비했다면, d20을 굴립니다. 이때 1이 나오면 마법봉은 부서져 재로 변해 망가집니다.</p>"
+		},
+		"War Pick": {
+			"name": "전쟁 곡괭이",
+			"description": ""
+		},
+		"Warhammer": {
+			"name": "전쟁망치",
+			"description": ""
+		},
+		"Waterskin": {
+			"name": "가죽부대",
+			"description": "<p>가죽부대에는 최대 4파인트를 담을 수 있습니다. 물을 충분히 마시지 않으면 탈수의 위험이 있습니다(규칙 용어집 참조).</p>"
+		},
+		"Water (Pint)": {
+			"name": "물(파인트)",
+			"description": "<p>물을 충분히 마시지 않으면 탈수의 위험이 있습니다.</p>"
+		},
+		"Tent": {
+			"name": "천막",
+			"description": "<p>천막 하나에 소형이나 중형 크리쳐 둘까지 잘 수 있습니다.</p>"
+		},
+		"Map": {
+			"name": "지도",
+			"description": "<p>정확한 지도를 참조하면 지도에 표시된 장소에서 길을 찾기 위한 지혜(생존) 판정에 +5 보너스를 받습니다.</p>"
+		},
+		"Weaver's Tools": {
+			"name": "방직공의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 옷의 찢어진 부분을 수선하기 (DC 10), 초소형 디자인을 재봉하기 (DC 10)</p><p><strong>제작:</strong> 천 갑옷, 바구니, 침낭, 담요, 고급 옷, 그물, 로브, 밧줄, 자루, 끈, 천막, 여행자의 옷</p>"
+		},
+		"Whip": {
+			"name": "채찍",
+			"description": ""
+		},
+		"Woodcarver's Tools": {
+			"name": "목세공인의 도구",
+			"description": "<p><strong>능력치:</strong> 민첩</p><p><strong>활용:</strong> 나무에 무늬 새기기 (DC 10)</p><p><strong>제작:</strong> 곤봉, 대곤봉, 육척봉, 원거리 무기 (권총, 장총, 무릿매 제외), 비전 매개체, 화살, 석궁살, 비전 매개체, 펜, 바늘</p>"
+		},
+		"Weapon, +1, +2, or +3": {
+			"name": "무기 +1, +2, +3",
+			"description": "<p><em>무기 (단순 혹은 무술 무기 중 하나), 비범 (+1), 희귀 (+2), 매우 희귀 (+3)</em></p> <p>이 마법 무기를 사용하면 명중과 피해 판정에 보너스를 받습니다. 보너스는 무기의 희귀도에 따라 결정됩니다.</p> <p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+		},
+		"Weapon of Warning": {
+			"name": "경고의 무기",
+			"description": "<p><em>무기 (단순 무기 또는 군용 무기), 비범 (조율 필요)</em></p><p>이 무기가 내 손이 닿는 범위 내에 있고 내가 이 무기와 조율한 상태라면, 나와 내 30피트 이내의 동료는 다음과 같은 이득을 받습니다.</p><p><strong>경보.</strong> 전투가 시작될 때 자연스럽게 잠들어 있는 모든 대상은 마법적으로 깨어납니다. 이 이득으로는 마법으로 유도된 잠에서 깰 수 없습니다.</p><p><strong>초자연적 준비성.</strong> 각 대상은 우선권 굴림에 유리합니다.</p>"
+		},
+		"Staff of Charming": {
+			"name": "매혹의 지팡이",
+			"description": "<p>지팡이, 희귀<em>(바드, 클레릭, 드루이드, 소서러, 워락, 위저드의 조율 필요)</em></p><p>이 지팡이는 10의 충전량이 있습니다. 지팡이를 들고 있는 동안 지팡이의 모든 속성을 사용할 수 있습니다:</p><p><strong>주문 시전.</strong> 지팡이의 충전량 중 1개를 소모하여 주문 내성 DC를 사용해 인간형 매혹Charm Person, 명령Command, 언어 이해Comprehend Languages 주문을 시전할 수 있습니다.</p><p><strong>환혹 반사.</strong> 나만을 대상으로 하는 환혹계 주문에 대한 내성 굴림에 성공하면, 반응 행동으로 지팡이의 충전 1을 소모하여 내가 그 주문을 시전한 것처럼 시전자에게 되돌릴 수 있습니다.</p><p><strong>환혹 저항.</strong> 나만을 대상으로 하는 환혹계 주문에 대한 내성 굴림이 실패하면, 실패한 내성 굴림을 성공으로 바꿀 수 있습니다. 지팡이의 이 속성은 다음 새벽까지 다시 사용할 수 없습니다.</p><p><strong>충전량 회복.</strong> 지팡이는 매일 새벽에 소모한 충전량을 1d8 + 2 회복합니다. 마지막 충전량을 소모했다면 [[/r 1d20]]을 굴립니다. 1이면 지팡이가 부서져 먼지가 되어 파괴됩니다.</p>"
+		},
+		"Musket": {
+			"name": "장총",
+			"description": ""
+		},
+		"Pistol": {
+			"name": "권총",
+			"description": ""
+		},
+		"Druidic Focus (Varies)": {
+			"name": "드루이드 매개체(다양)",
+			"description": "<p>드루이드 매개체는 드루이드 매개체 표의 형태 중 하나를 취하며, 원시 마법과 연결되기 위해 조각하거나 리본으로 묶거나 색칠합니다. 드루이드나 레인저는 이러한 물체를 주문 시전 매개체로 사용할 수 있습니다.</p><table><caption>드루이드 매개체</caption><thead><tr><td>매개체</td><td>무게</td><td>가격</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcSprigofmis]{겨우살이 가지 Sprig of mistletoe}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcWoodenstaf]{나무 지팡이 Wooden staff}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{육척봉 Quarterstaff}</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbdfcYewwand000]{주목 마법봉 Yew wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
+		},
+		"Yew wand": {
+			"name": "주목 마법봉",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{드루이드 매개체 Druidic Focus (다양)}는 드루이드 매개체 표의 형태 중 하나를 취하며, 원시 마법과 연결되기 위해 조각하거나 리본으로 묶거나 색칠합니다. 드루이드나 레인저는 이러한 물체를 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"Wooden staff": {
+			"name": "나무 지팡이",
+			"description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.phbagDruidicFocu]{드루이드 매개체 Druidic Focus (다양)}는 드루이드 매개체 표의 형태 중 하나를 취하며, 원시 마법과 연결되기 위해 조각하거나 리본으로 묶거나 색칠합니다. 드루이드나 레인저는 이러한 물체를 주문 시전 매개체로 사용할 수 있습니다.</p><p>이 아이템은 육척봉으로도 기능합니다.</p><section class=\"secret\" id=\"secret-XEbhgCaozZsnw6QT\"><p><strong>Foundry Note</strong></p><p>This item has been configured with the additional properties of a Quarterstaff.</p></section>"
+		},
+		"Arcane Focus (Varies)": {
+			"name": "비전 매개체(다양)",
+			"description": "<p>비전 매개체는 비전 매개체 표의 형태 중 하나를 취하며, 비전 마법을 끌어올 수 있도록 보석으로 장식되거나 새겨져 있습니다. 소서러, 워락, 위저드는 이러한 물품을 주문 시전 매개체로 사용할 수 있습니다.</p><table><caption>비전 매개체</caption><thead><tr><td>매개체</td><td>무게</td><td>가격</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcCrystal000]{수정 Crystal}</td><td>1 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipments.Item.phbafcOrb0000000]{보주 Orb}</td><td>3 lb.</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcRod0000000]{마법막대 Rod}</td><td>2 lb.</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa]{지팡이 Staff} (혹은 @UUID[Compendium.dnd5e.equipment24.Item.W17IcNLHHieiRs1O]{육척봉 Quarterstaff})</td><td>4 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbafcWand000000]{마법봉 Wand}</td><td>1 lb.</td><td>10 GP</td></tr></tbody></table>"
+		},
+		"Goggles of Night": {
+			"name": "밤의 고글",
+			"description": "<p><em>경이로운 물품, 비범</em></p><p>이 어두운 렌즈를 착용하면 60피트의 암시야를 얻습니다. 이미 암시야가 있는 경우, 고글을 착용하면 범위가 60피트 증가합니다.</p>"
+		},
+		"Cloak of Protection": {
+			"name": "보호의 망토",
+			"description": "<p><em>경이로운 물품, 비범 (조율 필요)</em></p><p>이 망토를 입고 있는 동안 방어도와 내성 굴림에 +1 보너스를 얻습니다.</p>"
+		},
+		"Cloak of Elvenkind": {
+			"name": "엘프족의 망토",
+			"description": "<p><em>경이로운 물건, 비범 (조율 필요)</em></p><p>이 망토를 입고 있는 동안 나를 발견하려 하는 지혜(감지)판정에는 불리하며, 나는 민첩(은신)판정에 유리합니다.</p>"
+		},
+		"Gray Bag of Tricks": {
+			"name": "회색 마술의 가방",
+			"description": "<p><em>경이로운 물품, 비범</em></p><p>회색, 녹슨 색, 또는 황갈색 천으로 만든 이 가방은 비어 있는 것처럼 보입니다. 하지만 가방 안을 손으로 더듬어 보면 작고 보송한 물체가 있습니다.</p> <p>마법 행동으로 가방에서 털이 많은 물체를 꺼내 최대 20피트까지 던질 수 있습니다. 물체가 땅에 떨어지면 가방의 색에 해당하는 표를 굴려 결정한 크리쳐로 변신합니다. 크리쳐의 스탯 블록은 @UUID[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}를 참고하세요. 크리쳐는 다음 날 새벽이 되거나 체력 점수가 0이 되면 사라집니다.</p> <p>크리쳐는 나와 나의 아군에게 우호적이며, 내 우선권 순서에 나 다음에 즉시 행동합니다. 추가 행동으로 크리쳐가 어떻게 움직이고 다음 턴에 어떤 행동을 할지, 예를 들어 적을 공격할지 등을 명령할 수 있습니다. 그러한 명령이 없는 경우, 크리쳐는 그 본성에 맞는 방식으로 행동합니다.</p> <p>가방에서 세 개의 보송한 물체를 꺼내면, 다음 날 새벽까지 가방을 다시 사용할 수 없습니다.</p> <p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgGrayBagOfTric rollable]</p>"
+		},
+		"Rust Bag of Tricks": {
+			"name": "적갈색 마술의 가방",
+			"description": "<p><em>경이로운 물품, 비범</em></p><p>회색, 녹슨 색, 또는 황갈색 천으로 만든 이 가방은 비어 있는 것처럼 보입니다. 하지만 가방 안을 손으로 더듬어 보면 작고 보송한 물체가 있습니다.</p> <p>마법 행동으로 가방에서 털이 많은 물체를 꺼내 최대 20피트까지 던질 수 있습니다. 물체가 땅에 떨어지면 가방의 색에 해당하는 표를 굴려 결정한 크리쳐로 변신합니다. 크리쳐의 스탯 블록은 @UUID[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}를 참고하세요. 크리쳐는 다음 날 새벽이 되거나 체력 점수가 0이 되면 사라집니다.</p> <p>크리쳐는 나와 나의 아군에게 우호적이며, 내 우선권 순서에 나 다음에 즉시 행동합니다. 추가 행동으로 크리쳐가 어떻게 움직이고 다음 턴에 어떤 행동을 할지, 예를 들어 적을 공격할지 등을 명령할 수 있습니다. 그러한 명령이 없는 경우, 크리쳐는 그 본성에 맞는 방식으로 행동합니다.</p> <p>가방에서 세 개의 보송한 물체를 꺼내면, 다음 날 새벽까지 가방을 다시 사용할 수 없습니다.</p> <p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgRustBagOfTric rollable]</p>"
+		},
+		"Tan Bag of Tricks": {
+			"name": "황갈색 마술의 가방",
+			"description": "<p><em>경이로운 물품, 비범</em></p><p>회색, 녹슨 색, 또는 황갈색 천으로 만든 이 가방은 비어 있는 것처럼 보입니다. 하지만 가방 안을 손으로 더듬어 보면 작고 보송한 물체가 있습니다.</p> <p>마법 행동으로 가방에서 털이 많은 물체를 꺼내 최대 20피트까지 던질 수 있습니다. 물체가 땅에 떨어지면 가방의 색에 해당하는 표를 굴려 결정한 크리쳐로 변신합니다. 크리쳐의 스탯 블록은 @UUID[Compendium.dnd5e.content24.JournalEntry.mmMonstersAtoZ00]{Monsters}를 참고하세요. 크리쳐는 다음 날 새벽이 되거나 체력 점수가 0이 되면 사라집니다.</p> <p>크리쳐는 나와 나의 아군에게 우호적이며, 내 우선권 순서에 나 다음에 즉시 행동합니다. 추가 행동으로 크리쳐가 어떻게 움직이고 다음 턴에 어떤 행동을 할지, 예를 들어 적을 공격할지 등을 명령할 수 있습니다. 그러한 명령이 없는 경우, 크리쳐는 그 본성에 맞는 방식으로 행동합니다.</p> <p>가방에서 세 개의 보송한 물체를 꺼내면, 다음 날 새벽까지 가방을 다시 사용할 수 없습니다.</p> <p>@Embed[Compendium.dnd5e.tables24.RollTable.dmgTanBagOfTrick rollable]</p>"
+		},
+		"Holy Symbol (Varies)": {
+			"name": "성표 (다양)",
+			"description": "<p>성표는 성표 표의 형태 중 하나를 취하며, 신성한 마법에 연결되기 위해 보석으로 장식하거나 색칠합니다. 클레릭이나 팔라딘은 성표를 주문 시전 매개체로 사용할 수 있습니다.</p><p>표는 성표를 들거나, 착용하거나, 천(예: 기사 외투나 휘장)이나 방패에 달아야 하는지 여부를 나타냅니다.</p><table><caption>성표</caption><thead><tr><td>성표</td><td>무게</td><td>가격</td></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyAmuletworn]{아뮬렛 Amulet}(착용 혹은 들기)</td><td>1 lb.</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyEmblemborn]{상징 Emblem} (천이나 방패에 부착)</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e.equipment24.Item.phbhsyReliquaryh]{성유물함 Reliquary} (들기)</td><td>2 lb.</td><td>5 GP</td></tr></tbody></table>"
+		},
+		"Shield, +1, +2, or +3": {
+			"name": "방패 +1, +2, +3",
+			"description": "<p><em>방어구 (@UUID[Compendium.dnd5e.equipment24.Item.phbarmShield0000]{방패}), 비범 (+1), 희귀 (+2), 매우 희귀 (+3)</em></p><p>이 방패를 들고 있을 때, 방패의 희귀도에 따라 방어도에 보너스가 적용되며, 이는 방패의 기본 방어도 보너스에 추가됩니다.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>"
+		},
+		"Ring of the Ram": {
+			"name": "숫양의 반지",
+			"description": "<p><em>반지, 희귀 (조율 필요)</em></p> <p>이 반지의 충전량은 3이며 매일 새벽마다 소비한 충전을 1d3 회복합니다. 이 반지를 착용한 동안, 마법 행동으로 충전량을 1 ~ 3 소비하면 30ft 이내의 내가 볼 수 있는 크리쳐 하나에게 주문 공격을 합니다. 반지에서 유령같은 숫양의 머리가 나오며, +7 보너스를 더해 공격 굴림을 합니다. 명중하면, 목표는 소비한 충전 수 한번마다 2d10의 역장 피해를 입고 5ft 뒤로 밀려납니다.</p> <p>마법 행동으로 충전량을 1 ~ 3 소비하면, 60ft 이내에서 내가 볼 수 있는 물체를 부술 수 있습니다. 단, 그 물체가 착용 중이거나 소지 중이 아니어야 합니다. 반지는 소비한 충전 수 한번마다 +5 보너스를 더해 근력 판정을 합니다.</p>",
+			"activities": {
+			"tHMfH0m2E10QKCzV": {
+          		"name": "물건 부수기"
+       		 }
+			}
+		},
+		"Ring of Evasion": {
+			"name": "모면의 반지",
+			"description": "<p><em>반지, 희귀 (조율 필요)</em></p><p>이 반지에는 3개의 충전량이 있으며, 매일 새벽에 1d3개의 소모된 충전량을 회복합니다. 이 반지를 착용한 상태에서 민첩 내성 굴림에 실패할 경우, 대신 반응 행동으로 충전량 하나를 소모하고 해당 굴림에 성공할 수 있습니다.</p>",
+			"activities": {
+			"8uTVtEN7h4Mp33gB": {
+          		"name": "성공 전환"
+       		 }
+			}
+		},
+		"Bead of Force": {
+			"name": "역장의 구슬",
+			"description": "<p><em>경이로운 물품, 희귀</em></p><p>이 작은 검은 구체는 지름 3/4인치에 무게는 1온스입니다. 일반적으로 [[/r 1d4 + 4#Beads of Force]]개의 역장의 구슬이 함께 발견됩니다.</p> <p>마법 행동을 사용하여 구슬을 최대 60피트까지 던질 수 있습니다. 구슬은 충돌 시 10피트 반경의 구체로 폭발하며 파괴됩니다. 구체 내의 모든 크리쳐는 DC 15 민첩 내성 굴림을 하며, 실패 시 5d4 역장 피해를 입습니다. 투명한 역장 구체가 해당 지역을 1분 동안 둘러쌉니다. 내성 굴림에 실패하고 완전히 해당 지역 내에 있는 크리쳐는 이 구체 안에 갇히게 됩니다. 내성 굴림에 성공하거나 부분적으로 해당 지역 내에 있는 크리쳐는 구체의 중심에서 멀어지도록 밀려나며, 더 이상 해당 지역 내에 있지 않을 때까지 이동합니다. 호흡 가능한 공기만 구의 벽을 통과할 수 있습니다. 공격이나 다른 효과는 통과할 수 없습니다.</p> <p>갇힌 크리쳐는 활용 행동으로 구체의 벽을 밀어 구체를 자신의 속도의 절반까지 이동시킬 수 있습니다. 구체는 들어올릴 수 있으며, 마법으로 인해 내부 크리쳐의 무게와 무관하게 1파운드입니다.</p>",
+			"activities": {
+			"OZHtgfnTZWKOg9JP": {
+          		"name": "구슬 던지기"
+       		 }
+			}
+		},
+		"Berserker Axe": {
+			"name": "광전사 도끼",
+			"description": "<div><p><em>무기 (@UUID[Compendium.dnd5e.equipment24.Item.phbwepBattleaxe0]{전투도끼}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{대도끼}, 혹은 @UUID[Compendium.dnd5e.equipment24.Item.phbwepHalberd000]{할버드}), 희귀 (조율 필요)</em></p> <p>이 마법 무기로 행한 공격 굴림과 피해 굴림에 +1 보너스를 얻습니다. 또한, 이 무기에 조율한 경우, 각 레벨 당 최대 체력 점수가 1씩 오릅니다.</p> <section class=\"secret\" id=\"secret-kIoBCQDeN3tTKast\"> <p><strong>저주.</strong> 이 도끼는 저주받았으며, 이 도끼에 조율하면 저주가 나에게까지 미치게 됩니다. 저주받은 상태인 한, 도끼와 떨어지기 싫어지며 항상 그것을 손 닿는 데에 둡니다. 또한 이 도끼 이외의 다른 무기로 행한 공격 판정에 불리합니다.</p> <p>도끼를 소지하는 동안 적대적인 적이 나에게 피해를 입힐 경우 [[/save ability=wis dc=15 format=long]]에 실패하면 광폭화됩니다. 내 턴이 시작했을 때 60피트 반경에 내가 보거나 들을 수 있는 크리쳐가 없다면 광폭화가 종료됩니다.</p> <p>광폭화 상태일 때, 내가 보거나 들을 수 있는 가장 가까운 적에 주목하게 됩니다. 대상을 여럿 선택할 수 있을 경우, 무작위로 하나 고릅니다. 내 턴마다, 그 크리쳐에게 가능한 만큼 가까이 다가가서 그 크리쳐를 대상으로 공격 행동을 합니다. 이 무기로 공격할 수 있을 만큼 충분히 가까이 갈 수 없다면 가능한 이동속도를 모두 쓴 후 내 턴이 끝납니다. 그 크리쳐가 죽거나, 나에게 보이거나 들리지 않게 된 경우 그 다음으로 가장 가까이 있는 크리쳐가 새 대상이 됩니다.</p> </section></div><p>@Embed[Compendium.dnd5e.content24.JournalEntry.dmgFoundryRefere.JournalEntryPage.Ok4iCgD25ENgoRxE cite=false caption=false classes=\"hide-in-embed\"]</p>",
+			"activities": {
+			"rWBvAvfPodSbiiLg": {
+          		"name": "마법부여"
+			}
+		}
+		},
+		"Ring of Protection": {
+			"name": "보호의 반지",
+			"description": "<p><em>반지, 희귀 (조율 필요)</em></p><p>이 반지를 착용하는 동안 방어도와 내성 굴림에 +1 보너스를 얻습니다.</p>"
+		},
+		"Ring of Water Walking": {
+			"name": "수면 보행의 반지",
+			"description": "<p><em>반지, 희귀</em></p><p>이 반지를 착용하면 @UUID[Compendium.dnd5e.spells24.Item.phbsplWaterWalk0]{수면 보행} 주문을 반지로 시전할 수 있으며, 대상은 자신만 가능합니다.</p>"
+		},
+		"Wand of Magic Missiles": {
+			"name": "마법 미사일의 마법봉",
+			"description": "<p><strong>마법봉, 희귀</strong></p> <p>이 마법봉은 7개의 충전량을 가지고 있습니다. 마법봉을 들고 있을 때, 최대 3개의 충전량을 소모하여 지팡이에서 @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{마법 미사일} 주문을 시전할 수 있습니다. 1개의 충전량을 사용하면 1레벨 버전의 주문을 발동합니다. 추가로 충전량을 소모할 때마다 주문의 레벨을 1씩 증가시킬 수 있습니다.</p> <p><strong>충전량 회복.</strong> 이 지팡이는 매일 새벽에 소모된 충전량 1d6 + 1을 회복합니다. 지팡이의 마지막 충전량을 소모하면 [[/r 1d20]]을 굴립니다. 1이 나오면 지팡이는 재로 변해 파괴됩니다.</p>"
+		},
+		"Medallion of Thoughts": {
+			"name": "생각의 메달 목걸이",
+			"description": "<p><em>경이로운 물품, 비범 (조율 필요)</em></p><p>메달 목걸이에는 5개의 충전량이 있습니다. 이를 착용 중일 때 1개의 충전량을 소모하여 @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{생각 탐지}를 시전할 수 있습니다. 메달은 매일 새벽에 소모된 충전량 1d4를 회복합니다.</p>"
+		},
+		"Immovable Rod": {
+			"name": "움직이지 않는 막대",
+			"description": "<p><em>막대, 비범</em></p><p>이 막대의 한쪽 끝에는 버튼이 있습니다. 활용 행동으로 버튼을 누르면 막대가 마법적으로 고정됩니다. 나나 다른 크리쳐가 다시 버튼을 누르기 전까지는 막대가 움직이지 않습니다. 중력을 거스르더라도 마찬가지입니다. 막대는 최대 8,000파운드의 무게를 지탱할 수 있습니다. 더 많은 무게가 가해지면 철봉이 비활성화되어 떨어집니다. 크리쳐는 활용 행동으로 DC 30 근력(운동) 판정을 할 수 있으며, 성공 시 고정된 막대를 최대 10피트 이동시킬 수 있습니다.</p>"
+		},
+		"Pearl of Power": {
+			"name": "힘의 진주",
+			"description": "<p><em>경이로운 물품, 비범 (주문시전자의 조율 필요)</em></p><p>이 진주가 몸에 있을 때, 마법 행동으로 3레벨 이하의 소모된 주문 슬롯을 하나 회복할 수 있습니다. 진주를 사용한 후에는 다음 새벽까지 다시 사용할 수 없습니다.</p>"
+		},
+		"Figurine of Wondrous Power": {
+			"name": "경이로운 힘의 조각상",
+			"description": "<p><em>경이로운 물품, 다양한 희귀도</em></p> <p>경이로운 힘의 조각상은 주머니에 들어갈 만큼 작은 조각입니다. 마법 행동으로 나로부터 60피트 이내의 지면에 조각상을 던지면, 조각상은 아래 설명에 명시된 살아있는 크리쳐로 변합니다. 크리쳐가 나타날 공간을 다른 크리쳐나 물체가 점유하고 있거나, 크리쳐가 들어갈 공간이 충분하지 않으면 조각상은 크리쳐로 변하지 않습니다.</p> <p>크리쳐는 나와 내 아군에게 우호적입니다. 내 언어를 이해하며, 내 명령을 따르고, 내 우선권 순서에서 내 직후에 행동합니다. 명령을 내리지 않으면 크리쳐는 자신을 방어하지만 다른 행동은 하지 않습니다.</p> <p>크리쳐는 각 조각상에 특정된 지속 시간 동안 존재합니다. 지속 시간이 끝나면 크리쳐는 조각상 형태로 돌아갑니다. 크리쳐 형태의 체력이 0이 되거나, 크리쳐에 접촉하고 마법 행동으로 조각상 형태로 되돌릴 경우, 크리쳐는 일찍 조각상 형태로 돌아갑니다. 크리쳐가 다시 조각상으로 돌아가면, 조각상 설명에 명시된 특정 시간이 지나기 전까지는 그 속성을 다시 사용할 수 없습니다.</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpBronzeGrif]{청동 그리폰(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpEbonyFlyRa]{흑단 파리(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpGoldenLion]{금 사자(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpIvoryGoats]{상아 염소(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpMarbleElep]{대리석 코끼리(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpObsidianSt]{흑요석 말(매우 희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpOnyxDogRar]{줄마노 개(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpSerpentine]{사문석 올빼미(희귀)}</p> <p>@UUID[Compendium.dnd5e.equipment24.Item.dmgFwpSilverRave]{은 큰까마귀(비범)}</p>"
+		},
+		"Silver Raven": {
+			"name": "은 큰까마귀",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 은 큰까마귀 조각상은 최대 12시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRaven000000000]{큰까마귀}</strong>로 변할 수 있습니다. 한 번 사용하면 2일이 지나기 전까지는 다시 사용할 수 없습니다. 큰까마귀 형태일 때, 이 조각상은 나에게 그 크리쳐를 통해 <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalMess]{동물 전달자}</em> 주문을 시전할 수 있는 능력을 부여합니다.</p> <section class=\"secret\" id=\"secret-1zjsYfZzKHfXhi9j\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 2일을 나타냅니다.</p> </section>"
+		},
+		"Golden Lions": {
+			"name": "금 사자",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 금 사자 조각상은 항상 한 쌍으로 만들어집니다. 하나의 조각상만 쓰거나 둘 다 동시에 쓸 수 있습니다. 두 조각상은 최대 1시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmLion0000000000]{사자}</strong>로 변할 수 있습니다. 한 번 사용하면 7일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-e1wLN4czlgS5CpcW\"> <p><strong>파운드리 노트</strong></p> <p>각 <strong>사자 사용</strong> 활동의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 7일을 나타냅니다.</p> </section>"
+		},
+		"Marble Elephant": {
+			"name": "대리석 코끼리",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 대리석 코끼리 조각상은 최대 24시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmElephant000000]{코끼리}</strong>로 변할 수 있습니다. 한 번 사용하면 7일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-RHHx3aKcpKsHN2aK\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 7일을 나타냅니다.</p> </section>"
+		},
+		"Bronze Griffon": {
+			"name": "청동 그리폰",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 청동 그리폰 조각상은 최대 6시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGriffon0000000]{그리폰}</strong>으로 변할 수 있습니다. 한 번 사용하면 5일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-CyXRwZfsh4tOiRUf\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 5일을 나타냅니다.</p> </section>"
+		},
+		"Ebony Fly": {
+			"name": "흑단 파리",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 흑단 파리 조각상은 최대 12시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.dmgGiantFly00000]{거대 파리}</strong>로 변할 수 있습니다. 한 번 사용하면 2일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-50TFh1zOfnv1SBKO\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 2일을 나타냅니다.</p> </section>"
+		},
+		"Ivory Goats": {
+			"name": "상아 염소",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 상아 염소 조각상은 항상 세 개 세트로 제작됩니다. 각 염소는 서로 다른 모습과 기능을 가지고 있습니다. 속성은 다음과 같습니다:</p> <p><strong>공포의 염소.</strong> 이 조각상은 최대 3시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGiantGoat00000]{거대 염소}</strong>로 변신할 수 있습니다. 염소는 공격할 수 없지만, 나는 그 뿔을 (무해하게)잘라내어 무기로 사용할 수 있습니다. 한 뿔은 +1 창이 되고, 다른 뿔은 +2 장검이 됩니다. 뿔을 잘라내려면 마법 행동을 해야 하며, 염소가 조각상 형태로 돌아가면 무기는 사라지고 뿔이 다시 생깁니다. 염소를 타고 있을 때, 염소를 원점으로 하는 30피트 발산체 내에서 자신의 턴을 시작하는 적대적인 크리쳐는 DC 15 지혜 내성 굴림에 실패하면 1분 동안 공포 상태가 됩니다. 이 효과는 내가 염소를 타고 있지 않을 때까지 또는 염소가 조각상 형태로 돌아갈 때까지 지속됩니다. 공포 상태가 된 크리쳐는 각 턴 종료 시 내성 굴림을 반복하며, 성공 시 자신에게 적용된 효과를 종료합니다. 내성 굴림에 성공하면 해당 크리쳐는 다음 24시간 동안 이 효과에 면역됩니다. 조각상이 사용하면 15일이 지나기 전까지 다시 사용할 수 없습니다.</p> <p><strong>여행의 염소.</strong> 이 조각상은 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmRidingHorse000]{승마용 말}</strong>과 동일한 능력치를 가진 대형 염소로 변신할 수 있습니다. 이 조각상은 24개의 충전량을 가지고 있으며, 염소 형태로 있는 각 시간 또는 그 일부는 1개의 충전량을 소모합니다. 충전량이 남아 있는 동안에는 원하는 만큼 사용할 수 있습니다. 충전이 소진되면 조각상으로 돌아가며, 7일이 지나기 전까지는 다시 사용할 수 없습니다. 7일이 지나면 소모된 모든 충전이 회복됩니다.</p> <section class=\"secret\" id=\"secret-Bzl0aaerk0Ql0uOm\"> <p><strong>파운드리 노트</strong></p> <p><strong>여행의 염소 변환 또는 소환</strong> 활동 옵션은 조각상이 염소 형태로 유지할 수 있는 비연속적 24시간을 추적하는 데 도움을 주기 위해 제공됩니다. 조각상으로 변할 때 소모 값은 염소 형태로 머문 시간 수를 나타냅니다. 조각상을 염소 형태로 소환하려면, 이 활동을 사용할 때 “아이템 사용량을 소모합니까?” 체크박스를 해제하세요.</p> </section><p><strong>고난의 염소.</strong> 이 조각상은 최대 3시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGiantGoat00000]{거대 염소}</strong>로 변신할 수 있습니다. 한 번 사용하면 30일이 지나기 전까지 다시 사용할 수 없습니다.</p>"
+		},
+		"Obsidian Steed": {
+			"name": "흑요석 말",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 광택이 나는 흑요석 말은 최대 24시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmNightmare00000]{악몽}</strong>으로 변할 수 있습니다. 악몽은 자신을 방어하기 위해만 싸웁니다. 한 번 사용하면 5일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <p>이 조각상은 사용할 때마다 [[/r 1d10cs1]]{10퍼센트 확률}로 명령을 무시할 수 있으며, 조각상 형태로 돌아가라는 명령도 포함됩니다. 악몽이 명령을 무시하는 동안 악몽에 올라타면, 나와 악몽은 명계의 평면 내 임의의 위치로 즉시 이동되며, 악몽은 조각상 형태로 돌아갑니다.</p> <section class=\"secret\" id=\"secret-OH9v7OxKinHyCnIQ\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 5일을 나타냅니다.</p> </section>"
+		},
+		"Onyx Dog": {
+			"name": "줄마노 개",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 줄마노 개 조각상은 최대 6시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmMastiff0000000]{마스티프}</strong>로 변할 수 있습니다. 마스티프는 지능이 8이고 공용어를 합니다. 또한 60피트의 맹시야가 있습니다. 한 번 사용하면 7일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-61PsF1VxjiD2gq06\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 7일을 나타냅니다.</p> </section>"
+		},
+		"Serpentine Owl": {
+			"name": "사문석 올빼미",
+			"description": "<p><em>@UUID[Compendium.dnd5e.equipment24.Item.dmgFigurineOfWon]{경이로운 힘의 조각상} 참조</em></p> <p>이 사문석 올빼미 조각상은 최대 8시간 동안 <strong>@UUID[Compendium.dnd5e.actors24.Actor.mmGiantOwl000000]{거대 올빼미}</strong>로 변할 수 있습니다. 나와 올빼미가 같은 존재차원에 있다면 올빼미는 어느 거리에서든 나와 정신감응으로 소통할 수 있습니다. 한 번 사용하면 2일이 지나기 전까지는 다시 사용할 수 없습니다.</p> <section class=\"secret\" id=\"secret-lvDPI4uyHQj4dE5a\"> <p><strong>파운드리 노트</strong></p> <p>이 아이템의 제한된 사용 횟수는 조각상을 다시 사용하기 전에 필요한 2일을 나타냅니다.</p> </section>"
+		}		
+	}
+}

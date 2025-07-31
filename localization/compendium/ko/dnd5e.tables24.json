@@ -1,0 +1,179 @@
+{
+	"label": "굴림표",
+	"entries": {
+		"Potion of Resistance Type": {
+			"name": "저항의 물약 유형",
+            "results": {
+                "1-1": "산성",
+                "2-2": "냉기",
+                "3-3": "화염",
+                "4-4": "역장",
+                "5-5": "번개",
+                "6-6": "사령",
+                "7-7": "독성",
+                "8-8": "정신",
+                "9-9": "광휘",
+                "10-10": "천둥"
+            }
+		},
+		"Bag of Beans Effect": {
+			"name": "콩의 가방",
+            "results": {
+                "1-1": "[[/r 5d4#Toadstools]]개의 독버섯이 자라납니다. 크리처가 그 독버섯을 먹으면, [[/r 1d2#Toadstool side-effect]]{아무 주사위}나 굴립니다. 홀수가 나오면, 섭취자는 DC 15 건강 내성 굴림을 합니다. 실패하면 [[/damage 5d6 type=poison]] 피해를 입고 1시간 동안 &Reference[Poisoned] 상태가 됩니다. 짝수가 나오면, 섭취자는 1시간 동안 [[/healing 5d6 type=temphp]]를 얻습니다.",
+                "2-10": "간헐천이 솟아나 물, 맥주, 마요네즈, 차, 식초, 와인, 기름 중 하나가 뿜어져 나옵니다 (DM의 선택). 간헐천은 [[/r 1d4#Geyser duration (minutes)]]분 간 공중 30피트 높이로 솟아오릅니다.",
+                "11-20": "A @UUID[Compendium.dnd5e.actors24.Actor.mmTreant00000000]{트렌트}가 자라납니다. [[/r 1d2#Treant alignment]]{아무 주사위}나 굴립니다. 홀수라면 트렌트는 혼돈 악 성향입니다. 짝수라면 혼돈 선입니다.",
+                "21-30": "활성화되었지만 움직이지 않는 나와 비슷한 모습의 돌 조각상이 깨어나 나에게 언어적 위협을 가합니다. 만약 내가 그곳을 떠나고 다른 사람들이 가까이 다가가면, 그 조각상은 나를 가장 악랄한 악당으로 묘사하고 새로 온 사람들에게 나를 찾아내어 공격하도록 지시합니다. 만약 내가 조각상과 같은 차원에 존재한다면, 조각상은 내 위치를 알고 있습니다. 조각상은 24시간 후에는 비활성 상태가 됩니다.",
+                "31-40": "녹색 불꽃의 모닥불이 솟아나 24시간 동안 혹은 꺼질 때까지 타오릅니다.",
+                "41-50": "@UUID[Compendium.dnd5e.actors24.Actor.mmShriekerFungus]{비명 버섯} 세 마리가 자라납니다.",
+                "51-60": "[[/r 1d4 + 4#Bright-pink toads]] 마리의 밝은 분홍색 @UUID[Compendium.dnd5e.actors24.Actor.mmFrog0000000000]{두꺼비}가 기어나옵니다. 두꺼비와 접촉한다면, 두꺼비는 DM이 선택한 대형 이하 크기의 몬스터로 변하고 그 성향과 본성을 따라 행동합니다. 몬스터는 1분간 남아 있다가 밝은 분홍색 연기로 사라집니다.",
+                "61-70": "배고픈 @UUID[Compendium.dnd5e.actors24.Actor.mmBulette0000000]{불레트} 하나가 나타나 공격합니다.",
+                "71-80": "과일 나무가 자라납니다. [[/r 1d10 + 20#Pieces of fruit]]개의 과일이 달려있으며, 그 중 [[/gmr 1d8#Fruits acting as Potions]]개의 과일은 무작위로 결정된 물약과 동일한 효과를 냅니다. 과일 나무는 1시간 뒤 사라집니다. 수확한 과일은 남으며, 과일의 마법은 30일간 지속됩니다.",
+                "81-90": "[[/r 1d4 + 3#Rainbow-colored eggs]]개의 무지개색 알이 솟아납니다. 이 알을 먹은 크리처는 [[/save ability=con dc=20 format=long]]을 합니다. 굴림에 성공하면, 해당 크리처는 가장 낮은 능력치 점수를 영구적으로 1 올리며, 가장 낮은 능력치가 여러 개라면 그 중 하나를 무작위로 정합니다. 내성 굴림에 실패하면, 체내에서 폭발이 일어나 [[/damage 10d6 type=force]] 피해를 입습니다.",
+                "91-95": "밑면이 60 제곱피트인 피라미드가 솟아납니다. 안에는 @UUID[Compendium.dnd5e.actors24.Actor.mmMummy000000000]{미라}, @UUID[Compendium.dnd5e.actors24.Actor.mmMummyLord00000]{미라 군주}, 혹은 DM이 선택한 무작위 언데드가 장례된 방이 있습니다. 사르코파구스 안에는 GM이 고른 보물이 담겨있습니다.",
+                "96-100": "거대한 콩나무가 돋아나 DM의 선택에 따른 높이만큼 자랍니다. 꼭대기는 DM이 정한 장소로 이어지는데, 예를 들어, 경치가 좋은 곳이나 구름 거인의 성, 혹은 다른 존재차원일 수도 있습니다."
+            }
+		},
+		"Carpet of Flying: Size, Capacity, and Speed": {
+			"name": "비행 양탄자: 크기, 용량, 속도",
+            "results": {
+                "1-20": "3 × 5 피트. | 용량 200 lb. | 80피트. 비행 속도",
+                "21-55": "4 × 6 피트. | 용량 400 lb. | 60피트. 비행 속도",
+                "56-80": "5 × 7 피트. | 용량 600 lb. | 40피트. 비행 속도",
+                "81-100": "6 × 9 피트. | 용량 800 lb. | 30피트. 비행 속도"
+            }
+		},
+		"Efreeti Bottle": {
+			"name": "에프리티 병",
+            "description": "<p>@UUID[Compendium.dnd5e.equipment24.Item.dmgEfreetiBottle]{병}이 처음으로 열렸을 때 DM이 다음 표를 굴려 무슨 일이 일어나는지 결정합니다.</p>",
+            "results": {
+                "1-1": "에프리티가 나를 공격합니다. 5라운드 동안 전투를 벌인 후, 에프리티는 사라지고 병은 마법을 잃습니다.",
+                "2-9": "에프리티는 내 언어를 이해하고 1시간 동안 내 명령을 따릅니다. 그 후 에프리티는 병으로 돌아가고, 새로운 마개가 그것을 가둡니다. 이 마개는 24시간 동안 제거할 수 없습니다. 병을 두 번 더 열면 동일한 효과가 발생합니다. 병을 네 번째로 열면 에프리티가 탈출하고 사라지며, 병은 마법을 잃습니다.",
+                "10-10": "에프리티는 내 언어를 이해하며, 나를 위해 <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplWish000000]{소원}</em> 주문을 한 번 시전합니다. 소원을 이루어주거나 1시간이 지나면 사라지며, 병은 마법을 잃게 됩니다."
+            }
+		},
+		"Feather Token": {
+			"name": "깃털 토큰"
+		},
+		"Gray Bag of Tricks": {
+			"name": "회색 마술의 가방",
+            "results": {
+                "1-1": "족제비",
+                "2-2": "거대 쥐",
+                "3-3": "오소리",
+                "5-5": "멧돼지",
+                "4-4": "거대 오소리",
+                "6-6": "표범",
+                "7-7": "다이어 울프",
+                "8-8": "거대 엘크"                
+            }
+		},
+		"Horn of Valhalla: Type and Requirement": {
+			"name": "발할라의 뿔나팔:유형과 조건",
+            "results": {
+                "1-40": "@UUID[Compendium.dnd5e.equipment24.Item.dmgSilverHornOfV]{은} (혼령 2); 조건 없음",
+                "41-75": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBrassHornOfVa]{황동} (혼령  3); 모든 단순 무기 숙련",
+                "76-90": "@UUID[Compendium.dnd5e.equipment24.Item.dmgBronzeHornOfV]{청동} (혼령 4); 모든 방어구 숙련",
+                "91-100": "@UUID[Compendium.dnd5e.equipment24.Item.dmgIronHornOfVal]{철} (혼령 5); 모든 무술 무기 숙련"
+		    }
+        },
+		"Iron Flask": {
+			"name": "강철 플라스크"
+            
+		},
+		"Manual of Golems": {
+			"name": "골렘 제작서"
+		},
+		"Necklace of Prayer Beads": {
+			"name": "염주의 목걸이",
+            "results": {
+                "1-6": "축복의 구슬",
+                "7-12": "치료의 구슬",
+                "13-16": "청원의 구슬",
+                "17-18": "강타의 구슬",
+                "19-19": "소환의 구슬",
+                "20-20": "바람 걸음의 구슬"
+            }
+		},
+		"Ring of Resistance": {
+			"name": "저항의 반지"
+		},
+		"Robe of Useful Items": {
+			"name": "유용한 물건의 로브"
+		},
+		"Rust Bag of Tricks": {
+			"name": "적갈색 마술의 가방",
+            "results": {
+                "1-1": "쥐",
+                "2-2": "올빼미",
+                "3-3": "마스티프",
+                "5-5": "염소",
+                "4-4": "거대 염소",
+                "6-6": "거대 멧돼지",
+                "7-7": "사자",
+                "8-8": "갈색 곰"                
+            }
+		},
+		"Sphere of Annihilation Interaction Results": {
+			"name": "억압의 구체 상호작용 결과",
+            "results": {
+                "1-50": "구체는 파괴됩니다.",
+                "51-85": "구체가 포탈 혹은 초차원 공간으로 이동합니다.",
+                "86-100": "공간의 균열이 구체와 구체 주위 180피트 내의 각 크리처와 사물을 무작위 존재차원으로 보냅니다."
+            }
+		},
+		"Tan Bag of Tricks": {
+			"name": "황갈색 마술의 가방",
+            "results": {
+                "1-1": "자칼",
+                "2-2": "유인원",
+                "3-3": "개코원숭이",
+                "5-5": "도끼부리",
+                "4-4": "검은 곰",
+                "6-6": "거대 족제비",
+                "7-7": "거대 하이에나",
+                "8-8": "호랑이"                
+            }
+		},
+        "Cardinal Directions": {
+			"name": "동서남북",
+            "results": {
+                "1-1": "북",
+                "2-2": "동",
+                "3-3": "남",
+                "4-4": "서"
+            }
+		},
+        "Prismatic Layers": {
+			"name": "프리즘 층",
+            "results": {
+                "1-1": "<strong>빨강.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\">12d6</a></span> 화염 피해. <em>내성 굴림 성공:</em> 절반 피해. <em>추가 효과:</em> 비마법 원거리 공격은 이 층을 통과할 수 없으며, 최소 25의 냉기 피해를 받으면 파괴됩니다.",
+                "2-2": "<strong>주황.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\">12d6</a></span> 산성 피해. <em>내성 굴림 성공:</em> 절반 피해. <em>추가 효과:</em> 마법적 원거리 공격은 이 층을 통과할 수 없으며, 돌풍Gust of Wind과 같은 강한 바람에 의해 파괴됩니다.",
+                "3-3": "<strong>노랑.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\">12d6</a></span> 번개 피해. <em>내성 굴림 성공:</em> 절반 피해. 추가 효과: 60 이상의 역장 피해를 받으면 층이 파괴됩니다.",
+                "4-4": "<strong>초록.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\">12d6</a></span> 독성 피해. <em>내성 굴림 성공:</em> 절반 피해. <em>추가 효과:</em> 벽통과Passwall 주문 또는 이와 같거나 높은 레벨이며 단단한 표면에 차원문을 열 수 있는 주문은 이 층을 파괴합니다.",
+                "5-5": "<strong>파랑.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\">12d6</a></span> 냉기 피해. <em>내성 굴림 성공:</em> 절반 피해. <em>추가 효과:</em> 25 이상의 화염 피해를 받으면 층이 파괴됩니다.",
+                "6-6": "<strong>군청.</strong> <em>내성 굴림 실패:</em> 대상은 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">포박</a></span> 상태가 되고 매 턴이 끝날 때마다 <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\">건강</a></span> 내성 굴림을 합니다. 세 번 굴림에 성공하면 상태가 종료됩니다. 세 번 실패하면 상급 회복Greater Restoration 주문과 같은 효과로 풀릴 때까지 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">석화</a></span> 상태가 됩니다. 성공과 실패가 연속될 필요는 없으며, 대상이 한 가지를 세 번 누적할때까지 두 가지를 모두 기록합니다. <em>추가 효과:</em> 이 층을 통과하여 주문을 시전할 수 없으며, 일광Daylight 주문 등이 발산하는 정도의 밝은 빛에 의해 파괴됩니다.",
+                "7-7": "<strong>보라.</strong> <em>내성 굴림 실패:</em> 대상은 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">실명</a></span> 상태가 되고, 시전자의 다음 턴이 시작될 때 <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\">지혜</a></span> 내성 굴림을 합니다. 굴림에 성공하면 상태가 끝납니다. 내성 굴림에 실패하면, 상태가 끝나고 크리쳐는 다른 존재 차원으로 순간이동합니다(DM의 선택). <em>추가 효과:</em> 이 층은 마법 해제Dispel Magic에 의해 파괴됩니다."
+            }
+		},
+        "Prismatic Rays": {
+			"name": "프리즘 광선",
+            "results": {
+                "1-1": "<strong>빨강.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"fire\"><a data-action=\"roll\">12d6</a></span> 화염 피해. <em>내성 굴림 성공:</em> 절반 피해.",
+                "2-2": "<strong>주황.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"acid\"><a data-action=\"roll\">12d6</a></span> 산성 피해. <em>내성 굴림 성공:</em> 절반 피해.",
+                "3-3": "<strong>노랑.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"lightning\"><a data-action=\"roll\">12d6</a></span> 번개 피해. <em>내성 굴림 성공:</em> 절반 피해.",
+                "4-4": "<strong>초록.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"poison\"><a data-action=\"roll\">12d6</a></span> 독성 피해. <em>내성 굴림 성공:</em> 절반 피해.",
+                "5-5": "<strong>파랑.</strong> <em>내성 굴림 실패:</em> <span class=\"roll-link\" data-type=\"damage\" data-formula=\"12d6\" data-damage-type=\"cold\"><a data-action=\"roll\">12d6</a></span> 냉기 피해. <em>내성 굴림 성공:</em> 절반 피해.",
+                "6-6": "<strong>군청.</strong> <em>내성 굴림 실패:</em> 대상은 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.cSVcyZyNe2iG1fIc\" data-id=\"cSVcyZyNe2iG1fIc\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">포박</a></span> 상태가 되고 매 턴이 끝날 때마다 <span class=\"roll-link\" data-type=\"save\" data-ability=\"con\"><a data-action=\"roll\">건강</a></span> 내성 굴림을 합니다. 세 번 굴림에 성공하면 상태가 종료됩니다. 세 번 실패하면 상급 회복Greater Restoration 주문과 같은 효과로 풀릴 때까지 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.xaNDaW6NwQTgHSmi\" data-id=\"xaNDaW6NwQTgHSmi\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">석화</a></span> 상태가 됩니다. 성공과 실패가 연속될 필요는 없으며, 대상이 한 가지를 세 번 누적할때까지 두 가지를 모두 기록합니다.",
+                "7-7": "<strong>보라.</strong> <em>내성 굴림 실패:</em> 대상은 <span class=\"reference-link\"><a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.dnd5e.rules.JournalEntry.w7eitkpD7QQTB6j0.JournalEntryPage.0b8N4FymGGfbZGpJ\" data-id=\"0b8N4FymGGfbZGpJ\" data-type=\"JournalEntryPage\" data-pack=\"dnd5e.rules\" data-tooltip=\"Rule Page\">실명</a></span> 상태가 되고, 시전자의 다음 턴이 시작될 때 <span class=\"roll-link\" data-type=\"save\" data-ability=\"wis\"><a data-action=\"roll\">지혜</a></span> 내성 굴림을 합니다. 굴림에 성공하면 상태가 끝납니다. 내성 굴림에 실패하면, 상태가 끝나고 크리쳐는 다른 존재 차원으로 순간이동합니다(DM의 선택).",
+                "8-8": "<strong>특수.</strong> 대상이 두 개의 광선에 맞습니다. 두 번 굴리고 8이 나온 것은 다시 굴립니다."
+            }
+		},
+        "Reincarnated Species": {
+			"name": "환생 종족",
+            "description": "<p>[[/r 1d10]]을 굴려 표를 참고하여 몸의 종족을 결정하거나, DM이 다른 플레이 가능한 종족을 선택합니다.</p>"
+		},
+		"Wand of Wonder": {
+			"name": "경이의 마법봉"
+		}
+	}
+}
