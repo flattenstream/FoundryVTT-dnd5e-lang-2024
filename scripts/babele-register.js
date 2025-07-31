@@ -1,7 +1,7 @@
 import {TranslatedCompendium} from "../../babele/script/translated-compendium.js";
 
 Hooks.once('init', () => {
-	game.settings.register("dnd5e-ko", "show-original-name", {
+	game.settings.register("dnd5e-ko-2024", "show-original-name", {
 		name: "컴펜디움 원어 병기",
 		hint: "컴펜디움 원본 명칭을 번역된 명칭 옆에 나란히 표시합니다. 예시) 화염구 Fireball",
 		scope: "world",
@@ -13,7 +13,7 @@ Hooks.once('init', () => {
 
 	if (typeof Babele !== 'undefined') {
 		game.babele.register({
-			module: 'dnd5e-ko',
+			module: 'dnd5e-ko-2024',
 			lang: 'ko',
 			dir: 'localization/compendium/ko'
 		});
@@ -52,7 +52,7 @@ Hooks.once('init', () => {
 			}
 		});
 
-		if (!game.settings.get("dnd5e-ko", "show-original-name")) return;
+		if (!game.settings.get("dnd5e-ko-2024", "show-original-name")) return;
 		TranslatedCompendium.prototype.translateOrigin = TranslatedCompendium.prototype.translate;
 		TranslatedCompendium.prototype.translate = function(data) {
 			let originalName = data.name;
