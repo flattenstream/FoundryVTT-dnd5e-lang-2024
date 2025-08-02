@@ -302,12 +302,257 @@
 				
 			}
 		},
+		"Character Classes": {
+			"name": "캐릭터 클래스"
+		},
 		"Classes": {
 			"name": "클래스",
 			"pages": {
 				"Overview": {
 					"name": "개요",
 					"text": "<p>각 클래스에 대한 세부사항을 연관 저널에서 볼 수 있습니다:</p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbBarbarian0000.JournalEntryPage.z2RxKBICH6e6SkUT]{바바리안}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t]{바드}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbCleric0000000.JournalEntryPage.acPyA6A4DQBSnuZB]{클레릭}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbDruid00000000.JournalEntryPage.UCOh3zlvGxyk5jLr]{드루이드}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbFighter000000.JournalEntryPage.wDELe3k25FQvYdrq]{파이터}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbMonk000000000.JournalEntryPage.P8IgUhHYBAq0Zcwp]{몽크}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbPaladin000000.JournalEntryPage.A34CXe4HdzXHoBEl]{팔라딘}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbRanger0000000.JournalEntryPage.fgzoeAJE4EEUSOYQ]{레인저}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbRogue00000000.JournalEntryPage.gJV8iDqdNhRMLi5r]{로그}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbSorcerer00000.JournalEntryPage.fsqRUA4acVXH4I3O]{소서러}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbWarlock000000.JournalEntryPage.znue6EaGDDXgeQb0]{워락}</strong></p> <p><strong>@UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC]{위저드}</strong></p>"
+				}
+			}
+		},
+		"Barbarian": {
+			"name": "바바리안",
+			"pages": {
+				"Barbarian": {
+					"name": "바바리안"
+				},
+				"Path of the Berserker": {
+					"name": "광전사의 길"
+				}
+			}
+		},
+		"Bard": {
+			"name": "바드",
+			"pages": {
+				"Bard": {
+					"name": "바드"
+				},
+				"College of Lore": {
+					"name": "전승의 대학"
+				}
+			}
+		},
+		"Cleric": {
+			"name": "클레릭",
+			"pages": {
+				"Cleric": {
+					"name": "클레릭"
+				},
+				"Life Domain": {
+					"name": "생명 권역"
+				}
+			}
+		},
+		"Druid": {
+			"name": "드루이드",
+			"pages": {
+				"Druid": {
+					"name": "드루이드"
+				},
+				"Circle of Land": {
+					"name": "대지의 회합"
+				}
+			}
+		},
+		"Fighter": {
+			"name": "파이터",
+			"pages": {
+				"Fighter": {
+					"name": "파이터"
+				},
+				"Champion": {
+					"name": "투사"
+				}
+			}
+		},
+		"Monk": {
+			"name": "몽크",
+			"pages": {
+				"Monk": {
+					"name": "몽크"
+				},
+				"Warrior of the Open Hand": {
+					"name": "열린 손의 전사"
+				}
+			}
+		},
+		"Paladin": {
+			"name": "팔라딘",
+			"pages": {
+				"Paladin": {
+					"name": "팔라딘"
+				},
+				"Oath of Devotion": {
+					"name": "헌신의 맹세"
+				}
+			}
+		},
+		"Ranger": {
+			"name": "레인저",
+			"pages": {
+				"Ranger": {
+					"name": "레인저"
+				},
+				"Hunter": {
+					"name": "사냥꾼"
+				}
+			}
+		},
+		"Rogue": {
+			"name": "로그",
+			"pages": {
+				"Rogue": {
+					"name": "로그"
+				},
+				"Thief": {
+					"name": "도둑"
+				}
+			}
+		},
+		"Sorcerer": {
+			"name": "소서러",
+			"pages": {
+				"Sorcerer": {
+					"name": "소서러"
+				},
+				"Draconic Sorcery": {
+					"name": "용의 마력"
+				},
+				"Metamagic Options": {
+					"name": "마법변환 선택지"
+				}
+			}
+		},
+		"Warlock": {
+			"name": "워락",
+			"pages": {
+				"Warlock": {
+					"name": "워락"
+				},
+				"Fiend Patron": {
+					"name": "악마 후원자"
+				},
+				"Eldritch Invocation Options": {
+					"name": "섬뜩한 영창 선택지"
+				}
+			}
+		},
+		"Wizard": {
+			"name": "위저드",
+			"pages": {
+				"Wizard": {
+					"name": "위저드"
+				},
+				"Evoker": {
+					"name": "방출학자"
+				}
+			}
+		},
+		"Character Origins": {
+			"name": "캐릭터 출신",
+			"pages": {
+				"Character Backgrounds": {
+					"name": "캐릭터 배경",
+					"text": "<p>캐릭터의 배경은 캐릭터가 모험의 삶을 시작하기 전에 가장 형성된 장소와 직업을 나타내는 특징의 모음입니다.</p><p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbBackgroundDes.JournalEntryPage.lXqvtf9mIp8RYjFr]{배경}에서 살펴보세요.</p><h2>배경의 구성</h2><p>배경에는 다음과 같은 부분이 포함됩니다.</p><p><em><strong>능력치 점수.</strong></em> 배경에는 캐릭터의 능력치 점수 세 가지가 나열됩니다. 하나를 2점, 다른 하나를 1점씩 올리거나 세 가지 모두 1점씩 올릴 수 있습니다. 어떤 방법으로도 20점 이상으로 점수를 올릴 수는 없습니다.</p><p><em><strong>재주.</strong></em> 배경은 캐릭터에게 특정 출신 재주를 부여합니다(@UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000]{재주}에 설명).</p><p><em><strong>기술 숙련.</strong></em> 배경은 캐릭터에게 지정된 두 가지 기술에 대한 숙련을 부여합니다.</p><p><em><strong>도구 숙련.</strong></em> 각 배경은 캐릭터에게 특정 도구 또는 장인의 도구 목록에서 선택한 도구 중 하나에 대한 숙련을 부여합니다. 도구는 6장에 자세히 설명되어 있습니다.</p><p><em><strong>장비.</strong></em> 각 배경에서 장비 꾸러미와 50GP 중 하나를 선택할 수 있습니다.</p>"
+				},
+				"Character Species": {
+					"name": "캐릭터 종족",
+					"text": "<p>캐릭터의 종족을 선택할 때, 캐릭터가 인간인지 아니면 드래곤본이나 노움과 같은 가상의 종족의 일원인지 결정합니다.</p><p>D&amp;D 다중우주의 종족은 다양한 세계 출신이며, 다양한 종류의 지각 있는 생명체를 포함합니다. 플레이어 캐릭터의 종족은 모험가가 이러한 생명체 중 하나가 됨으로써 얻는 일련의 게임 특성입니다.</p><p>일부 종족은 단일 세계, 존재계 또는 신에서 출신을 찾을 수 있지만, 다른 종족은 여러 영역에서 한꺼번에 등장하기도 합니다. 종족의 출신이 무엇이든, 그 구성원들은 여러 우주에 퍼져 다양한 문화에 기여하고 있습니다.</p><p>이 장의 @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpeciesDescri]{종족}에서 언급된 예외를 제외하고 대부분의 종족은 약 80년까지 삽니다. 수명에 관계없이 모든 종족의 구성원은 거의 같은 나이에 신체적 성숙에 도달합니다. 캐릭터는 종족의 정상 수명을 넘지 않는 한 어떤 나이든 될 수 있습니다.</p><h2>종족의 구성</h2><p>종족에는 다음과 같은 부분이 포함됩니다.</p><p><em><strong>크리쳐 유형.</strong></em> 캐릭터의 종족에 따라 캐릭터의 크리쳐 유형이 결정되며, 이는 규칙 용어집에 설명되어 있습니다. 이 장에 등장하는 모든 종족은 휴머노이드이며, 플레이 가능한 비휴머노이드 종족은 다른 D&amp;D 책에 등장합니다.</p><p><em><strong>크기.</strong></em> 캐릭터의 종족에 따라 캐릭터의 크기가 결정됩니다. 종족에 속한 개개인의 키는 매우 다양하며, 일부 종족은 캐릭터가 소형인지 중형인지 선택할 수 있을 정도로 크기가 다양합니다.</p><p><em><strong>속도.</strong></em> 캐릭터의 종족에 따라 캐릭터의 속도가 결정됩니다.</p><p><em><strong>특수 특징.</strong></em> 각 종족은 캐릭터에게 종족의 생리학 또는 마법 특성에 기반한 고유한 특성인 특수한 특징을 부여합니다. 종족을 선택하면 캐릭터는 해당 종족에 나열된 모든 특수 특징을 얻습니다. 일부 특징은 몇 가지 옵션 중에서 선택해야 합니다.</p>"
+				}
+			}
+		},
+		"Character Backgrounds": {
+			"name": "캐릭터 배경",
+			"pages": {
+				"Overview": {
+					"name": "개요",
+					"text": "<p>네 개의 배경이 알파벳 순서대로 나열되어 있습니다:</p><ul class=\"columns-two\"><li>@UUID[.7DAvTQlrw7OTsgpX]{복사}</li><li>@UUID[.PnqnUJNaPQUZPlLR]{범죄자}</li><li>@UUID[.Vsc9EKUUGboSI6jy]{현자}</li><li>@UUID[.l8iMjw1XZgyqWFFf]{군인}</li></ul>"
+				},
+				"Acolyte": {
+					"name": "복사"
+				},
+				"Criminal": {
+					"name": "범죄자"
+				},
+				"Sage": {
+					"name": "현자"
+				},
+				"Soldier": {
+					"name": "군인"
+				}
+			}
+		},
+		"Character Species": {
+			"name": "캐릭터 종족",
+			"pages": {
+				"Overview": {
+					"name": "개요",
+					"text": "<p>이 항목에는 알파벳 순서대로 9개의 종족이 소개되어 있습니다: @UUID[.Duq9xnLywFNK3gv1]{드래곤본}, @UUID[.4zCNgk0JSKVzv9Y9]{드워프}, @UUID[.h9oGyt2Wh9mp0xbg]{엘프}, @UUID[.BKZ4ViHHUMxaqPz4]{노움}, @UUID[.l4PycBAExkT2g62X]{골라이어스}, @UUID[.I5mX89tfojsyQmdA]{하플링}, @UUID[.8t4u8CWYbxubXflR]{인간}, @UUID[.qUxclCvBClnEafEY]{오크}, @UUID[.xiCNZr3S4OmJezyv]{티플링}.</p>"
+				},
+				"Dragonborn": {
+					"name": "드래곤본",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDragonborn0 inline classes=\"free-rules-embed\"]</p><h2>드래곤본 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 5–7피트)</p><p><strong>속도:</strong> 30피트</p><p>드래곤본에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>용 혈통 Draconic Ancestry.</strong></em> 캐릭터의 혈통은 용 선조로부터 시작됩니다. 용 조상 표에서 용의 종류를 선택합니다. 선택에 따라 숨결 무기 및 피해 저항 특성과 외형에 영향을 줍니다.</p><table><caption>용 조상</caption><thead><tr><th><p>용</p></th><th><p>피해 유형</p></th><th><p>용</p></th><th><p>피해 유형</p></th></tr></thead><tbody><tr><td><p>검정</p></td><td><p>산성</p></td><td><p>금</p></td><td><p>화염</p></td></tr><tr><td><p>파랑</p></td><td><p>번개</p></td><td><p>초록</p></td><td><p>독성</p></td></tr><tr><td><p>황동</p></td><td><p>화염</p></td><td><p>빨강</p></td><td><p>화염</p></td></tr><tr><td><p>청동</p></td><td><p>번개</p></td><td><p>은</p></td><td><p>냉기</p></td></tr><tr><td><p>구리</p></td><td><p>산성</p></td><td><p>하양</p></td><td><p>냉기</p></td></tr></tbody></table><p><em><strong>숨결 무기 Breath Weapon.</strong></em> 내 턴에 공격 행동을 할 때, 공격 중 하나를 15피트 원뿔 또는 5피트 너비의 30피트 직선 영역에 마법 에너지를 내뿜는 것으로 대체할 수 있습니다(매번 형태를 선택). 해당 영역에 있는 각 크리쳐는 민첩 내성 굴림을 합니다(DC 8에 내 건강 수정치와 숙련 보너스를 더한 값). 내성 굴림에 실패하면, 대상 크리쳐는 용 혈통 특성에 따라 결정되는 유형의 1d10 피해를 받습니다. 굴림에 성공하면 대상 크리쳐가 받는 피해가 절반으로 감소합니다. 이 피해는 캐릭터 레벨 5(2d10), 11(3d10), 17(4d10)에 도달하면 1d10씩 증가합니다. 이 숨결 무기는 숙련 보너스와 같은 횟수만큼 사용할 수 있으며, 긴 휴식을 마치면 소모한 사용 횟수를 모두 회복합니다.</p><p><em><strong>피해 저항 Damage Resistance.</strong></em> 용 혈통 특성에 따라 결정되는 피해 유형에 대한 저항이 있습니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 60피트 범위의 암시야가 있습니다.</p><p><em><strong>용의 비행 Draconic Flight.</strong></em> 캐릭터 레벨 5에 도달하면 용의 마법을 사용하여 일시적으로 비행할 수 있습니다. 추가 행동으로 10분 동안 또는 날개를 다시 넣거나(아무 행동도 하지 않아도 됨) 무력화 상태가 될 때까지 등에 비실체적 날개가 돋아납니다. 그 시간 동안 내 속도와 같은 비행 속도를 얻습니다. 날개가 숨결 무기는 같은 에너지로 만들어진 것처럼 보입니다. 이 특성을 한 번 사용하면 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.</p>"
+				},
+				"Dwarf": {
+					"name": "드워프",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDwarf000000 inline classes=\"free-rules-embed\"]</p><h2>드워프 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 4–5피트)</p><p><strong>속도:</strong> 30피트</p><p>드워프에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 120피트의 암시야가 있습니다.</p><p><em><strong>드워프 탄력성 Dwarven Resilience.</strong></em> 독성 피해에 대한 저항이 있습니다. 또한 중독 상태를 피하거나 끝내기 위해 사용하는 내성 굴림에 유리합니다.</p><p><em><strong>드워프 강인함 Dwarven Toughness.</strong></em> 최대 체력 점수가 1 증가하고 레벨을 올릴 때마다 또 1씩 증가합니다.</p><p><em><strong>돌의 꾀 Stonecunning.</strong></em> 추가 행동으로 10분 동안 60피트 범위의 진동감각을 얻습니다. 이 진동감각을 사용하려면 돌 표면 위에 있거나 돌 표면에 닿아 있어야 합니다. 돌은 자연석 또는 가공된 돌일 수 있습니다.</p><p>이 추가 행동은 숙련 보너스와 같은 횟수만큼 사용할 수 있으며, 긴 휴식을 완료하면 소모된 모든 사용 횟수를 회복합니다.</p"
+				},
+				"Elf": {
+					"name": "엘프",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3>드로우</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3>하이 엘프</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHighElf0000 inline classes=\"free-rules-embed\"]</p><h3>우드 엘프</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspWoodElf0000 inline classes=\"free-rules-embed\"]</p><h2>엘프 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 5–6피트)</p><p><strong>속도:</strong> 30피트</p><p>엘프에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 60피트의 암시야가 있습니다.</p><p><em><strong>엘프 계보 Elven Lineage.</strong></em> 캐릭터는 초자연적인 능력을 부여받는 혈통의 일원입니다. 엘프 계보 표에서 계보를 선택합니다. 해당 계보의 1레벨 이점을 얻습니다.</p><p>캐릭터 레벨 3과 5에 도달하면 표에 표시된 대로 더 높은 레벨의 주문을 배웁니다. 해당 주문은 항상 준비되어 있습니다. 주문 슬롯 없이도 한 번 시전할 수 있으며, 긴 휴식을 마치면 이러한 방식으로 주문을 시전할 수 있는 능력을 회복합니다. 적절한 레벨의 주문 슬롯을 사용하여 주문을 시전할 수도 있습니다.</p><p>지능, 지혜, 매력 중 하나가 이 특성으로 시전하는 주문에 대한 주문 시전 능력치입니다(계보를 선택할 때 능력을 선택합니다).</p><p><em><strong>요정 선조 Fey Ancestry.</strong></em> 매혹 상태를 피하거나 끝내기 위한 내성 굴림에 유리합니다.</p><p><em><strong>예리한 감각 Keen Senses.</strong></em> 통찰, 감지, 생존 기술 중 하나에 숙련입니다.</p><p><em><strong>가수면 Trance.</strong></em> 잠을 잘 필요도 없고 마법으로도 잠들 수 없습니다. 의식이 유지되는 동안 가수면 상태로 명상을 하면 4시간 안에 긴 휴식을 마칠 수 있습니다.</p><table><caption>엘프 계보</caption><thead><tr><th><p>계보</p></th><th><p>1레벨</p></th><th><p>3레벨</p></th><th><p>5레벨</p></th></tr></thead><tbody><tr><td><p>드로우</p></td><td><p>암시야의 사거리가 120피트로 증가합니다. @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{춤추는 빛} 소마법을 알고 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{요정 불꽃}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{어둠}</p></td></tr><tr><td><p>하이 엘프</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{요술} 소마법을 알고 있습니다. 긴 휴식을 마칠 때마다 위저드 주문 목록에 있는 다른 주문으로 해당 주문을 대체할 수 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{마법 탐지}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplMistyStep0]{안개 걸음}</p></td></tr><tr><td><p>우드 엘프</p></td><td><p>이동 속도가 35피트로 증가합니다. @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{드루이드술} 소마법을 알고 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{활보}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPasswithou]{흔적없는 이동}</p></td></tr></tbody></table>"
+				},
+				"Gnome": {
+					"name": "노움",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGnome000000 inline classes=\"free-rules-embed\"]</p><h2>노움 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 소형 (약 3–4피트)</p><p><strong>속도:</strong> 30피트</p><p>노움에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 60피트의 암시야가 있습니다.</p><p><em><strong>노움의 교묘함 Gnomish Cunning.</strong></em> 지능, 지혜, 매력 내성 굴림에 유리합니다.</p><p><em><strong>노움 혈통 Gnomish Lineage.</strong></em> 초자연적 능력을 부여하는 혈통의 일원입니다. 지능, 지혜, 매력 중 하나를 선택하여 이 특성으로 시전하는 주문에 대한 주문 시전 능력치를 선택합니다(혈통을 선택할 때 능력을 선택):</p><p><strong>숲 노움.</strong> @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{하급 환영} 소마법을 알고 있습니다. 동물과의 대화 주문도 항상 준비되어 있습니다. 주문 슬롯 없이 숙련 보너스와 같은 횟수만큼 시전할 수 있으며, 긴 휴식을 마치면 소모한 모든 사용량을 회복합니다. 주문 슬롯을 사용하여 주문을 시전할 수도 있습니다.</p><p><strong>바위 노움.</strong> @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{수리} 및 @UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{요술} 소마법을 알고 있습니다. 또한, 10분을 투자하여 장난감, 라이터, 오르골과 같은 작은 시계태엽 장치(방어도 5, 1 HP)를 만들 수 있습니다. 장치를 만들 때 요술에서 효과 하나를 선택하여 장치의 기능을 결정하고, 나 또는 다른 크리쳐가 추가 행동으로 접촉하여 활성화할 때마다 장치가 해당 효과를 생성합니다. 선택한 효과에 선택지가 있는 경우, 장치를 생성할 때 해당 옵션 중 하나를 선택합니다. 예를 들어, 주문의 점화-소멸 효과를 선택했다면, 장치가 불을 점화할지 아니면 꺼뜨릴지 결정해야 하며, 장치는 두 가지를 모두 수행하지 않습니다. 이러한 장치는 한 번에 세 개까지 만들 수 있으며, 각각은 생성 후 8시간이 지나거나 활용 행동으로 접촉하여 해체할 때 분해됩니다.</p>"
+				},
+				"Goliath": {
+					"name": "골라이어스",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspGoliath0000 inline classes=\"free-rules-embed\"]</p><h2>골라이어스 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 7–8피트)</p><p><strong>속도:</strong> 35피트</p><p>골라이어스에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>거인 조상 Giant Ancestry.</strong></em> 골라이어스는 거인의 후손입니다. 다음 이득(조상으로부터 받은 초자연적 이득) 중 하나를 선택합니다. 선택한 혜택은 숙련 보너스와 같은 횟수만큼 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 사용량을 회복합니다:</p><p><em><strong>구름의 항해(구름 거인).</strong></em> 추가 행동으로 내가 볼 수 있는 비어 있는 공간으로 최대 30피트까지 마법으로 순간이동합니다.</p><p><em><strong>화염의 화상(화염 거인).</strong></em> 공격 굴림으로 대상을 명중시켜 피해를 입히면, 그 대상에게 1d10의 화염 피해도 입힐 수 있습니다.</p><p><em><strong>서리의 한기(서리 거인).</strong></em> 공격 굴림으로 대상을 명중시켜 피해를 입히면, 그 대상에게 1d6 냉기 피해를 입히고 다음 턴이 시작될 때까지 대상의 속도를 10피트 감소시킬 수 있습니다.</p><p><em><strong>언덕의 추락(언덕 거인).</strong></em> 공격 굴림으로 대형 크기 이하의 크리쳐를 명중시켜 피해를 입히면, 그 대상에게 &amp;Reference[Prone] 상태를 부여할 수 있습니다.</p><p><em><strong>돌의 인내 (돌 거인).</strong></em> 피해를 받으면 반응 행동으로 1d12를 굴립습니다. 굴린 숫자에 내 건강 수정치를 더하고 그 총계만큼 피해를 줄입니다.</p><p><em><strong>폭풍의 천둥(폭풍 거인).</strong></em> 내 60피트 내의 크리쳐로부터 피해를 받으면, 반응 행동으로 그 크리쳐에게 1d8의 천둥 피해를 입힐 수 있습니다.</p><p><em><strong>거대 형상 Large Form.</strong></em> 캐릭터 레벨 5부터, 충분히 큰 공간에 있다면 추가 행동으로 내 크기를 대형으로 변경할 수 있습니다. 이 변신은 10분 동안 또는 종료할 때까지 지속됩니다(별도의 행동 필요 없음). 그 시간 동안 근력 판정에서 유리하고, 속도가 10피트 증가합니다. 이 특성을 한 번 사용하면 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.</p><p><em><strong>강력한 신체 Powerful Build.</strong></em> &amp;Reference[Grappled] 상태를 끝내기 위한 모든 능력 판정에서 유리합니다. 또한 운반 능력을 결정할 때 한 단계 크기가 더 큰 것으로 계산합니다.</p>"
+				},
+				"Halfling": {
+					"name": "하플링",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHalfling000 inline classes=\"free-rules-embed\"]</p><h2>하플링 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 소형 (약 2–3피트)</p><p><strong>속도:</strong> 30피트</p><p>하플링에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>용맹 Brave.</strong></em> 공포 상태를 피하거나 끝내기 위한 내성 굴림에 유리합니다.</p><p><em><strong>하플링의 민첩함 Halfling Nimbleness.</strong></em> 나보다 큰 크리쳐의 점유 영역을 지나갈 수는 있지만 같은 영역에서 멈출 수는 없습니다.</p><p><em><strong>행운 Luck.</strong></em> D20 테스트에서 주사위를 굴려 1이 나오면 주사위를 다시 굴릴 수 있으며, 반드시 새 굴림을 사용해야 합니다.</p><p><em><strong>자연스러운 은신 Naturally Stealthy.</strong></em> 나보다 한 단계 이상 큰 크리쳐에게 가려진 경우에도 숨기 행동을 할 수 있습니다.</p>"
+				},
+				"Human": {
+					"name": "인간",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspHuman000000 inline classes=\"free-rules-embed\"]</p><h2>인간 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 4–7피트) 혹은 소형 (약 2–4피트), 이 종족을 선택할 때 결정</p><p><strong>속도:</strong> 30피트</p><p>인간에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>책략가 Resourceful.</strong></em> 긴 휴식을 마칠 때마다 영웅적 고양감을 얻습니다.</p><p><em><strong>숙련가 Skillful.</strong></em> 선택한 기술 한 가지에 숙련을 얻습니다.</p><p><em><strong>만능 Versatile.</strong></em> 원하는 @UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.otAeQs0TLHYIBNuj]{출신 재주}를 얻습니다. @UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{숙련자}를 추천합니다.</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbCh4ArtHandout.JournalEntryPage.CjvYlNXXgNP49lz6 caption=false]</p><p></p>"
+				},
+				"Orc": {
+					"name": "오크",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspOrc00000000 inline classes=\"free-rules-embed\"]</p><h2>오크 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 6–7피트)</p><p><strong>속도:</strong> 30피트</p><p>오크에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>아드레날린 쇄도 Adrenaline Rush.</strong></em> 질주 행동을 추가 행동으로 할 수 있습니다. 그렇게 하면 숙련 보너스와 동일한 수의 임시 체력 점수를 얻습니다.</p><p>이 특성은 숙련 보너스만큼 여러 번 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 사용 횟수를 회복합니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 120피트의 암시야가 있습니다.</p><p><em><strong>불굴의 인내력 Relentless Endurance.</strong></em> 체력 점수가 0이 되었을 때, 즉사하지 않았다면 대신 체력 점수 1을 남깁니다. 이 특징은 한 번 사용하고 나면 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.</p>"
+				},
+				"Tiefling": {
+					"name": "티플링",
+					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspTiefling000 inline classes=\"free-rules-embed\"]</p><h4>심연</h4><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspAbyssalTief inline classes=\"free-rules-embed\"]</p><h4>명계</h4><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspChthonicTie inline classes=\"free-rules-embed\"]</p><h4>하계</h4><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspInfernalTie inline classes=\"free-rules-embed\"]</p><h2>티플링 특징</h2><p><strong>크리쳐 유형:</strong> 인간형</p><p><strong>크기:</strong> 중형 (약 4–7피트) 혹은 소형 (약 3–4피트), 이 종족을 선택할 때 결정</p><p><strong>속도:</strong> 30피트</p><p>티플링에게는 다음과 같은 특별한 특징이 있습니다.</p><p><em><strong>암시야 Darkvision.</strong></em> 60피트의 암시야가 있습니다.</p><p><em><strong>악마적 유산 Fiendish Legacy.</strong></em> 당신은 초자연적인 능력을 부여하는 유산을 받았습니다. 악마적 유산 표에서 유산을 선택합니다. 선택한 유산의 1레벨 혜택을 얻습니다.</p><p>캐릭터 레벨 3과 5에 도달하면 표에 표시된 대로 더 높은 레벨의 주문을 배웁니다. 해당 주문은 항상 준비되어 있습니다. 주문 슬롯 없이 한 번만 시전할 수 있으며, 긴 휴식을 완료하면 같은 방식으로 주문을 시전할 수 있는 능력을 회복합니다. 적절한 레벨의 주문 슬롯을 사용하여 주문을 시전할 수도 있습니다.</p><p>지능, 지혜, 매력 중 하나가 이 특성으로 시전하는 주문에 대한 주문 시전 능력치입니다(유산을 선택할 때 능력을 선택합니다).</p><p><em><strong>외세계의 존재감 Otherworldly Presence.</strong></em> 마술 소마법을 알고 있습니다. 이 특성으로 주문을 시전할 때, 주문은 악마적 유산 특성에 사용하는 것과 동일한 주문 시전 능력치을 사용합니다.</p><table><caption>악마적 유산</caption><thead><tr><th><p>유산</p></th><th><p>1레벨</p></th><th><p>3레벨</p></th><th><p>5레벨</p></th></tr></thead><tbody><tr><td><p>심연</p></td><td><p>독성 피해에 대한 저항이 있습니다. @UUID[Compendium.dnd5e.spells24.Item.phbsplPoisonSpra]{독 분사} 소마법을 알고 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{질병의 광선}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{인간형 구속}</p></td></tr><tr><td><p>명계</p></td><td><p>사령 피해에 대한 저항이 있습니다. 또한 @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{냉랭한 접촉} 소마법을 알고 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{거짓된 생명}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplRayofEnfee]{약화 광선}</p></td></tr><tr><td><p>하계</p></td><td><p>화염 피해에 대한 저항이 있습니다. @UUID[Compendium.dnd5e.spells24.Item.phbsplFireBolt00]{화염 화살} 소마법을 알고 있습니다.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHellishReb]{지옥의 책망}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{어둠}</p></td></tr></tbody></table>"
+				}
+			}
+		},
+		"Feats": {
+			"name": "재주",
+			"pages": {
+				"Feat Descriptions": {
+					"name": "재주 설명",
+					"text": "<p>다음 재주는 출신, 일반, 전투 방식, 전설 축복 등 분류별로 정리되어 있으며, 각 범주마다 알파벳순으로 나열되어 있습니다.</p><h3>재주 설명 구분</h3><p>재주에 대한 설명에는 재주 이름 뒤에 명시되는 다음 부분이 포함됩니다.</p><p><em><strong>범주.</strong></em> 재주는 설명에 표시되는 범주를 구성합니다. 출신 범주와 같은 특정 범주에서 재주를 선택하라는 지시가 있는 경우, 해당 범주는 재주 이름 아래에 명시되어 있습니다. 재주를 선택하라는 지시가 있는데 범주가 지정되지 않은 경우, 아무 범주에서나 선택할 수 있습니다.</p><p><em><strong>전제 조건.</strong></em> 재주를 선택하려면 특성에 따라 전제 조건 없이 재주를 선택할 수 있는 경우를 제외하고 설명에 있는 모든 전제 조건을 충족해야 합니다. 전제 조건에 클래스가 포함된 경우, 해당 클래스의 레벨이 최소 1 이상이어야 재주를 얻을 수 있습니다.</p><p><em><strong>이득.</strong></em> 재주의 이득은 전제 조건이 나열된 뒤에 자세히 설명되어 있습니다. 재주를 보유하고 있으면 해당 재주 이득을 얻습니다.</p><p><em><strong>반복 가능.</strong></em> \"반복 가능\" 이라는 하위 항목이 달리 명시되어 있지 않는 한 각 재주는 한번씩만 얻을 수 있습니다.</p>"
+				},
+				"Origin Feats": {
+					"name": "출신 재주",
+					"text": "<p>These feats are in the Origin category.</p><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftAlert000000]{경계심}</h3><p><em>출신 재주</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>우선권 숙련.</strong></em> 우선권을 굴릴 때 숙련 보너스를 추가할 수 있습니다.</p><p><em><strong>우선권 교환.</strong></em> 우선권을 굴린 직후, 같은 전투에 참여하려는 아군 한 명의 우선권과 나의 우선권을 바꿀 수 있습니다. 나 또는 아군이 무력화 상태인 경우 이 교체를 할 수 없습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{마법 입문자}</h3><p><em>출신 재주</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>소마법 두 개.</strong></em> 클레릭, 드루이드, 위저드 중 하나의 주문 목록에서 원하는 소마법 두 개를 배웁니다. 이 재주의 주문 시전 능력은 지능, 지혜, 매력 중 하나를 선택합니다(이 재주 선택 시 선택).</p><p><em><strong>1레벨 주문.</strong></em> 이 재주의 소마법으로 선택한 것과 동일한 목록에서 1레벨 주문을 선택합니다. 해당 주문은 항상 준비되어 있습니다. 주문 슬롯 없이 한 번만 시전할 수 있으며, 긴 휴식을 마치면 같은 방식으로 주문을 시전할 수 있는 능력을 회복합니다. 또한, 가지고 있는 주문 슬롯을 사용해 주문을 시전할 수도 있습니다.</p><p><em><strong>주문 변경.</strong></em> 새로운 레벨을 얻을 때마다, 이 재주를 위해 선택한 주문 중 하나를 선택한 주문 목록에서 같은 레벨의 다른 주문으로 바꿀 수 있습니다.</p><p><em><strong>반복 가능.</strong></em> 이 재주는 두 번 이상 얻을 수 있지만, 매번 다른 주문 목록을 선택해야 합니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftSavageAttac]{맹렬한 공격자}</h3><p><em>출신 재주</em></p><p>특별한 피해를 주는 공격을 훈련했습니다. 무기로 대상을 공격할 때 턴당 한 번, 무기의 피해 주사위를 두 번 굴려서 둘 중 하나를 대상에게 사용할 수 있습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftSkilled0000]{숙련자}</h3><p><em>출신 재주</em></p><p>기술 또는 도구 중 원하는 세 가지에 숙련을 얻습니다.</p><p><em><strong>반복 가능.</strong></em> 이 재주는 두 번 이상 얻을 수 있습니다.</p>"
+				},
+				"General Feats": {
+					"name": "일반 재주",
+					"text": "<p>아래 재주는 일반 범주에 속합니다.</p><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftAbilityScor]{능력치 점수 향상}</h3><p><em>일반 재주 (전제 조건: 레벨 4 이상)</em></p><p>선택한 능력치 점수 하나를 2 증가시키거나 선택한 능력치 점수 두 개를 1씩 증가시킵니다. 이 재주는 능력치 점수를 20 이상으로 증가시킬 수 없습니다.</p><p><em><strong>반복 가능.</strong></em> 이 재주는 두 번 이상 얻을 수 있습니다.</p><h3>@UUID[Compendium.dnd5e.feats24.Item.phbftGrappler000]{격투사}</h3><p><em>일반 재주 (전제 조건: 레벨 4 이상, 근력 혹은 민첩 13+)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 근력 혹은 민첩 점수가 1 증가하여 최대 20까지 늘어납니다.</p><p><em><strong>치고 붙들기.</strong></em> 턴에 공격 행동의 일부로서 비무장 타격으로 크리쳐를 공격할 때, 피해와 붙잡기 옵션을 모두 사용할 수 있습니다. 이 이득은 턴당 한 번만 사용할 수 있습니다.</p><p><em><strong>공격 유리.</strong></em> 내가 &amp;Reference[Grappled]상태로 잡고 있는 크리쳐에 대한 공격 굴림에서 유리합니다.</p><p><em><strong>빠른 싸움꾼.</strong></em> 내가 붙잡은 크리쳐가 내 크기 이하인 경우, 이동시키기 위해 추가 이동속도를 소모하지 않아도 됩니다.</p><p></p>"
+				},
+				"Fighting Style Feats": {
+					"name": "전투 방식 재주",
+					"text": "<p>아래 재주는 전투 방식 범주에 속합니다.</p><h3>@UUID[Compendium.dnd5e.feats24.Item.phbfstArchery000]{궁술}</h3><p><em>전투 방식 재주 (전제 조건: 전투 방식 특성)</em></p><p>원거리 무기로 하는 공격 굴림에 +2 보너스를 받습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbfstDefense000]{방어}</h3><p><em>전투 방식 재주 (전제 조건: 전투 방식 특성)</em></p><p>경갑, 평갑, 중갑을 착용하고 있으면 방어도에 +1 보너스를 받습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbfstGreatWeapo]{대형 무기 전투}</h3><p><em>전투 방식 재주 (전제 조건: 전투 방식 특성)</em></p><p>양손으로 들고 있는 근접 무기로 공격할 때 피해 주사위에서 1 또는 2가 나오면 3으로 간주합니다. 이 이득을 받으려면 무기에 양손 또는 다용도 속성이 있어야 합니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbfstTwoWeaponF]{쌍수 무기 전투}</h3><p><em>전투 방식 재주 (전제 조건: 전투 방식 특성)</em></p><p>경량 속성을 가진 무기로 추가 공격을 할 때, 피해에 능력 수정치를 추가하지 않았다면 해당 공격의 피해에 능력 수정치를 더할 수 있습니다.</p>"
+				},
+				"Epic Boon Feats": {
+					"name": "전설 축복 재주",
+					"text": "<p>아래 재주는 전설 축복 범주에 속합니다.</p><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofCombatP]{전투 기량의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 선택한 능력치 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>탁월한 조준.</strong></em> 공격 굴림이 빗나갔을 때 대신 명중하게 만들 수 있습니다. 이 이득을 한 번 사용하면 내 다음 턴이 시작될 때까지 다시 사용할 수 없습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofDimensi]{차원 여행의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 선택한 능력치 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>점멸 걸음.</strong></em> 공격 행동이나 마법 행동을 한 직후, 눈에 보이는 비어 있는 공간으로 최대 30피트까지 순간이동할 수 있습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofFate000]{운명의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승. </strong></em>선택한 능력치 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>운명 개선.</strong></em> 나 또는 60피트 내에 있는 다른 크리쳐가 D20 테스트에 성공하거나 실패하면, 2d4를 굴려 그 합계를 보너스 또는 페널티로 적용할 수 있습니다. 이 이득을 한 번 사용하면 우선권을 굴리거나 짧은 휴식이나 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofIrresis]{불가항력적 공격의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승. </strong></em>근력 혹은 민첩 점수가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>방어 극복.</strong></em> 타격, 관통, 참격 유형으로 가하는 피해는 항상 저항을 무시합니다.</p><p><em><strong>압도적인 타격.</strong></em> 공격 주사위를 굴려 20이 나오면, 이 재주로 인해 상승한 능력치 점수만큼 대상에게 추가 피해를 줄 수 있습니다. 추가 피해의 유형은 공격의 유형과 동일합니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofSpellRe]{주문 회수의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 지능, 지혜, 매력 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>자유 시전.</strong></em> 1~4 레벨 주문 슬롯으로 주문을 시전할 때마다 [[/r 1d4]]를 굴립니다. 나온 숫자가 슬롯의 레벨과 같으면, 슬롯은 소모되지 않습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonoftheNigh]{밤 정령의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 선택한 능력치 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>그림자 일체화.</strong></em> 희미한 빛 또는 어둠 상태일 때, 추가 행동으로 나에게 투명 상태를 부여할 수 있습니다. 이 상태는 행동, 추가 행동, 또는 반응 행동을 취한 즉시 종료됩니다.</p><p><em><strong>그림자 형태.</strong></em> 희미한 빛 또는 어둠 상태일 때는 정신과 광휘 피해를 제외한 모든 피해에 대한 저항이 있습니다.</p><hr /><h3>@UUID[Compendium.dnd5e.feats24.Item.phbBoonofTruesig]{진시야의 축복}</h3><p><em>전설 축복 재주 (전제 조건: 레벨 19 이상)</em></p><p>다음과 같은 이득을 얻습니다.</p><p><em><strong>능력치 점수 상승.</strong></em> 선택한 능력치 점수 중 하나가 1 증가하여 최대 30까지 늘어납니다.</p><p><em><strong>진시야.</strong></em> 60피트 범위의 진시야가 있습니다.</p>"
 				}
 			}
 		},
@@ -435,6 +680,59 @@
 				"Tremorsense": {
 					"name": "진동감각",
 					"text": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.r64UrNusMhwJVnxb inline]</p>"
+				}
+			}
+		},
+		"Appendix: Class Details": {
+			"name": "부록: 클래스 세부사항",
+			"pages": {
+				"Barbarian": {
+					"name": "바바리안",
+					"text": "<blockquote><p>원초적 분노의 맹렬한 전사</p></blockquote><p>바바리안은 다중 우주의 원초적인 힘을 분노로서 발현하는 강력한 전사입니다. 분노는 단순한 감정을 넘어 포식자의 포악함, 폭풍의 격렬함, 바다의 혼란 그 자체의 화신입니다.</p><p>일부 바바리안은 분노를 맹렬한 영혼이나 존경받는 선조로 의인화하기도 합니다. 또 다른 바바리안은 세상의 고통과 고뇌에 대한 연결고리, 탈인격적인 야생 마법, 또는 자신의 가장 깊은 자아를 표현하는 것으로 여깁니다. 모든 바바리안에게 분노는 전투력뿐 아니라 기이한 반사 신경과 예민한 감각을 불러일으키는 힘입니다.</p><p>바바리안은 종종 공동체에서 보호자이자 지도자 역할을 합니다. 바바리안은 위험 속으로 돌진하여 자신의 보호 아래 있는 사람들은 그러지 않아도 괜찮도록 합니다. 위험에 맞서는 용기 덕분에 바바리안은 모험에 완벽하게 어울리는 영웅입니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Bard": {
+					"name": "바드",
+					"text": "<blockquote><p>음악, 춤 마법으로서 고양감을 주는 공연자</p></blockquote><p>음악, 춤, 시를 통해 마법을 불러일으키는 바드는 다른 사람에게 고양감을 주고, 상처를 달래고, 적을 낙담시키고, 환상을 만들어내는 데 능숙합니다. 바드는 다중 우주가 창조의 말로서 존재하게 되었으며, 그 창조의 말의 잔재가 여전히 모든 존재차원에 울려 퍼지고 희미하게 빛난다고 믿습니다. 바드 마법은 모든 언어를 초월하는 그 말을 활용하려고 시도합니다.</p><p>무엇이든 새로운 노래나 이야기의 영감이 될 수 있기 때문에 바드는 거의 모든 것에 매료됩니다. 바드는 음악 연주, 마법, 농담 등 여러 가지 일의 전문가가 됩니다.</p><p>바드는 여느 다른 연예인처럼 여행하고, 지식을 수집하고, 이야기를 들려주며, 청중의 은혜에 의지하는 삶을 살아갑니다. 하지만 바드의 해박한 지식과 마법에 능통한 점이 다른 이들과의 차별점을 만듭니다.</p><aside class=\"notable\"><h3>바드의 공연 목록</h3><p>이 바드는 고대 영웅의 업적을 노래하며 북을 치나요? 낭만적인 곡을 부르며 류트를 연주하나요? 감동적인 아리아를 부르나요? 고전 비극의 극적인 독백을 낭송하나요? 민속 무용의 리듬을 이용해 전투에서 아군의 움직임을 조직화하나요? 무례한 5행시를 작곡하나요?</p><p>바드를 플레이할 때 선호하는 예술 공연 스타일, 불러일으킬 수 있는 분위기, 바드의 창작물에 영감을 주는 주제를 고려하십시오. 자연의 아름다움에서 영감을 받은 시를 쓰나요, 아니면 상실에 대한 우울한 성찰을 담은 시를 쓰나요? 고상한 찬송가나 소란스러운 선술집 노래를 선호하나요? 죽은 자에 대한 애도 혹은 기쁨에 대한 축하에 끌리나요? 흥겨운 춤을 추거나 정교하게 해석적인 안무를 선보이나요? 한 가지 공연 스타일에 집중하나요, 모든 방식을 마스터하기 위해 노력하나요?</p></aside><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Cleric": {
+					"name": "클레릭",
+					"text": "<blockquote><p>신성한 힘의 기적을 일으키는 사제</p></blockquote><p>클레릭은 신들의 영역에서 힘을 끌어와 기적을 일으키는 데 활용합니다. 신격, 판테온, 또는 다른 불멸의 존재로부터 축복을 받은 클레릭은 신들이 머무는 이계의 신성한 마법에 손을 뻗어 사람들을 북돋우고 적과 싸우는 데 사용할 수 있습니다.</p><p>클레릭의 힘은 신성한 선물이기 때문에, 클레릭은 보통 신에게 바쳐진 신전이나 마법을 해방시킨 불멸의 힘을 가진 존재와 자신을 연결합니다. 신성한 마법을 사용하는 데 특별한 수련이 필요하지는 않지만, 클레릭은 외차원의 힘을 끌어내는 데 도움이 되는 기도와 의식을 배울 수 있습니다.</p><p>신전이나 사당의 모든 구성원이 클레릭은 아닙니다. 일부 사제들은 마법이 아닌 기도와 의식을 통해 신전을 섬기는 소박한 삶을 살며 헌신을 다하도록 부름받습니다. 많은 필멸자들이 신을 대변한다고 주장하지만, 클레릭만큼 신들의 힘을 다룰 수 있는 사람은 드뭅니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Druid": {
+					"name": "드루이드",
+					"text": "<blockquote><p>원초적 힘의 자연 전사</p></blockquote><p>드루이드는 자연의 힘을 부르는 고대 교단에 속해 있습니다. 드루이드는 동물, 식물, 원소의 마법을 활용하여 치유하고, 동물로 변신하고, 원소적 파괴를 다룹니다.</p><p>무엇보다 자연을 숭배하는 드루이드는 자연이나 자연신 또는 두 가지 모두에서 마법을 얻으며, 다른 드루이드와 연합하여 계절과 기타 자연의 주기를 기념하는 의식을 수행하기도 합니다.</p><p>드루이드는 동식물의 생명을 유지하는 섬세한 생태학적 균형과 인간이 자연과 조화롭게 살아가야 할 필요성에 관심을 갖고 있습니다. 드루이드는 신성한 장소를 지키거나 때묻지 않은 자연을 지키는 경우가 많지만, 심각한 위험이 발생하면 위협에 맞서 싸우는 모험가로서 보다 적극적인 역할을 수행합니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Fighter": {
+					"name": "파이터",
+					"text": "<blockquote><p>모든 무기와 방어구의 전문가</p></blockquote><p>파이터는 수많은 전장을 지배합니다. 임무를 수행하는 기사, 왕실의 용사, 정예 병사, 단련된 용병 등 파이터들은 모두 무기와 갑옷을 다룸에 있어 타의 추종을 불허하는 실력을 갖추고 있습니다. 또한 이들은 죽음에 맞서 싸우고 물리치기도 하는 등 죽음과도 친숙합니다.</p><p>파이터는 다양한 무기 기술을 숙달하며, 장비를 잘 갖춘 파이터는 어떤 전투 상황에서도 항상 적절한 도구를 가지고 있습니다. 마찬가지로, 파이터는 모든 형태의 갑옷에 능숙합니다. 기본적인 숙련 외에도 각 파이터는 특정 전투 스타일에 특화되어 있습니다. 어떤 파이터는 궁술에 집중하고, 어떤 파이터는 두 가지 무기로 동시에 싸우며, 어떤 투사는 마법으로 무예 기술을 강화합니다. 이처럼 폭넓은 능력과 광범위한 특수화의 조합이 파이터를 뛰어난 전투원으로 만들어 줍니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Monk": {
+					"name": "몽크",
+					"text": "<blockquote><p>초자연적 힘의 무예가</p></blockquote><p>몽크는 엄격한 전투 훈련과 정신 수련을 통해 다중 우주와 자신을 일치시키고 내면에 존재하는 힘의 저수지에 집중합니다. 몽크마다 이 힘을 호흡, 에너지, 생명력, 본질, 자아 등 다양한 방식으로 개념화합니다. 이 힘은 강력한 무술 실력으로 나타나든, 방어력과 속도의 절묘한 표현이든, 몽크가 하는 모든 일에 스며들어 있습니다.</p><p>몽크는 내면의 힘을 집중시켜 비범하고 초자연적이기까지 한 효과를 만들어냅니다. 무기를 사용하든 사용하지 않든, 몽크는 기이한 속도와 근력을 공격에 쏟아붓습니다. 몽크의 손에서는 가장 기본적인 무기조차도 전문적 전투를 위한 정교한 도구가 될 수 있습니다.</p><p>많은 몽크는 체계적인 금욕 생활이 자신의 힘을 활용하는 데 필요한 육체적, 정신적 집중력을 기르는 데 도움이 된다고 생각합니다. 다른 몽크들은 삶의 활기찬 혼란에 몰두하는 것이 결단력과 수련에 도움이 된다고 믿습니다.</p><p>일반적으로 몽크들은 모험을 자신의 육체적, 정신적 발달을 시험하는 것으로 여깁니다. 그들은 단순히 괴물을 처치하고 보물을 약탈하는 것보다 더 큰 임무를 완수하려는 열망에 이끌려 스스로를 살아있는 무기로 만들기 위해 노력합니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Paladin": {
+					"name": "팔라딘",
+					"text": "<blockquote><p>신성한 맹세의 헌신적 전사</p></blockquote><p>팔라딘은 멸망과 타락의 세력에 맞서겠다는 맹세로 단결합니다. 신의 제단 앞에서 맹세하든, 신성한 숲속에서 자연의 정령 앞에서 맹세하든, 절망과 슬픔의 순간에 죽은 자를 유일한 목격자로 두고 맹세하든, 팔라딘의 맹세는 강력한 유대감을 형성합니다. 그것은 독실한 전사를 축복받은 용사로 만드는 힘의 원천입니다.</p><p>팔라딘은 다양한 무기와 갑옷을 익히며 전투 기술을 배우기 위해 훈련합니다. 하지만 팔라딘의 무술은 부상자를 치료하고 적을 무찌르며 무력한 자들과 곁에서 싸우는 자들을 보호하는 마법 같은 힘에 부차적인 역할을 합니다.</p><p>팔라딘의 삶은 거의 정의에 가깝도록 모험적인 삶이며, 모든 팔라딘은 전멸에 맞서는 우주적 투쟁의 최전선에서 살아갑니다. 전 세계 군대 중에서도 팔라딘은 매우 드물지만, 팔라딘으로서 부름을 받는 사람은 더더욱 드뭅니다. 이 축복받은 사람들은 부름을 받으면 이전의 직업을 버리고 무기와 마법을 사용합니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Ranger": {
+					"name": "레인저",
+					"text": "<blockquote><p>원초적 마법이 깃든 방랑하는 전사</p></blockquote><p>번잡한 도시에서 멀리 떨어진, 발자국 없는 숲의 나무 사이와 넓은 평원을 가로지르는 레인저는 야생에서 끝없는 감시를 이어갑니다. 레인저는 먹잇감을 쫓는 포식자처럼 야생에서 은밀하게 움직이고 수풀과 잔해에 몸을 숨기는 법을 배웁니다.</p><p>자연과의 연결 덕분에 레인저는 야생의 원초적인 힘을 활용하는 주문도 시전할 수 있습니다. 레인저의 재능과 마법은 괴물과 압제자의 파괴로부터 세상을 지키기 위해 치명적인 집중력으로 연마됩니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Rogue": {
+					"name": "로그",
+					"text": "<blockquote><p>솜씨 좋은 은신과 속임수의 대가</p></blockquote><p>로그는 교활함과 은밀함, 적의 취약점을 이용해 어떤 상황에서도 우위를 점합니다. 로그는 거의 모든 문제에 대한 해결책을 찾는 데 능숙합니다. 일부는 다른 능력을 보완하기 위해 마법을 배우기도 합니다. 많은 로그는 은신과 속임수에 집중하는 반면, 다른 로그는 등반, 함정 찾기 및 해제, 자물쇠 열기 등 던전 환경에서 도움이 되는 기술을 연마합니다.</p><p>로그는 전투에서 강력한 힘보다는 교묘한 공격을 우선시합니다. 이들은 연타로 상대를 쓰러뜨리기보다는 정확한 한 방을 날리는 것을 선호합니다.</p><p>로그 중에는 범죄자로 경력을 시작한 이들도 있고, 계략을 이용해 범죄와 싸우는 이들도 있습니다. 로그가 법과 어떤 관계에 있든, 평범한 범죄자나 법 집행자들은 위대한 로그의 교묘한 영리함을 따라올 수 없습니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Sorcerer": {
+					"name": "소서러",
+					"text": "<blockquote><p>선천적 마법으로 가득한 현란한 마법사</p></blockquote><p>소서러는 자신의 존재에 각인된 타고난 마법을 사용합니다. 어떤 소서러는 자신의 힘의 기원을 밝히지 못하는 반면, 어떤 소서러는 개인사나 가족사의 기이한 사건에서 그 기원을 찾기도 합니다. 아기가 태어날 때 용이나 드라이어드의 축복을 받거나 맑은 하늘에서 번개가 치면 소서러의 재능이 촉발될 수 있습니다. 신의 선물, 다른 차원의 기묘한 마법을 접하거나 현실의 내면을 엿보는 것도 마찬가지입니다. 그 기원이 무엇이든, 그 결과는 소서러에게 지울 수 없는 흔적을 남기며, 대를 이어 전승되는 소용돌이같은 마법으로 이어지기도 합니다.</p><p>소서러는 마법을 배우는 것이 아니라 마법의 생생하고 끓어오르는 힘이 그 존재의 일부입니다. 소서러의 필수 기술은 타고난 마법을 활용하고 전달하는 방법을 배우는 것이며, 이를 통해 소서러는 자신의 힘을 발휘할 수 있는 새롭고 놀라운 방법을 발견할 수 있습니다. 소서러는 타고난 마법을 터득할수록 마법의 기원에 더욱 가까워지고, 이를 반영하는 독특한 힘을 개발합니다.</p><p>소서러는 희귀합니다. 일부 가문에서는 한 세대에 한 명씩 소서러를 배출하기도 하지만, 대부분의 경우 마법 재능은 우연처럼 나타납니다. 이 마법의 힘을 가진 사람들은 마법이 조용히 있는 것을 좋아하지 않는다는 것을 곧 알게 됩니다. 소서러의 마법은 발휘되기를 원합니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Warlock": {
+					"name": "워락",
+					"text": "<blockquote><p>외세계적 계약으로 힘을 얻은 오컬트 학자</p></blockquote><p>워락은 다중 우주의 구조에 숨겨진 지식을 탐구합니다. 그들은 종종 금지된 전설을 파헤치거나, 외차원 존재의 힘을 끌어들이기 위한 주문에 손을 대거나, 이러한 존재의 영향력을 느낄 수 있는 힘을 가진 장소를 추적하는 것으로 마법의 힘을 찾아내기 시작합니다. 각 워록은 순식간에 강력한 후원자와 구속력 있는 계약을 맺게 됩니다. 워락은 천상체, 대요정, 데몬, 데빌, 해그, 그리고 먼 영토의 외계 존재와 같은 이들에 대한 고대 지식을 바탕으로 신비한 비밀을 조합하여 자신의 힘을 강화합니다.</p><p>워락은 후원자를 마법의 힘을 얻기 위한 수단이자 자원으로 여깁니다. 어떤 워락은 후원자를 존경하고 숭배하며 심지어 사랑하지만, 어떤 워락은 마지못해 후원자를 섬기고, 어떤 워락은 후원자가 준 힘을 휘두르면서도 후원자를 약화시키려 합니다.</p><p>일단 계약을 맺은 워락의 지식과 힘에 대한 갈증은 단순한 공부만으로는 해소할 수 없습니다. 대부분의 워락은 더 큰 힘과 더 깊은 지식을 추구하며 하루하루를 보내는데, 이는 보통 일종의 모험을 의미합니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
+				},
+				"Wizard": {
+					"name": "위저드",
+					"text": "<blockquote><p>비전적 힘의 학구적 마법 사용자</p></blockquote><p>위저드는 마법의 내적 작용에 대한 철저한 연구로 정의됩니다. 위저드는 폭발적인 불, 번개, 교묘한 속임수, 화려한 변신 등의 주문을 시전합니다. 그들의 마법은 다른 차원의 괴물을 불러내거나 미래를 엿보게 하거나 보호막을 형성합니다. 가장 강력한 주문은 한 물질을 다른 물질로 바꾸거나, 하늘에서 유성을 불러오거나, 다른 세계로 통하는 문을 열기도 합니다.</p><p>대부분의 위저드는 마법에 대한 학문적 접근 방식을 공유합니다. 이들은 마법의 이론적 토대, 특히 주문을 마법 학교로 분류하는 등 마법의 이론적 토대를 연구합니다. 빅비, 타샤, 모덴카이넨, 욜랑드와 같은 유명한 위저드들은 이러한 연구를 바탕으로 현재 다중 우주에서 사용되는 상징적인 주문을 발명했습니다.</p><p>위저드가 살 수 있는 가장 평범한 삶은 현자나 강사로 일하는 것입니다. 다른 위저드들은 조언자로 일하거나 군대에 복무하거나 범죄자나 지배자의 삶을 추구하기도 합니다.</p><p>하지만 지식의 유혹은 가장 모험심 없는 위저드마저도 안전한 도서관과 연구실로부터 무너져가는 폐허와 잃어버린 도시로 오도록 불러들입니다. 대부분의 위저드들은 고대 문명의 선조들이 오랜 세월 동안 잊혀진 마법의 비밀을 알고 있었으며, 그 비밀을 발견하면 현 시대의 어떤 마법보다 강력한 힘으로 가는 길을 열 수 있다고 믿습니다.</p><div class=\"fvtt advice hide-in-embed\"><figure class=\"icon\"><img src=\"icons/svg/door-locked-outline.svg\" class=\"round\" /></figure><p>이 내용은 크리에이티브 커먼즈 라이선스에 포함되지 않은 무료 규칙 콘텐츠이며, 게임 시스템 외부로 재배포될 수 없습니다.</p></div>"
 				}
 			}
 		},

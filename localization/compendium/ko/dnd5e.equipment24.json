@@ -83,11 +83,11 @@
 			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagQuiver00000]{화살통 Quiver}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
 		},
 		"Bullets, Sling": {
-			"name": "총알, 무릿매",
+			"name": "탄환, 무릿매",
 			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
 		},
 		"Bullets, Firearm": {
-			"name": "총알, 화기",
+			"name": "탄환, 화기",
 			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
 		},
 		"Needles": {
@@ -166,7 +166,7 @@
 			"description": "<p>책에는 픽션 또는 논픽션 내용이 쓰여 있습니다. 판정의 주제에 대한 정확한 논픽션 책을 참고하면 그에 대한 지능(비전학, 역사, 자연, 종교) 판정에 +5 보너스를 얻습니다.</p>"
 		},
 		"Breastplate": {
-			"name": "브레스트플레이트",
+			"name": "흉갑",
 			"description": ""
 		},
 		"Brewer's Supplies": {
@@ -828,7 +828,7 @@
 			"description": ""
 		},
 		"Sling Bullet": {
-			"name": "총알, 무릿매",
+			"name": "탄환, 무릿매",
 			"description": "<p><em><strong>보관통:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{주머니 Pouch}</em></p><p>탄약은 탄약 속성을 가진 무기에 필요합니다. 무기 설명에는 해당 무기에 사용되는 탄약의 종류가 명시되어 있습니다. 탄약 표에는 탄약의 종류와 구매 시 획득할 수 있는 탄약의 양이 나열되어 있습니다. 이 표에는 각 유형을 보관하는 데 일반적으로 사용되는 물품도 나열되어 있으며, 보관함은 별도로 구매해야 합니다.</p>"
 		},
 		"Spear": {

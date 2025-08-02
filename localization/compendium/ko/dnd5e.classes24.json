@@ -1,0 +1,40 @@
+{
+	"label": "캐릭터 클래스",
+	"folders": {
+		"Barbarian": "바바리안",
+		"Class Features": "클래스 특성",
+		"Subclass Features": "하위 클래스 특성",
+		"Path of the Berserker": "광전사의 길",
+		"Bard": "바드",
+		"Lore": "전승",
+		"Cleric": "클레릭",
+		"Life Domain": "생명 권역",
+		"Druid": "드루이드",
+		"Circle of Land": "대지의 회합",
+		"Fighter": "파이터",
+		"Champion": "투사",
+		"Monk": "몽크",
+		"Warrior of the Open Hand": "열린 손의 전사",
+		"Paladin": "팔라딘",
+		"Oath of Devotion": "헌신의 맹세",
+		"Ranger": "레인저",
+		"Hunter": "사냥꾼",
+		"Rogue": "로그",
+		"Thief": "도둑",
+		"Sorcerer": "소서러",
+		"Draconic Sorcery": "용의 마력",
+		"Metamagic Options": "마법변환 선택지",
+		"Warlock": "워락",
+		"Fiend Patron": "악마 후원자",
+		"Eldritch Invocation Options": "섬뜩한 영창 선택지",
+		"Wizard": "위저드",
+		"Evoker": "방출학자"
+	},
+	"entries": {
+		"Barbarian": {
+			"name": "바바리안",
+			"description": "<h3>바바리안 핵심 특징</h3><table class=\"core-class-traits\"> <tbody><tr><th scope=\"row\"><p><strong>주요 능력치</strong></p> </th><td><p>근력</p></td></tr><tr><th><p><strong>체력 점수 주사위</strong></p> </th><td><p>바바리안 레벨 당 D12</p></td></tr><tr><th><p><strong>내성 굴림 숙련</strong></p> </th><td><p>근력, 건강</p></td></tr><tr><th><p><strong>기술 숙련</strong></p></th><td><p>동물 다루기, 운동, 위협, 자연, 감지, 생존 중 2개 선택</p> </td></tr><tr><th><p><strong>무기 숙련</strong></p></th><td><p>단순, 무술 무기</p></td></tr><tr><th><p><strong>방어구 훈련</strong></p> </th><td><p>경갑, 평갑, 방패</p></td></tr><tr><th><p><strong>시작 장비</strong></p></th><td><p><em>A, B 중 선택: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{대도끼}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbwepHandaxe000]{손도끼}, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{모험가의 꾸러미}, [[/award 15GP]]; 혹은 (B) [[/award 75GP]]</p> </td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrbBarbarian0 inline classes=\"free-rules-embed\"]</p> <h2>바바리안이 되려면...</h2><h3>1레벨 바바리안으로서</h3><ul><li>바바리안 핵심 특징 표에 있는 모든 특징을 얻습니다.</li> <li>바바리안 특성 표에 나열된 바바리안 1레벨 특성을 얻습니다.</li> </ul><h3>멀티클래스 바바리안으로서</h3><ul><li>바바리안 핵심 특징 표에서 체력 점수 주사위 무술 무기 숙련, 방패 훈련을 얻습니다.</li> <li>바바리안 특성 표에 나와 있는 바바리안의 1레벨 특성을 얻습니다.</li> </ul>"
+		}
+	
+	}
+}
