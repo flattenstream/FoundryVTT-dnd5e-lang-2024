@@ -30,11 +30,147 @@
 		"Wizard": "위저드",
 		"Evoker": "방출학자"
 	},
+	"mapping": {
+	  "activities": "system.activities"
+	},
 	"entries": {
 		"Barbarian": {
 			"name": "바바리안",
 			"description": "<h3>바바리안 핵심 특징</h3><table class=\"core-class-traits\"> <tbody><tr><th scope=\"row\"><p><strong>주요 능력치</strong></p> </th><td><p>근력</p></td></tr><tr><th><p><strong>체력 점수 주사위</strong></p> </th><td><p>바바리안 레벨 당 D12</p></td></tr><tr><th><p><strong>내성 굴림 숙련</strong></p> </th><td><p>근력, 건강</p></td></tr><tr><th><p><strong>기술 숙련</strong></p></th><td><p>동물 다루기, 운동, 위협, 자연, 감지, 생존 중 2개 선택</p> </td></tr><tr><th><p><strong>무기 숙련</strong></p></th><td><p>단순, 무술 무기</p></td></tr><tr><th><p><strong>방어구 훈련</strong></p> </th><td><p>경갑, 평갑, 방패</p></td></tr><tr><th><p><strong>시작 장비</strong></p></th><td><p><em>A, B 중 선택: </em>(A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepGreataxe00]{대도끼}, 4 @UUID[Compendium.dnd5e.equipment24.Item.phbwepHandaxe000]{손도끼}, @UUID[Compendium.dnd5e.equipment24.Item.phbagExplorersPa]{모험가의 꾸러미}, [[/award 15GP]]; 혹은 (B) [[/award 75GP]]</p> </td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrbBarbarian0 inline classes=\"free-rules-embed\"]</p> <h2>바바리안이 되려면...</h2><h3>1레벨 바바리안으로서</h3><ul><li>바바리안 핵심 특징 표에 있는 모든 특징을 얻습니다.</li> <li>바바리안 특성 표에 나열된 바바리안 1레벨 특성을 얻습니다.</li> </ul><h3>멀티클래스 바바리안으로서</h3><ul><li>바바리안 핵심 특징 표에서 체력 점수 주사위 무술 무기 숙련, 방패 훈련을 얻습니다.</li> <li>바바리안 특성 표에 나와 있는 바바리안의 1레벨 특성을 얻습니다.</li> </ul>"
+		},
+		"Feral Instinct": {
+			"name": "야성의 본능",
+			"description": "<p>본능을 연마한 덕분에 우선권 굴림에서 유리합니다.</p>"
+		},
+		"Path of the Berserker": {
+			"name": "광전사의 길",
+			"description": "<blockquote><p>분노를 맹렬한 격노에 쏟으라</p></blockquote><p>광전사의 길을 걷는 바바리안은 분노를 주로 폭력에 겨냥합니다. 이들의 길은 걷잡을 수 없는 격노의 길이며, 전투의 혼돈 속에서 분노가 자신을 사로잡고 힘을 실어주도록 허용하며 전율합니다.</p>"
+		},
+		"Intimidating Presence": {
+			"name": "험악한 존재감",
+			"description": "<p>추가 행동으로서 위협적인 존재감과 원초적인 힘으로 상대에게 공포를 줄 수 있습니다. 이 행동을 할 때, 이 행동을 할 때, 나를 원점으로 하는 30피트 범위의 발산체 내에서 내가 선택한 각 크리쳐는 지혜 내성 굴림(DC 8 + 내 근력 수정치와 숙련 보너스)을 합니다. 굴림에 실패하면 크리쳐는 1분 동안 &amp;Reference[Frightened] 상태가 됩니다. 공포 상태 크리쳐의 각 턴이 끝날 때마다 크리쳐는 내성 굴림을 반복하고, 성공하면 자신에게 적용되는 효과가 종료됩니다.</p><p>이 특성을 한 번 사용하면 분노 횟수를 소모(행동이 필요 없음)하여 사용량을 회복하지 않는 한 긴 휴식을 마칠 때까지 다시 사용할 수 없습니다.</p><section class=\"secret\" id=\"secret-vRQdGrtACAbxH4Tm\"><p><strong>파운드리 노트</strong></p><p><strong>내성 굴림</strong> 활동에는 공포 상태를 추가하는 활성 효과가 포함되어 있습니다.</p><p><strong>재충전</strong> 활동은 분노의 사용량을 소모하고 위협적인 존재의 사용량을 재충전합니다.</p></section>",
+			"activities": {
+			"Qr0vi4CEDfbdMNMa": {
+          		"name": "분노 시 재충전"
+       		}
+			}
+		},
+		"Improved Brutal Strike (2)": {
+			"name": "향상된 잔혹한 타격 (2)",
+			"description": "<p>잔혹한 타격의 추가 피해가 2d10으로 증가합니다. 또한, 잔혹한 타격 특성을 사용할 때마다 두 가지의 각자 다른 잔혹한 타격 효과를 사용할 수 있습니다.</p><section class=\"secret\" id=\"secret-XCUecJBPB6amtvj9\"><p><strong>파운드리 노트</strong></p><p>잔혹한 타격의 피해 굴림은 이 값으로 자동 상승합니다.</p></section>"
+		},
+		"Brutal Strike": {
+			"name": "잔혹한 타격",
+			"description": "<p>[[/item Reckless Attack]]을 사용했다면, 내 턴의 근력 기반 공격 굴림 중 하나의 모든 유리함을 포기할 수 있습니다. 선택한 공격 굴림은 불리하지 않아야 합니다. 선택한 공격 굴림이 명중하면 대상은 그 무기 또는 비무장 공격으로 주는 것과 같은 유형의 추가 피해를 1d10 받고, 선택한 잔혹한 타격 효과를 한 번 일으킬 수 있습니다. 다음과 같은 효과 옵션이 있습니다.</p><p><strong>강력한 일격.</strong> 대상이 나로부터 15피트 직선으로 밀려납니다. 그런 다음 나는 &amp;Reference[Opportunity Attacks]을 유발하지 않고 최대 내 속도 절반만큼 대상을 향해 직진할 수 있습니다.</p><p><strong>인대 일격.</strong> 대상의 속도가 다음 턴이 시작될 때까지 15피트 감소합니다. 대상은 한 번에 가장 최근에 사용한 인대 일격 하나에만 영향을 받습니다.</p><section class=\"secret\" id=\"secret-vLb1SoKHWW2796Ko\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 대상에게 적용할 수 있는 인대 일격의 활성 효과가 포함되어 있습니다.</p><p><strong>피해</strong>는 향상된 잔혹한 타격(2)을 얻을 시 자동으로 상승합니다.</p></section>",
+			"activities": {
+			"nN5gsB6AcSQ4uQPN": {
+          		"name": "잔혹한 타격"
+       		}
+			}
+		},
+		"Rage": {
+			"name": "분노",
+			"description": "<p>분노라는 원초적인 힘으로 스스로에게 엄청난 위력과 탄력성을 부여하는 힘을 불어넣을 수 있습니다. 추가 행동으로 이에 돌입할 수 있되 중갑을 입지 않은 상태여야 합니다.</p><p>분노는 바바리안 특성 표의 분노 열에서 바바리안 레벨에 명시된 횟수(현재 [[lookup @scale.barbarian.rages]])만큼 돌입할 수 있습니다. 짧은 휴식을 마치면 소모한 사용량을 한 번 회복하고, 긴 휴식을 마치면 소모한 사용량을 모두 회복합니다.</p><p>활성화되어 있는 동안 분노는 아래 규칙을 따릅니다.</p><p><strong>피해 저항.</strong> 타격, 관통, 참격 피해에 대한 저항이 있습니다.</p><p><strong>분노 피해.</strong> 무기 또는 비무장 타격으로 근력을 사용해 공격하여 대상에게 피해를 입히면, 바바리안 특성 표의 분노 피해 열에 표시된 대로 바바리안 레벨이 올라갈 때마다 증가하는 피해 보너스를 받습니다.</p><p><strong>근력 유리.</strong> 근력 판정 및 근력 내성 굴림에서 유리합니다.</p><p>집중 또는 주문 불가. 집중을 유지할 수 없고 주문을 시전할 수 없습니다.</p><p><strong>지속 시간.</strong> 분노는 다음 턴이 끝날 때까지 지속되며, 중갑을 착용하거나 무력화 상태가 될 경우 조기에 종료됩니다. 다음 턴에도 분노가 여전히 활성화되어 있다면, 다음 중 하나를 수행하여 분노를 한 라운드 더 연장할 수 있습니다:</p><ul><li><p>적을 대상으로 공격 굴림을 합니다.</p></li><li><p>적에게 내성 굴림을 하도록 강제합니다.</p></li><li><p>추가 행동으로 분노를 연장합니다.</p></li></ul><p>분노가 연장되면 내 다음 턴이 끝날 때까지 지속됩니다. 최대 10분동안 분노를 유지할 수 있습니다.</p><section class=\"secret\" id=\"secret-o72MSFMdhSQC7kYa\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 저항과 추가 피해를 자동으로 적용하는 활성 효과가 포함되어 있습니다. 이 특성은 또한 짧은 휴식과 긴 휴식 시 분노 사용 횟수를 자동으로 재충전합니다.</p></section>",
+			"activities": {
+			"dnd5eactivity000": {
+          		"name": "분노 소모"
+       		}
+			}
+		},
+		"Fast Movement": {
+			"name": "빠른 이동",
+			"description": "<p>중갑을 착용하지 않은 상태에서 속도가 10피트 증가합니다..</p><section class=\"secret\" id=\"secret-6cmMiIJhUk5cpOGz\"><p><strong>\b파운드리 노트</strong></p><p>이 특성에는 자동으로 이동 속도를 증가시키는 활성 효과가 포함되어 있습니다. 중갑을 착용하고 있다면 빠른 이동 활성 효과를 끄세요.</p></section>"
+		},
+		"Reckless Attack": {
+			"name": "무모한 공격",
+			"description": "<p>방어에 대한 모든 걱정을 버리고 더욱 맹렬하게 공격할 수 있습니다. 내 턴에 첫 공격 굴림을 할 때 무모하게 공격할지 결정할 수 있습니다. 그렇게 하면 내 다음 턴이 시작될 때까지 근력을 사용한 공격 굴림에 유리하지만, 그 시간 동안 나에게 가해지는 공격 굴림도 유리합니다.</p><section class=\"secret\" id=\"secret-W7MI2ZVKsMQcSW6d\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 무모한 공격을 추적하는 활성 효과가 포함되어 있지만, 공격 시 또는 공격을 받을 때 자동으로 유리를 적용하지는 않습니다.</p></section>"
+		},
+		"Primal Champion": {
+			"name": "태고의 투사",
+			"description": "<p>원초적인 힘을 구현합니다. 근력 및 건강 점수가 4씩 증가하여 최대 25가 됩니다.</p>"
+		},
+		"Instinctive Pounce": {
+			"name": "본능적 급습",
+			"description": "<p>분노에 돌입하는 추가 행동의 일부로 최대 속도의 절반까지 이동할 수 있습니다.</p>"
+		},
+		"Primal Knowledge": {
+			"name": "원초적 지식",
+			"description": "<p>1레벨의 바바리안의 숙련 기술 목록에서 또다른 기술을 선택해 숙련을 얻습니다.</p><p>또한, 분노가 활성화되어 있는 동안 특정 작업을 시도할 때 원초적인 힘을 발산할 수 있으며, 평소에는 다른 능력치를 사용하는 곡예, 위협, 감지, 은신, 생존 중 하나로 능력 판정을 할 때마다 근력 판정으로 진행할 수 있습니다. 이 능력을 사용할 때, 근력은 내 몸에 흐르며 민첩성, 인내심, 감각을 연마하는 원초적인 힘을 상징합니다.</p><section class=\"secret\" id=\"secret-himIRZuFGInNkZgU\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 해당 기술의 기본 능력치보다 근력 수정치가 더 높을 경우 해당 기술이 자동으로 근력 수정치를 사용하는 활성 효과가 포함되어 있습니다.</p></section>"
+		},
+		"Relentless Rage": {
+			"name": "끈질긴 분노",
+			"description": "<p>분노는 끔찍한 부상에도 불구하고 계속 싸울 수 있게 해줍니다. 분노가 활성화되어 있는 동안 체력 점수가 0으로 떨어졌지만 완전히 죽지 않았다면, DC 10의 내성 굴림을 시도할 수 있습니다. 성공하면 대신 체력 점수가 바바리안 레벨의 두 배에 해당하는 수치로 바뀝니다.</p><p>첫번째 이후 이 특성을 사용할 때마다 DC는 5씩 증가합니다. 짧은 휴식 또는 긴 휴식을 마치면 DC는 10으로 초기화됩니다.</p><section class=\"secret\" id=\"secret-GTpuSHXh1ZobcQYd\"><p><strong>파운드리 노트</strong></p><p>이 특성은 활성 시 자원을 소비하면 DC를 5 증가시킵니다. 또한 짧은 휴식이나 긴 휴식 후 자동으로 10으로 재설정됩니다.</p></section>"
+		},
+		"Improved Brutal Strike": {
+			"name": "향상된 잔혹한 타격",
+			"description": "<p>맹렬하게 공격하는 새로운 방법을 연마했습니다. 이제 잔혹한 타격 옵션에 다음 효과가 추가됩니다.</p><p><strong>비틀거리는 타격.</strong> 대상은 다음 내성 굴림에서 불리하고, 다음 턴이 시작될 때까지 기회 공격을 할 수 없습니다.</p><p><strong>찢어내는 타격.</strong> 내 다음 턴이 시작되기 전에 대상에 대한 다음번 공격 굴림을 하는 크리쳐는 굴림에 +5 보너스를 얻습니다. 한 공격 굴림에 한 번만 찢어내는 타격 보너스를 얻을 수 있습니다.</p><section class=\"secret\" id=\"secret-5KFPx8fyh5NldmJp\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 비틀거리는 타격과 찢어내는 타격 두 활동 선택지 모두를 추적하는 활성 효과가 포함되어 있으나 효과를 자동화하지는 않습니다.</p></section>",
+			"activities": {
+			"I30qGlPDcyKwz65H": {
+          		"name": "비틀거리는 타격"
+       		},
+			"UmRlsf4QWW98I4FS": {
+          		"name": "찢어내는 타격"
+       		}
+			}
+		},
+		"Danger Sense": {
+			"name": "위험 감지",
+			"description": "<p>상황이 일반적이지 않을 때를 감지하는 예민한 감각이 생겨 위험을 피할 때 날카롭게 대응할 수 있습니다. &amp;Reference[Incapacitated] 상태가 아니라면 민첩 내성 굴림에서 유리합니다.</p>"
+		},
+		"Frenzy": {
+			"name": "광란",
+			"description": "<p>분노가 활성화된 상태에서 무모한 공격을 사용하면, 내 턴에 처음으로 공격한 대상에게 근력 기반 공격으로 추가 피해를 줍니다. 추가 피해를 결정하려면 분노 피해 보너스와 같은 수의 d6 주사위를 굴려서 합산합니다. 피해는 공격에 사용한 무기 또는 비무장 타격과 같은 유형입니다.</p><section class=\"secret\" id=\"secret-EsDSGWYhmnmiS9Cu\"><p><strong>파운드리 노트</strong></p><p>피해 활동은 레벨 상승 시 자동으로 조정되며, 피해 굴림 대화상자에서 사용할 피해 유형을 선택할 수 있습니다. 이후에는 선택한 내용으로 유지됩니다.</p></section>"
+		},
+		"phbbrbEpicBoon00": {
+			"name": "전설 축복",
+			"description": "<p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{전설 축복 재주} 또는 자격을 갖춘 다른 재주를 얻습니다. @UUID[Compendium.dnd5e.feats24.Item.phbBoonofIrresis]{불가항력적 공격의 축복}을 추천합니다.</p>"
+		},
+		"Unarmed Strike": {
+			"name": "비무장 타격",
+			"description": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixDRule.JournalEntryPage.xJjJ4lhymAYXAOvO inline]</p>",
+			"activities": {
+			"56xkATs6DZLyRJH7": {
+          		"name": "붙잡기/밀기"
+       		}
+			}
+		},
+		"Indomitable Might": {
+			"name": "불굴의 힘",
+			"description": "<p>근력 판정 또는 내성 굴림의 총합이 근력 점수보다 적을 경우, 총합 대신 해당 점수를 사용할 수 있습니다.</p>"
+		},
+		"Mindless Rage": {
+			"name": "개의치 않는 분노",
+			"description": "<p>분노가 활성화되어 있는 동안에는 &amp;Reference[Charmed] 및 &amp;Reference[Frightened] 상태에 면역입니다. 분노에 진입했을 때 매혹 또는 공포 상태였다면 해당 상태는 종료됩니다.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 매혹과 공포 상태 면역 효과를 부여하는 활성 효과가 포함되어 있습니다. 그러나 분노를 시작할 때 자동으로 적용되지는 않습니다.</p></section>"
+		},
+		"Unarmored Defense": {
+			"name": "비무장 방어",
+			"description": "<p>방어구를 착용하지 않은 상태에서는 기본 방어도가 10+ 민첩 및 건강 수정치와 같습니다. 방패를 사용해도 이 이득을 받을 수 있습니다.</p>"
+		},
+		"Retaliation": {
+			"name": "보복",
+			"description": "<p>5피트 이내에 있는 크리쳐에게 피해를 받으면 반응 행동을 사용해 무기 또는 비무장 타격으로 해당 크리쳐에게 근접 공격을 한 번 할 수 있습니다.</p>",
+			"activities": {
+			"dnd5eactivity000": {
+          		"name": "보복"
+       		}
+			}
+		},
+		"Extra Attack": {
+			"name": "추가 공격",
+			"description": "<p>내 턴에 공격 행동을 할 때마다 한 번이 아니라 두 번 공격할 수 있습니다.</p>"
+		},
+		"Weapon Mastery": {
+			"name": "무기 전문화",
+			"description": "<p>무기 훈련을 통해 대도끼, 손도끼 등 숙련이 있는 무기 중 선택한 두 종류 무기의 전문화 속성을 사용할 수 있습니다. 긴 휴식을 마칠 때마다 무기를 훈련해 연습하고 선택한 무기 중 하나를 변경할 수 있습니다.</p><p>특정 바바리안 레벨에 도달하면, 바바리안 특성 표의 무기 전문화 열에 표시된 대로 더 많은 종류의 무기 전문화 속성을 사용할 수 있게 됩니다.</p>"
+		},
+		"Persistent Rage": {
+			"name": "집요한 분노",
+			"description": "<p>우선권을 굴릴 때 소모한 모든 분노 사용량을 회복할 수 있습니다. 이렇게 분노 사용량을 회복한 후에는 긴 휴식을 마칠 때까지 다시 이 방법을 사용할 수 없습니다.</p><p>또한, 분노가 너무 강렬해서 이제 라운드마다 연장하기 위해 아무것도 하지 않아도 10분 동안 지속됩니다. &amp;Reference[Unconscious] 상태(&amp;Reference[Incapacitated] 상태 이상으로)이거나 중갑을 착용하면 분노가 일찍 종료됩니다.</p><section class=\"secret\" id=\"secret-3IS0iUbWZ04tp74k\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 우선권을 굴릴 때 분노 사용량을 재충전하기 위해 사용할 수 있는 활동이 포함되어 있습니다.</p></section>",
+			"activities": {
+			"dnd5eactivity000": {
+          		"name": "우선권 굴림 시 분노 재충전"
+       		}
+			}
 		}
-	
 	}
 }
