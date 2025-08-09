@@ -1,5 +1,17 @@
 {
 	"label": "굴림표",
+	"folders": {
+	  "Creating a Character": "캐릭터 생성",
+	  "Magic Items": "마법 물품",
+	  "Bag of Tricks": "마술의 가방",
+	  "Item-Specific Tables": "특정 물품 표",
+	  "Mysterious Deck": "신비 카드덱",
+	  "Random Magic Item Rarity by Level": "레벨 별 무작위 마법 물품 희귀도",
+	  "Sentient Item Attributes": "지각 있는 물품 특성",
+	  "Monster Details": "몬스터 세부사항",
+	  "Spells": "주문",
+	  "Reincarnated Lineages": "환생 계보"
+	},
 	"entries": {
 		"Potion of Resistance Type": {
 			"name": "저항의 물약 유형",
@@ -143,6 +155,16 @@
                 "4-4": "서"
             }
 		},
+        "Confusion Behavior": {
+			"name": "혼란 행동",
+            "description": "턴마다의 행동",
+            "results": {
+                "wOokSBLpTsUWBccD": "대상은 행동을 취하지 않고, 모든 이동을 소모하여 움직입니다. 방향을 결정하기 위해 [[/r 1d4]]를 굴립니다: 1은 북쪽, 2는 동쪽, 3은 남쪽, 4는 서쪽입니다.",
+                "2-6": "대상은 움직이거나 행동을 취하지 않습니다.",
+                "7-8": "대상은 움직이지 않고 공격 행동으로 근거리 내에 있는 무작위 크리쳐에게 근접 공격을 한 번 합니다. 근거리 내에 크리쳐가 없으면 대상은 아무 행동도 취하지 않습니다.",
+                "9-10": "대상은 자신의 행동을 선택합니다."
+            }
+		},
         "Prismatic Layers": {
 			"name": "프리즘 층",
             "results": {
@@ -171,6 +193,28 @@
         "Reincarnated Species": {
 			"name": "환생 종족",
             "description": "<p>[[/r 1d10]]을 굴려 표를 참고하여 몸의 종족을 결정하거나, DM이 다른 플레이 가능한 종족을 선택합니다.</p>"
+		},
+        "Teleport Mishap": {
+			"name": "순간이동 사고",
+            "description": "<p><strong>사고 피해:</strong> [[/damage 3d10 type=force]]</p><p><strong>목표에서 벗어난 거리:</strong> [[/r 2d12#Miles]]{2d12 마일} [[/r 1d8#Direction]]{방향}</p>",
+            "results": {
+                "RaCnOnLRcJPv11Vf": "<strong>영구적 원:</strong> 목표 도착",
+                "4W9YPHqIIDyt3WbV": "<strong>연결된 물체:</strong> 목표 도착",
+                "1-5": "<strong>매우 친숙:</strong> 사고",
+                "1-33": "<strong>대략 목격:</strong> 사고",
+                "1-43": "<strong>한 번 보았거나 설명을 들음:</strong> 사고",
+                "1-50": "<strong>거짓 목적지</strong> 사고",
+                "6-13": "<strong>매우 친숙:</strong> 유사한 지역",
+                "14-24": "<strong>매우 친숙:</strong> 목표에서 벗어남",
+                "25-100": "<strong>매우 친숙:</strong> 목표 도착",
+                "34-43": "<strong>대략 목격:</strong> 유사한 지역",
+                "5hV5vL7SYu53EPvb": "<strong>대략 목격:</strong> 목표에서 벗어남",
+                "S3FXuqVgRazP23RK": "<strong>한 번 보았거나 설명을 들음:</strong> 유사한 지역",
+                "51-100": "<strong>거짓 목적지:</strong> 유사한 지역",
+                "KShVQqILsbEKwNQ1": "<strong>대략 목격:</strong> 목표에서 벗어남",
+                "LWWefv3FEwkukueE": "<strong>한 번 보았거나 설명을 들음:</strong> 목표에서 벗어남",
+                "74-100": "<strong>한 번 보았거나 설명을 들음:</strong> 목표 도착"
+            }
 		},
 		"Wand of Wonder": {
 			"name": "경이의 마법봉"

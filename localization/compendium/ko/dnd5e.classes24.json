@@ -142,7 +142,7 @@
 			"name": "개의치 않는 분노",
 			"description": "<p>분노가 활성화되어 있는 동안에는 &amp;Reference[Charmed] 및 &amp;Reference[Frightened] 상태에 면역입니다. 분노에 진입했을 때 매혹 또는 공포 상태였다면 해당 상태는 종료됩니다.</p><section class=\"secret\" id=\"secret-CnCRD0Dyvx4FFGfV\"><p><strong>파운드리 노트</strong></p><p>이 특성에는 매혹과 공포 상태 면역 효과를 부여하는 활성 효과가 포함되어 있습니다. 그러나 분노를 시작할 때 자동으로 적용되지는 않습니다.</p></section>"
 		},
-		"Unarmored Defense": {
+		"phbbrbUnarmoredD": {
 			"name": "비무장 방어",
 			"description": "<p>방어구를 착용하지 않은 상태에서는 기본 방어도가 10+ 민첩 및 건강 수정치와 같습니다. 방패를 사용해도 이 이득을 받을 수 있습니다.</p>"
 		},
@@ -159,7 +159,7 @@
 			"name": "추가 공격",
 			"description": "<p>내 턴에 공격 행동을 할 때마다 한 번이 아니라 두 번 공격할 수 있습니다.</p>"
 		},
-		"Weapon Mastery": {
+		"phbbrbWeaponMast": {
 			"name": "무기 전문화",
 			"description": "<p>무기 훈련을 통해 대도끼, 손도끼 등 숙련이 있는 무기 중 선택한 두 종류 무기의 전문화 속성을 사용할 수 있습니다. 긴 휴식을 마칠 때마다 무기를 훈련해 연습하고 선택한 무기 중 하나를 변경할 수 있습니다.</p><p>특정 바바리안 레벨에 도달하면, 바바리안 특성 표의 무기 전문화 열에 표시된 대로 더 많은 종류의 무기 전문화 속성을 사용할 수 있게 됩니다.</p>"
 		},
@@ -169,6 +169,80 @@
 			"activities": {
 			"dnd5eactivity000": {
           		"name": "우선권 굴림 시 분노 재충전"
+       		}
+			}
+		},
+		"Peerless Skill": {
+			"name": "탁월한 기술",
+			"description": "<p>능력 판정 또는 공격 굴림에 실패하면, 바드 고양감을 한 번 소모할 수 있으며, 바드 고양감 주사위를 굴려 나온 숫자를 d20에 더하여 실패를 성공으로 바꿀 수 있습니다. 실패할 경우, 바드 고양감은 소모되지 않습니다.</p>"
+		},
+		"phbbrdEpicBoon00": {
+			"name": "전설 축복",
+			"description": "<p>@UUID[Compendium.dnd5e.content24.JournalEntry.phbFeats00000000.JournalEntryPage.GxfrwkJbrIvn7reC]{전설 축복} 재주 또는 자격을 갖춘 다른 재주를 얻습니다. 주문 회수의 축복을 추천합니다.</p>"
+		},
+		"Bardic Inspiration": {
+			"name": "바드 고양감",
+			"description": "<p>말, 음악, 춤을 통해 다른 사람에게 초자연적으로 고양감을 줍니다. 이 고양감은 바드 고양감 주사위로 나타내며, d6으로 시작합니다(현재 [[lookup @scale.bard.inspiration.die]]).</p><p><strong>바드 고양감 사용.</strong> 추가 행동으로, 나를 보거나 들을 수 있는 60피트 내의 다른 크리쳐에게 고양감을 불어넣을 수 있습니다. 그 크리쳐는 바드 고양감 주사위를 하나 얻습니다. 크리쳐는 한 번에 한 개의 바드 고양감 주사위만 사용할 수 있습니다.</p><p>다음 한 시간 내에 크리쳐가 D20 판정에 실패하면, 그 크리쳐는 바드 고양감 주사위를 굴려서 나온 숫자를 d20에 더하여 실패를 성공으로 바꿀 수 있습니다. 바드 고양감 주사위는 주사위를 굴릴 때 소모됩니다.</p><p><strong>사용량.</strong> 바드 고양감 주사위는 내 매력 수정치의 수만큼(최소 1회) 사용할 수 있으며, 긴 휴식을 마치면 소모한 사용량을 모두 회복합니다.</p><p><strong>더 높은 레벨에서.</strong> 바드 특성 표의 고양감 주사위 열에 표시된 대로 특정 바드 레벨에 도달하면 바드 고양감 주사위가 변경됩니다. 주사위는 5 레벨에서는 8, 10 레벨에서는 10, 15 레벨에서는 12가 됩니다.</p><section class=\"secret\" id=\"secret-PtUXhUXS84HSdaew\"><p><strong>파운드리 노트</strong></p><p>이 기능에는 캐릭터가 바드적 고양감을 사용할 수 있을 때 추적하는 활성 효과가 포함되어 있습니다.</p> <p>회복은 긴 휴식(@UUID[Compendium.dnd5e.classes24.Item.phbbrdFontOfInsp]{고양감의 샘}을 획득하기 전 레벨에 해당)으로 설정되어 있습니다. 필요에 따라 수동으로 조정하십시오.</p></section>"
+		},
+		"Cutting Words": {
+			"name": "흐름 절단",
+			"description": "<p>초자연적으로 재치를 발휘하여 다른 사람의 주의를 분산시키고 혼란에 빠뜨리며 자신감과 능력을 약화시키는 법을 배웁니다. 나로부터 60피트 이내에 보이는 크리쳐가 피해를 주거나 능력 판정 또는 공격 굴림에서 성공하면, 반응 행동으로 바드 고양감을 한 번 소모하고, 바드 고양감 주사위를 굴려서 나온 숫자를 크리쳐의 주사위에서 빼서 피해를 줄이거나 성공을 실패로 바꿀 수 있습니다.</p>",
+			"activities": {
+			"dnd5eactivity000": {
+          		"name": "흐름 절단하기"
+       		}
+			}
+		},
+		"Countercharm": {
+			"name": "매혹반발",
+			"description": "<p>힘이 실린 음표나 말을 사용하여 정신에 영향을 주는 효과를 방해할 수 있습니다. 나 또는 내 30피트 이내에 있는 크리쳐가 매혹 또는 공포 상태에 대항하는 대한 내성 굴림에 실패하면, 반응 행동으로 재굴림하도록 할 수 있으며, 새로운 굴림은 유리합니다.</p>"
+		},
+		"Magical Secrets": {
+			"name": "마법적 비밀",
+			"description": "<p>다양한 마법적 전통에서 비밀을 배웠습니다. 특정 바드 레벨(현재 레벨 포함)에 도달하여 바드 특성 표의 준비된 주문 수가 증가할 때마다 @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.wwia6Wwo4BgE9GSI]{바드}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{클레릭}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{드루이드}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{위저드} 주문 목록에서 새로 준비할 주문을 선택할 수 있으며, 선택한 주문은 바드 주문으로 간주됩니다(주문 목록은 해당 클래스의 항목 참조). 또한, 이 클래스를 위해 준비한 주문을 교체할 때마다 해당 주문 목록에 있는 주문으로 교체할 수 있습니다.</p>"
+		},
+		"Jack of All Trades": {
+			"name": "다재다능",
+			"description": "<p>숙련이 아니며 다른 방식으로도 숙련 보너스를 더하지 않는 모든 능력 판정에 숙련 보너스의 절반(내림)을 더할 수 있습니다.</p><p>예를 들어, 근력(운동) 판정을 할 때 운동 숙련이 없다면, 해당 판정에 숙련 보너스의 절반을 더할 수 있습니다.</p><section class=\"secret\" id=\"secret-su4PzYrZZDdS1qZg\"><p><strong>파운드리 노트</strong></p><p>이 기능에는 활성 효과가 포함되어 있으며, 현재 숙련되지 않은 모든 기술에 대해 자동으로 반 숙련을 부여합니다.</p></section>"
+		},
+		"phbbrdBonusProfi": {
+			"name": "추가 숙련",
+			"description": "<p>선택한 세 가지 기술에 숙련을 얻습니다.</p>"
+		},
+		"Bard": {
+			"name": "바드",
+			"description": "<h3>바드 핵심 특징</h3><table class=\"core-class-traits\"><tbody><tr><th><p><strong>주요 능력치</strong></p></th><td><p>매력</p></td></tr><tr><th><p><strong>체력 점수 주사위</strong></p></th><td><p>바드 레벨 당 D6</p></td></tr><tr><th><p><strong>내성 굴림 숙련</strong></p></th><td><p>민첩, 매력</p></td></tr><tr><th><p><strong>기술 숙련</strong></p></th><td><p><em>악기 3개</em></p></td></tr><tr><th><p><strong>무기 숙련</strong></p></th><td><p>단순 무기</p></td></tr><tr><th><p><strong>도구 숙련</strong></p></th><td><p><em>악기 3개</em></p></td></tr><tr><th><p><strong>방어구 훈련</strong></p></th><td><p>경갑</p></td></tr><tr><th><p><strong>시작 장비</strong></p></th><td><p><em>A, B 중 선택:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbarmLeatherArm]{가죽 갑옷}, @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{단검} 2개, 선택한 악기, @UUID[Compendium.dnd5e.equipment24.Item.phbagEntertainer]{연예인의 꾸러미}, [[/award 19gp]]; 혹은 (B) [[/award 90GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbbrdBard000000 inline classes=\"free-rules-embed\"]</p><h2>바드가 되려면 …</h2><h3>1레벨 캐릭터로서</h3><ul><li>바드 핵심 특징 표에 있는 모든 특징을 얻습니다.</li><li>바드 특성 표에 나열된 바드의 1레벨 특성을 얻습니다.</li></ul><h3>멀티클래스 캐릭터로서</h3><ul><li>바드 핵심 특징 표에서 체력 점수 주사위, 선택한 기술 숙련 하나, 선택한 악기 숙련 하나, 경갑 훈련을 얻습니다.</li><li>바드 특성 표에 나열된 바드의 1레벨 특성을 얻습니다. 사용 가능한 주문 슬롯은 2장의 멀티클래스 규칙을 참고하세요.</li></ul>"
+		},
+		"Magical Discoveries": {
+			"name": "마법적 발견",
+			"description": "<p>내가 선택한 주문 두 개를 배웁니다. 이 주문은 @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{클레릭}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{드루이드}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{위저드} 주문 목록 중 하나 또는 이들의 조합에서 선택할 수 있습니다(주문 목록은 해당 클래스의 주문 목록 항목 참조). 선택한 주문은 바드 특성 표에 표시된 대로 주문 슬롯이 있는 소마법 또는 주문이어야 합니다.</p><p>선택한 주문은 항상 준비되어 있으며, 바드 레벨이 올라갈 때마다 주문 중 하나를 이러한 요건을 충족하는 다른 주문으로 대체할 수 있습니다.</p>"
+		},
+		"Superior Inspiration": {
+			"name": "우월한 고양감",
+			"description": "<p>우선권을 굴릴 때, 바드 고양감의 사용량이 2개 미만이라면 소모한 사용량을 2개로 회복합니다.</p>"
+		},
+		"phbbrdExpertise0": {
+			"name": "전문성",
+			"description": "<p>숙련인 기술 중 선택한 두 가지에 &amp;Reference[Expertise]을 얻습니다. 숙련이 있는 기술 중에서 공연과 설득을 추천합니다.</p><p>바드 9레벨이 되면, 숙련인 기술 중 선택한 두 가지에 대한 전문성을 추가로 얻습니다.</p>"
+		},
+		"Words of Creation": {
+			"name": "창조의 말",
+			"description": "<p>창조의 말 중 두 가지, 즉 삶과 죽음의 말을 완벽하게 익혔습니다. @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordH]{권능어 치유}와 @UUID[Compendium.dnd5e.spells24.Item.phbsplPowerWordK]{권능어 죽음}이 항상 준비되어 있으며 두 주문 중 하나를 시전할 때, 첫 번째 대상에서 10피트 이내에 있는 두번째 크리쳐가 있다면 그 크리쳐도 대상으로 할 수 있습니다.</p><section class=\"secret\" id=\"secret-aHHp3ZnTrWPHHB7j\"><p><strong>파운드리 노트</strong></p><p>레벨 상승 시 자동으로 이 주문들을 얻습니다.</p></section>"
+		},
+		"phbbrdSpellcasti": {
+			"name": "주문 시전",
+			"description": "<p>바드 예술을 통해 주문을 시전하는 법을 배웠습니다. 주문 시전에 관한 규칙은 @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{7장}을 참조하세요. 아래 정보는 클래스 설명 뒷부분의 바드 주문 목록에 나오는 바드 주문에 이러한 규칙을 사용하는 방법을 자세히 설명합니다.</p><p><strong>소마법.</strong> 바드 주문 목록에서 선택한 두 개의 소마법을 알고 있습니다. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{춤추는 빛}</em>과 <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplViciousMoc]{잔혹한 모욕}</em>을 추천합니다.</p><p>바드 레벨이 오를 때마다 이 특성의 소마법 중 하나를 바드 주문 목록에서 선택한 다른 소마법으로 교체할 수 있습니다.</p><p>바드 레벨 4와 10에 도달하면, @UUID[Compendium.dnd5e.content24.JournalEntry.phbBard000000000.JournalEntryPage.V8pqIWlaL9GhY61t#class-features]{바드 특성} 표의 소마법 열에 표시된 대로 바드 주문 목록에서 선택한 소마법을 하나 더 배웁니다.</p><p><strong>주문 슬롯.</strong> 바드 특성 표에는 1레벨 이상의 주문을 시전하는 데 필요한 주문 슬롯이 나와 있습니다. 긴 휴식을 마치면 소모된 슬롯을 모두 회복합니다.</p><p><strong>1레벨 이상의 준비된 주문.</strong> 이 특성으로 시전할 수 있는 1레벨 이상의 주문 목록을 준비합니다. 시작하려면, 1레벨 바드 주문 두 개를 선택합니다. <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{인간형 매혹}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplColorSpray]{색 분사}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDissonantW]{불협화음의 속삭임}</em>, <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHealingWor]{치유의 말}</em>을 추천합니다.</p><p>바드 특성 표의 준비된 주문 열에 표시된 것처럼, 바드 레벨이 올라감에 따라 목록에 있는 주문의 수가 증가합니다. 그 수가 늘어날 때마다 목록의 주문 수가 표의 수와 일치할 때까지 바드 주문 목록에서 주문을 추가로 선택합니다. 선택한 주문은 주문 슬롯이 있는 레벨의 주문이어야 합니다. 예를 들어, 3레벨 바드인 경우, 준비된 주문 목록에는 1, 2레벨 주문 6개를 어떤 조합으로든 포함할 수 있습니다.</p><p>다른 바드 특성으로 항상 준비해둔 주문이 있다면, 해당 주문은 이 특성으로 준비할 수 있는 주문 수에 포함되지 않지만, 그럼에도 해당 주문은 바드 주문으로 계산됩니다.</p><p><strong>준비된 주문 변경하기.</strong> 바드 레벨이 상승할 때마다 목록의 주문 하나를 주문 슬롯이 있는 다른 바드 주문으로 바꿀 수 있습니다.</p><p><strong>주문 시전 능력.</strong> 매력이 바드 주문에 대한 주문 시전 능력치입니다.</p><p><strong>주문 시전 매개체.</strong> 악기를 바드 주문의 주문 시전 매개체로 사용할 수 있습니다.</p>"
+		},
+		"College of Lore": {
+			"name": "전승의 대학",
+			"description": "<blockquote><p>마법 지식의 깊이를 파헤치라</p></blockquote><p>전승 학파의 바드는 학자의 고서, 신비로운 의식, 농민의 이야기 등 다양한 출처에서 주문과 비밀을 수집합니다. 이 학파의 회원들은 도서관과 대학에 모여 서로의 지식을 공유합니다. 또한 축제나 국가 행사에서 만나 부패를 폭로하고, 거짓말을 폭로하고, 권위 있는 인물을 조롱하기도 합니다.</p>"
+		},
+		"Font of Inspiration": {
+			"name": "고양감의 샘",
+			"description": "<p>이제 짧은 휴식이나 긴 휴식을 마치면 소모한 바드 고양감 사용량을 모두 회복합니다.</p><p>또한, 주문 슬롯을 소모하여(행동 필요 없음) 소모한 바드 고양감 사용량을 한 번 회복할 수 있습니다.</p><section class=\"secret\" id=\"secret-KgQeVfHTLTrKK1s0\"><p><strong>파운드리 노트</strong></p><p>시트에 있는 바드 고양감 기능을 짧은 휴식 시 재충전되도록 갱신해야 합니다. 기본 설정은 긴 휴식입니다.</p><p><strong>주문 슬롯으로 재충전</strong> 활동은 주문 슬롯을 소모하고 바드 고양감의 추가 사용량을 제공합니다.</p></section>",
+			"activities": {
+			"MTIru0Pv58RveWan": {
+          		"name": "주문 슬롯으로 재충전"
        		}
 			}
 		}
