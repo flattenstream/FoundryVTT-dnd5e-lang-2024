@@ -1,0 +1,353 @@
+{
+	"label": "액터",
+	"folders": {
+		"Aberration": "기괴체",
+		"Beast": "야수",
+		"Celestial": "천상체",
+		"Construct": "구조물",
+		"Dragon": "용",
+		"Elemental": "원소",
+		"Fey": "요정",
+		"Fiend": "악마",
+		"Giant": "거인",
+		"Humanoid": "인간형",
+		"Monstrosity": "몬스터",
+		"Ooze": "점액류",
+		"Plant": "식물",
+		"Sward": "무리",
+		"Undead": "언데드",
+		"Conjurations": "조형물",
+		"Animated Objects": "활성화된 물체",
+		"Conjured Elementals": "조형된 원소",
+		"Companions": "동료",
+		"Otherworldly Steeds": "외세계적 기마",
+		"Magic Items": "마법 물품",
+		"Summons": "소환물",
+		"Giant Insects": "거대 곤충",
+		"Summon Templates": "소환 템플릿",
+		"Vehicles": "탑승물"
+	},
+	"mapping": {
+	  "activities": "system.activities"
+	},
+	"entries": {
+		"Aboleth": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "촉수",
+					"description": "<p>[[/attack extended]]. [[/damage average extended]]. 대상이 대형 이하 크기의 크리쳐라면 네 촉수 중 하나에 &amp;Reference[Grappled apply=false] 상태(탈출 DC [[lookup @skills.ath.passive]])가 됩니다.</p>",
+					"activities": {
+						"AXTWfIqBExpxSKly": {
+     		     		"name": "탈출 판정"
+       					}
+					}			
+				},
+				"Dominate Mind": {
+					"name": "정신 지배",
+					"description": "<p>지혜 내성 굴림: DC [[lookup @save.dc.value activity=zdXAMnjaOcsVmLZP]], [[lookup @name lowercase]]가 [[lookup @range.value activity=zdXAMnjaOcsVmLZP]]피트 이내에서 볼 수 있는 [[lookup @target.affects.type activity=zdXAMnjaOcsVmLZP]]하나.</p><p>실패: 대상은 아볼레스가 죽거나 대상과 다른 차원에 있게 될 때까지 &amp;Reference[Charmed apply=false] 상태가 됩니다. 매혹 상태일 때, 대상은 [[lookup @name lowercase]]의 아군으로 행동하며, [[lookup @name lowercase]]로부터 [[lookup @target.template.size activity=zdXAMnjaOcsVmLZP]]피트 이내에 있을 때 그 통제 하에 있습니다. 또한 [[lookup @name lowercase]]와 대상은 어떤 거리에서도 서로 정신감응으로 소통할 수 있습니다.</p><p>대상은 피해를 입을 때마다 및 [[lookup @name lowercase]]로부터 1마일 이상 떨어진 곳에서 24시간을 보낼 때마다 지혜 내성 굴림을 반복하며, 성공 시 자신에게 적용된 효과를 종료합니다.</p>"
+				},
+				"Eldritch Restoration": {
+					"name": "기이한 회복",
+					"description": "<p>파괴될 경우, [[lookup @name lowercase]]는 [[/r 5d10]]일 후에 새로운 몸을 얻으며, 먼 영토 또는 DM이 선택한 다른 장소에서 모든 체력 점수를 회복하여 부활합니다.</p>",
+					"activities": {
+						"YwxhTLYeVaKwKIRT": {
+     		     		"name": "일일: 새 육신"
+       					}
+					}
+				},
+				"Legendary Resistance": {
+					"name": "전설적 저항",
+					"description": "<p>[[lookup @name lowercase]]가 내성 굴림에 실패하면 대신 성공을 선택할 수 있습니다.</p>",
+					"activities": {
+						"mmLegendaryResis": {
+     		     		"name": "사용량 소모"
+       					}
+					}
+				},
+				"Mucus Cloud": {
+					"name": "점액 구름",
+					"description": "<p>수중에서 [[lookup @name lowercase]]는 점액에 둘러싸여 있습니다.</p><p>건강 내성 굴림: DC 14, [[lookup @name lowercase]]의 턴 종료 시 [[lookup @name lowercase]]를 원점으로 하는 [[lookup @target.template.size activity=clFFG8uDBSFzxIo8]]-[[lookup @target.template.units activity=clFFG8uDBSFzxIo8]] 발산체 내에 있는 모든 [[lookup @target.affects.type activity=clFFG8uDBSFzxIo8]].</p><p>실패: 대상은 저주받습니다. 저주가 풀릴 때까지 대상의 피부는 미끈거리며, 공기와 물을 모두 호흡할 수 있지만, 물속에 있지 않으면 체력을 회복할 수 없습니다.</p><p>저주받은 크리쳐가 물 밖에서 있을 때, 해당 크리쳐는 10분마다 [[/damage average activity=JrxCVyCOsBAMVZS7]] 산성 피해를 입습니다. 단, 해당 시간이 지나기 전에 피부에 습기를 공급하면 피해를 받지 않습니다.</p>",
+					"activities": {
+						"JrxCVyCOsBAMVZS7": {
+     		     		"name": "피해: 물 밖"
+       					}
+					}
+				},
+				"Multiattack": {
+					"name": "다중공격",
+					"description": "<p>[[lookup @name lowercase]]는 두 번의 [[/item .mmTentacle000000]] 공격을 하며, 가능할 경우 [[/item .7gP0oX3L1RKRaBGH]] 또는 [[/item .yiiKNaJ2svcUWqLi]]를 사용합니다.</p>"
+				},
+				"Psychic Drain": {
+					"name": "정신 흡수",
+					"description": "<p>[[lookup @name lowercase]]가 최소 하나의 크리쳐를 매혹하거나 포획한 경우, [[/item .7gP0oX3L1RKRaBGH]]를 사용해 [[/healing average]]만큼을 회복합니다.</p>",
+					"activities": {
+						"Ms63W7e3Mv2Margn": {
+     		     		"name": "사용"
+       					}
+					}
+				},
+				"Lash": {
+					"name": "채찍질",
+					"description": "<p>[[lookup @name lowercase]]는 한 번의 촉수 공격을 합니다.</p>",
+					"activities": {
+						"phsl4hTpFmdBa56h": {
+     		     		"name": "사용량 소모"
+       					}
+					}
+				},
+				"Consume Memories": {
+					"name": "기억 소모",
+					"description": "<p>지능 내성 굴림: DC [[lookup @save.dc.value activity=uI3HDQ1grN123Or3]], [[lookup @name lowercase]]에 의해 [[lookup @target.affects.special activity=uI3HDQ1grN123Or3]] [[lookup @range.value activity=uI3HDQ1grN123Or3]]피트 이내의 [[lookup @target.affects.labels.statblock activity=uI3HDQ1grN123Or3]]하나.</p><p>실패: [[/damage average]] 정신 피해.</p><p>성공: [[lookup @damage.onSave capitalize activity=uI3HDQ1grN123Or3]] 피해.</p><p>실패 또는 성공: 대상이 인간형 크리쳐이며 이 행동으로 인해 0 HP로 감소하면 [[lookup @name lowercase]]는 대상의 기억을 얻습니다.</p>",
+					"activities": {
+						"uI3HDQ1grN123Or3": {
+     		     		"name": "지능 내성 굴림"
+       					}
+					}
+				},
+				"Amphibious": {
+					"name": "수륙양용",
+					"description": "<p>[[lookup @name lowercase]]는 공기나 물 속에서 숨을 쉴 수 있습니다.</p>"
+				},
+				"Probing Telepathy": {
+					"name": "파고드는 정신감응",
+					"description": "<p>[[lookup @name lowercase]]가 볼 수 있는 크리쳐가 [[lookup @name lowercase]]와 정신감응으로 소통하면, [[lookup @name lowercase]]는 그 크리쳐의 가장 큰 욕망을 알게 됩니다.</p>"
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		},
+		"Abole": {
+			"name": "아볼레스",
+			"items": {
+				"Tentacle": {
+					"name": "",
+					"description": ""
+				}
+			}
+		}
+	}
+}
