@@ -1,9 +1,10 @@
 {
     "entries": {
-      "D&D SRD Content": "D&D SRD 컨텐츠",
+      "D&D Legacy Content": "D&D 레거시 컨텐츠",
       "Character Features": "캐릭터 특성",
       "Items & Spells": "물건 & 주문",
-      "Monsters": "몬스터"
+      "Monsters": "몬스터",
+      "D&D Modern Content": "D&D 모던 컨텐츠"
     }
   }
   
