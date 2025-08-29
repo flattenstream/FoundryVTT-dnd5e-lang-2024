@@ -5,7 +5,7 @@ import {TranslatedCompendium} from "../../babele/script/translated-compendium.js
 
 /* 월드 설정에 옵션 등록 */
 Hooks.once('init', () => {
-	game.settings.register("dnd5e-ko", "show-original-name", {
+	game.settings.register("dnd5e-ko-2024", "show-original-name", {
 		name: "컴펜디움 원어 병기",
 		hint: "컴펜디움 원본 명칭을 번역된 명칭 옆에 나란히 표시합니다. 예시) 화염구 Fireball",
 		scope: "world",
@@ -18,7 +18,7 @@ Hooks.once('init', () => {
 	// 컴펜디움 번역 기능이 활성화되어 있는지 확인
 	if (typeof Babele !== 'undefined') {
 		game.babele.register({
-			module: 'dnd5e-ko',
+			module: 'dnd5e-ko-2024',
 			lang: 'ko',
 			dir: 'localization/compendium/ko'
 		});
@@ -60,7 +60,7 @@ Hooks.once('init', () => {
 
 		// 원어 병기 기능
 		// 원어 병기 기능이 활성화되어 있는 경우, 컴펜디움 원본 이름을 추가합니다.
-		if (!game.settings.get("dnd5e-ko", "show-original-name")) return;
+		if (!game.settings.get("dnd5e-ko-2024", "show-original-name")) return;
 		TranslatedCompendium.prototype.translateOrigin = TranslatedCompendium.prototype.translate;
 		TranslatedCompendium.prototype.translate = function(document) {
 			let originalName = document.name;
