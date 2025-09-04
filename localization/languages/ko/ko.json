@@ -3692,10 +3692,10 @@
       }
     },
     "Pact": {
-      "abbr": "Pact",
-      "label": "Pact Magic",
+      "abbr": "계약",
+      "label": "계약 마법",
       "Full": {
-        "label": "Pact Magic"
+        "label": "계약 마법"
       }
     }
   },
@@ -4985,9 +4985,9 @@
 "DND5E.WeaponMartialR": "무술 원거리 무기",
 "DND5E.WeaponNatural": "자연",
 "DND5E.WeaponSiege": "공성 무기",
-"DND5E.WeaponSimpleM": "간이 근거리 무기",
-"DND5E.WeaponSimpleProficiency": "간이",
-"DND5E.WeaponSimpleR": "간이 원거리 무기",
+"DND5E.WeaponSimpleM": "단순 근거리 무기",
+"DND5E.WeaponSimpleProficiency": "단순",
+"DND5E.WeaponSimpleR": "단순 원거리 무기",
 "DND5E.Weight": "무게",
 "DND5E.WhisperedTo": "귓속말 대상",
 "DND5E.Wiki": "위키",
