@@ -189,6 +189,10 @@
       "Label": "추가 행동"
     },
     "Crew": {
+      "Counted": {
+        "one": "{number} 승무원 행동",
+        "other": "{number} 승무원 행동"
+      },
       "Header": "승무원 행동",
       "Label": "승무원 행동"
     },
@@ -223,6 +227,10 @@
       "Label": "분"
     },
     "Mythic": {
+      "Counted": {
+        "one": "{number} 신비 행동",
+        "other": "{number} 신비 행동"
+      },
       "Header": "신비 행동",
       "Label": "신비 행동"
     },
@@ -259,7 +267,8 @@
 "DND5E.ACTIVITY": {
   "Action": {
     "Create": "활동 생성",
-    "Delete": "활동 제거"
+    "Delete": "활동 제거",
+    "Edit": "활동 편집"
   },
   "Title": {
     "one": "활동",
@@ -274,6 +283,18 @@
       }
     },
     "effects": {
+      "element": {
+        "level": {
+          "label": "레벨 제한",
+          "hint": "이 효과를 적용하기 위해 요구되는 레벨의 범위입니다.",
+          "max": {
+            "label": "최대 레벨"
+          },
+          "min": {
+            "label": "최소 레벨"
+          }
+        }
+      },
       "label": "적용된 효과"
     },
     "img": {
@@ -281,6 +302,35 @@
     },
     "name": {
       "label": "이름"
+    },
+    "visibility": {
+      "identifier": {
+        "hint": "레벨 제한이 적용되는 클래스의 식별자입니다. 비워두면 캐릭터 레벨이 사용됩니다.",
+        "label": "클래스 개별자"
+      },
+      "label": "Visibility",
+      "level": {
+        "hint": "이 효과를 적용하기 위해 요구되는 레벨의 범위입니다.",
+        "label": "레벨 제한",
+        "max": {
+          "label": "최대 레벨"
+        },
+        "min": {
+          "label": "최소 레벨"
+        }
+      },
+      "requireAttunement": {
+        "hint": "아이템에 조율이 필요하고 조율되지 않은 경우 활동이 사용 불가능합니다.",
+        "label": "조율 필요"
+      },
+      "requireIdentification": {
+        "hint": "아이템이 식별되지 않은 경우 활동이 사용 불가능합니다.",
+        "label": "조율 필요"
+      },
+      "requireMagic": {
+        "hint": "마법을 쓸 수 없는 경우 활동이 사용 불가능합니다.",
+        "label": "마법 필요"
+      }
     }
   },
   "SECTIONS": {
@@ -358,8 +408,9 @@
     "Hint": "플레이어가 한 가지 이상의 능력치를 향상시키거나 선택적 재주를 고를 수 있도록 합니다.",
     "Journal": {
       "DescriptionEpic": "<p>선택한 전설 축복 재주나 조건을 충족하는 다른 재주를 얻습니다. {recommendation}를 추천합니다.</p>",
+      "DescriptionEpicRecommendation": "<p>전설 축복 재주 또는 자격 요건을 충족하는 다른 재주 하나를 선택하여 얻습니다. {recommendation} 를 추천합니다.</p>",
       "DescriptionLegacy": "<p>{firstLevelOrdinal}레벨에 도달하고 또 {otherLevelsOrdinal}레벨에 도달하면 선택한 능력치 점수 하나를 2만큼 올리거나 선택한 능력치 점수 두 개를 1씩 올릴 수 있습니다. 평소와 마찬가지로 이 기능을 사용하여 {maxAbilityScore} 이상으로 능력치 점수를 올릴 수 없습니다.</p><p>선택적 재주 규칙에 따라, 이 기능을 포기하고 대신 원하는 재주를 얻을 수 있습니다.</p>",
-      "DescriptionModern": "<p>능력치 점수 향상 재주 또는 조건이 되며 선택한 다른 재주를 얻을 수 있습니다. {class} {otherLevels}레벨에서 이 특성을 다시 획득합니다.</p>",
+      "DescriptionModern": "<p>능력치 점수 향상 재주 또는 조건이 되며 선택한 다른 재주를 얻을 수 있습니다. {class} {otherLevels}레벨에서 이 특성을 다시 얻습니다.</p>",
       "Name": "능력치 점수 향상"
     },
     "LockedHint": "재주를 선택했다면 점수를 올릴 수 없습니다.",
@@ -798,9 +849,14 @@
 "DND5E.AC": "AC",
 
 "DND5E.ATTACK": {
-  "Title": {
-    "one": "공격",
-    "other": "공격"
+  "Attack": {
+    "mwak": "근접 공격",
+    "rwak": "원거리 공격"
+  },
+  "Classification": {
+    "Spell": "주문",
+    "Unarmed": "비무장",
+    "Weapon": "무기"
   },
   "FIELDS": {
     "attack": {
@@ -853,15 +909,7 @@
       }
     }
   },
-  "Attack": {
-    "mwak": "근접 공격",
-    "rwak": "원거리 공격"
-  },
-  "Classification": {
-    "Spell": "주문",
-    "Unarmed": "비무장",
-    "Weapon": "무기"
-  },
+
   "Formatted": {
     "2014": "{type} {classification} 공격",
     "2024": "{type} 공격 굴림"
@@ -874,6 +922,10 @@
     "Thrown": "투척",
     "ThrownOffhand": "즉석 투척",
     "TwoHanded": "양손"
+  },
+  "Title": {
+    "one": "공격",
+    "other": "공격"
   },
   "Type": {
     "Melee": "근접",
@@ -1044,8 +1096,235 @@
   }
 },
 
+"DND5E.CALENDAR": {
+  "Action": {
+    "AdvanceTime": "{amount} 진행",
+    "OpenCharacterSheet": "캐릭터 시트 열기",
+    "OpenPartySheet": "파티 시트 열기",
+    "ReverseTime": "{amount} 되돌리기",
+    "SetDate": "날짜 설정"
+  },
+  "Component": {
+    "Day": "일",
+    "Month": "달",
+    "Year": "년"
+  },
+  "Configuration": {
+    "DisabledMessage": "The DM must enable the calendar interface before it can be used by players.",
+    "Hint": "Control whether the calendar HUD is displayed and how it functions.",
+    "Label": "달력 설정",
+    "Name": "달력",
+    "Preferences": "달력 선호",
+    "UnavailableMessage": "The default calendar interface isn't available because it has been disabled by a module."
+  },
+  "FIELDS": {
+    "calendar": {
+      "hint": "이 달력이 인게임 시간을 추적하는데 사용됩니다.",
+      "label": "달력"
+    },
+    "enabled": {
+      "hint": "Allow the calendar UI to be viewed & customized by all users.",
+      "label": "활성화"
+    },
+    "formatters": {
+      "date": {
+        "label": "날짜 구성"
+      },
+      "time": {
+        "label": "시간 구성"
+      }
+    },
+    "visible": {
+      "label": "달력 HUD 표시"
+    }
+  },
+  "Formatters": {
+    "Date": "날짜 구성 설정기",
+    "ApproximateDate": {
+      "EarlySeason": "이른 {season}",
+      "Label": "대략적인 날짜",
+      "LateSeason": "늦은 {season}",
+      "MidSeason": "한{season}"
+    },
+    "ApproximateTime": {
+      "Afternoon": "오후",
+      "Dawn": "새벽",
+      "Dusk": "황혼",
+      "Evening": "저녁",
+      "Label": "대략적인 시간",
+      "Midnight": "심야",
+      "Morning": "아침",
+      "Night": "밤",
+      "Noon": "오후",
+      "Sunrise": "일출",
+      "Sunset": "일몰"
+    },
+    "HoursMinutes": {
+      "Format": "{H}:{M}",
+      "Label": "시간 & 분"
+    },
+    "HoursMinutesSeconds": {
+      "Format": "{H}:{M}:{S}",
+      "Label": "시간, 분, 초"
+    },
+    "MonthDay": {
+      "Format": "{B} {D}",
+      "Label": "달 & 일"
+    },
+    "MonthDayYear": {
+      "Format": "{B} {D}, {y}",
+      "Label": "달, 일, 년"
+    },
+    "Time": "시간 구성 설정기"
+  },
+  "Gregorian": "그레고리안 달력",
+  "Greyhawk": {
+    "Day": {
+      "Starday": "별요일",
+      "Sunday": "해요일",
+      "Moonday": "달요일",
+      "Godsday": "신요일",
+      "Waterday": "물요일",
+      "Earthday": "땅요일",
+      "Freeday": "자요일"
+    },
+    "Festival": {
+      "Needfest": "필요제",
+      "Growfest": "성장제",
+      "Richfest": "수확제",
+      "Brewfest": "양조제"
+    },
+    "Formatters": {
+      "MonthDay": "{B} {d}",
+      "MonthDayYear": "{B} {d}, {y}"
+    },
+    "Month": {
+      "Fireseek": "파이어시크",
+      "Readying": "레디잉",
+      "Coldeven": "콜드이븐",
+      "Planting": "플랜팅",
+      "Flocktime": "플록타임",
+      "Wealsun": "윌선",
+      "Reaping": "리핑",
+      "Godmonth": "갓먼스",
+      "Harvester": "하베스터",
+      "Patchwall": "패치월",
+      "Readyreat": "레디레스트",
+      "Sunsebb": "선셉"
+    },
+    "Name": "그레이호크 달력",
+    "Season": {
+      "Spring": "봄",
+      "Summer": "여름",
+      "Fall": "가을",
+      "Winter": "겨울"
+    }
+  },
+  "Harptos": {
+    "Day": {
+      "One": "일일",
+      "Two": "이일",
+      "Three": "삼일",
+      "Four": "사일",
+      "Five": "오일",
+      "Six": "육일",
+      "Seven": "칠일",
+      "Eight": "팔일",
+      "Nine": "구일",
+      "Ten": "십일"
+    },
+    "Festival": {
+      "Midwinter": "한겨울",
+      "Greengrass": "초록",
+      "Midsummer": "한여름",
+      "Shieldmeet": "실드미트",
+      "Highharvestide": "고수확조수",
+      "FeastOfTheMoon": "달의 축제"
+    },
+    "Formatters": {
+      "DayMonth": "{d} {B}",
+      "DayMonthYear": "{d} {B}, {y} DR",
+      "FestivalDayYear": "{day}, {y} DR"
+    },
+    "Month": {
+      "Hammer": "해머",
+      "HammerCommon": "깊은 겨울",
+      "Alturiak": "알투리악",
+      "AlturiakCommon": "겨울의 발톱",
+      "Ches": "체스",
+      "ChesCommon": "해질녘의 발톱",
+      "Tarsakh": "타르사크",
+      "TarsakhCommon": "The Claw of Storms",
+      "Mirtul": "미르툴",
+      "MirtulCommon": "The Melting",
+      "Kythorn": "키소른",
+      "KythornCommon": "꽃의 시간",
+      "Flamerule": "플라메룰",
+      "FlameruleCommon": "여름조수",
+      "Eleasis": "엘리아시스",
+      "EleasisCommon": "높은태양",
+      "Eleint": "엘레인트",
+      "EleintCommon": "빛바램",
+      "Marpenoth": "마르페노스",
+      "MarpenothCommon": "낙엽",
+      "Uktar": "우크타르",
+      "UktarCommon": "부패",
+      "Nightal": "나이탈",
+      "NightalCommon": "종막"
+    },
+    "Name": "하프토스의 달력 (포가튼 렐름)",
+    "Season": {
+      "Spring": "봄",
+      "Summer": "여름",
+      "Fall": "가을",
+      "Winter": "겨울"
+    }
+  },
+  "Khorvaire": {
+    "Day": {
+      "Sul": "설",
+      "Mol": "몰",
+      "Zol": "졸",
+      "Wir": "위를",
+      "Zor": "조를",
+      "Far": "파를",
+      "Sar": "사를"
+    },
+    "Formatters": {
+      "DayMonth": "{d} {B}",
+      "DayMonthYear": "{d} {B} {y} YK"
+    },
+    "Month": {
+      "Zarantyr": "자란티르",
+      "Olarune": "올라룬",
+      "Therendor": "테렌도르",
+      "Eyre": "아이레",
+      "Dravago": "드라바고",
+      "Nymm": "니므",
+      "Lharvion": "라르비온",
+      "Barrakas": "바라카스",
+      "Rhaan": "란",
+      "Sypheros": "시페로스",
+      "Aryth": "아리스",
+      "Vult": "벌트"
+    },
+    "Name": "코르바이레의 달력 (에버론)",
+    "Season": {
+      "Spring": "봄",
+      "Summer": "여름",
+      "Autumn": "가을",
+      "Winter": "겨울"
+    }
+  }
+},
+
 "DND5E.CAST": {
-  "Title": "시전",
+  "Action": {
+    "RemoveSpell": "주문 제거"
+  },
+  "Enchantment": {
+    "Name": "주문 변경"
+  },
   "FIELDS": {
     "spell": {
       "label": "시전 세부사항",
@@ -1084,16 +1363,12 @@
       }
     }
   },
+  "Hint": "아이템으로 주문을 시전합니다.",
   "SECTIONS": {
     "Spell": "주문",
     "Spellbook": "추가 주문"
   },
-  "Action": {
-    "RemoveSpell": "주문 제거"
-  },
-  "Enchantment": {
-    "Name": "주문 변경"
-  }
+    "Title": "시전"
 },
 
 "DND5E.Casting": "시전",
@@ -1158,6 +1433,8 @@
 "DND5E.CHATMESSAGE": {
   "Activities": "활동",
   "Deltas": {
+    "Created": "아이템 생성됨",
+    "Deleted": "아이템 삭제됨",
     "Recovery": "회복"
   },
   "REQUEST": {
@@ -1173,7 +1450,6 @@
 },
 
 "DND5E.CHECK": {
-  "Title": "판정",
   "FIELDS": {
     "check": {
       "label": "판정 세부사항",
@@ -1198,7 +1474,9 @@
       }
     }
   },
-  "ThisTool": "이 도구"
+  "Hint": "기술이나 도구의 도움을 받을 수 있는 능력 판정을 요청합니다.",
+  "ThisTool": "이 도구",
+  "Title": "판정"
 },
 
 "DND5E.CheckBonus": "판정 보너스",
@@ -1466,6 +1744,9 @@
     },
     "Wand": {
       "Label": "마법봉"
+    },
+    "Wondrous": {
+      "Label": "경이로운 물품"
     }
   }
 },
@@ -1540,7 +1821,8 @@
     "SlotLevel": "슬롯 레벨"
   },
   "Target": {
-    "ThisItem": "이 아이템"
+    "ThisItem": "이 아이템",
+    "UnknownItem": "알 수 없는 아이템"
   },
   "Type": {
     "Action": {
@@ -1557,6 +1839,7 @@
     },
     "Attribute": {
       "Label": "특성 수치",
+      "NonEmbeddedHint": "소모할 특성의 경로 (e.g. attributes.exhaustion, spells.pact.value).",
       "PromptDecrease": "특성 수치를 소모합니까?",
       "PromptIncrease": "특성 수치를 돌려받습니까?",
       "PromptHintDecrease": "<code>{attribute}</code>을/를 <strong>{cost}</strong> 줄입니다(현재 {current}).",
@@ -1577,6 +1860,7 @@
     },
     "ItemUses": {
       "Label": "아이템 사용량",
+      "NonEmbeddedHint": "컴펜디엄 내 항목의 식별자 또는 UUID로, 시트 상의 일치하는 항목에 자동으로 연결됩니다.",
       "PromptDecrease": "아이템 사용량을 소모합니까?",
       "PromptIncrease": "아이템 사용량을 돌려받습니까?",
       "PromptHintDecrease": "{item}을 <strong>{cost}</strong> {use} 사용합니다({available}{availableUse} 사용 가능).",
@@ -1585,6 +1869,7 @@
     },
     "Material": {
       "Label": "물질",
+      "NonEmbeddedHint": "컴펜디엄 내 항목의 식별자 또는 UUID로, 시트 상의 일치하는 항목에 자동으로 연결됩니다.",
       "PromptDecrease": "물질을 소모합니까?",
       "PromptIncrease": "물질을 돌려받습니까?",
       "PromptHintDecrease": "{item}의 양이 <strong>{cost}</strong> 줄어듭니다({quantity} 남음).",
@@ -1701,7 +1986,6 @@
 "DND5E.Current": "현재",
 
 "DND5E.DAMAGE": {
-  "Title": "피해",
   "FIELDS": {
     "damage": {
       "label": "피해",
@@ -1768,6 +2052,7 @@
       }
     }
   },
+  "Hint": "공격이나 내성 굴림 없이 크리쳐에게 피해를 줍니다.",
   "Part": {
     "Action": {
       "Create": "피해 부분 생성",
@@ -1795,6 +2080,7 @@
     "Modification": "{type} 수정",
     "Immunity": "{type} 면역",
     "Resistance": "{type} 저항",
+    "Threshold": "피해 임계값",
     "Vulnerability": "{type} 취약"
   },
   "Downgrading": "{source}을 저항으로 낮춤",
@@ -1924,7 +2210,11 @@
     "Dissociate": "효과 끊기"
   },
   "Empty": "연결된 효과가 없습니다. 위의 <i class=\"fas fa-plus\"></i> 버튼을 사용하여 만들거나 드롭다운 목록에서 존재하는 효과를 선택하세요.",
-  "Label": "가능한 효과"
+  "Label": "가능한 효과",
+  "RIDER": {
+    "Activity": "기수 활동 마법부여",
+    "Effect": "기수 효과 마법부여"
+  }
 },
 "DND5E.EffectsApplyTokens": "선택한 토큰에 적용",
 "DND5E.EffectApplyWarningConcentration": "집중 중인 다른 캐릭터에게 효과를 적용하는 것은 GM의 허용이 필요합니다.",
@@ -1932,7 +2222,6 @@
 "DND5E.EffectsSearch": "효과 검색",
 
 "DND5E.ENCHANT": {
-  "Title": "마법부여",
   "FIELDS": {
     "effects.element": {
       "level": {
@@ -1994,11 +2283,6 @@
       }
     }
   },
-  "SECTIONS": {
-    "Enchanting": "마법부여중",
-    "Enchantments": "마법부여",
-    "Restrictions": "제한"
-  },
   "DropArea": "여기에 아이템을 놓아 마법 부여를 적용하세요…",
   "Enchanted": "{current} &sol; {max} 마법부여됨",
   "Enchantment": {
@@ -2009,10 +2293,18 @@
     "Active": "{name} (active)",
     "Empty": "연결된 마법부여가 없습니다. 위의 <i class=\"fas fa-plus\"></i> 버튼을 사용하여 만들거나 드롭다운 목록에서 존재하는 마법부여를 선택하세요."
   },
+  "Hint": "아이템에 마법부여하여 그 능력치나 기능을 변경합니다.",
+  "SECTIONS": {
+    "Enchanting": "마법부여중",
+    "Enchantments": "마법부여",
+    "Restrictions": "제한"
+  },
+  "Title": "마법부여",
   "Warning": {
     "ConcentrationEnded": "집중이 종료되어 이 마법부여를 적용할 수 없습니다.",
     "MissingProperty": "마법부여를 적용하기 위해서는 이 아이템이 다음 속성 중 하나를 가져야 합니다: {validProperties}.",
     "NoMagicalItems": "이미 마법적인 아이템에는 마법부여를 적용할 수 없습니다.",
+    "NoTargetActor": "컴펜디움으로부터 마법부여하려면 지정된 캐릭터나 선택된 토큰이 필요합니다.",
     "NoSubtype": "이 마법부여는 {allowedType} 유형의 아이템에만 적용될 수 있지만, 이 아이템에는 하위 유형이 없습니다.",
     "WrongType": "{incorrectType} 유형의 아이템에 이 마법부여를 적용할 수 없으며, {allowedType} 유형의 아이템만 허용됩니다."
   }
@@ -2422,6 +2714,7 @@
     "Label": "클래스 특성",
     "ArcaneShot": "비전 사격",
     "ArtificerInfusion": "아티피서 마법주입",
+    "ArtificerPlan": "아티피서 계획",
     "ChannelDivinity": "신성 변환",
     "DefensiveTactic": "방어 전술",
     "EldritchInvocation": "섬뜩한 영창",
@@ -2469,17 +2762,19 @@
 "DND5E.Loot.Junk": "잡동사니",
 "DND5E.Loot.Material": "물질",
 "DND5E.Loot.Resource": "자원",
+"DND5E.Loot.Trade": "물자 교환",
 "DND5E.Loot.Treasure": "보물",
 "DND5E.Flaws": "단점",
 "DND5E.FormulaCannotContainDiceError": "{name} 수식은 굴림 표현을 포함할 수 없습니다.",
 
 "DND5E.FORWARD": {
-  "Title": "전달",
   "FIELDS": {
     "activity": {
       "label": "발동된 활동"
     }
   },
+  "Hint": "이 아이템에 대해 다른 소비 및 확장 세부 정보로 다른 활동을 발동합니다.",
+  "Title": "전달",
   "Warning": {
     "NoActivity": "전달 활동을 사용하려면 연결된 활동이 설정되어야 합니다."
   }
@@ -2584,8 +2879,14 @@
 "DND5E.GroupControls": "제어",
 "DND5E.Group": {
   "Action": {
-    "ChangePace": "Change Pace",
+    "ChangePace": "속도 변경",
+    "Inventory": {
+      "Group": "그룹 인벤토리 보이기",
+      "Vehicle": "탑승물 인벤토리 보이기"
+    },
     "Remove": "구성원 제거",
+    "SetPrimaryVehicle": "주 탑승물로 설정",
+    "UnsetPrimaryVehicle": "주 탑승물 설정 해제",
     "View": "구성원 보기"
   },
   "Config": {
@@ -2615,11 +2916,17 @@
   "TypeGeneric": "그룹",
   "TypeParty": "파티",
   "Vehicle": {
-    "one": "탑승물",
-    "other": "탑승물"
+    "Count": {
+      "one": "탑승물",
+      "other": "탑승물"
+    },
+    "Primary": {
+      "label": "Primary Vehicle"
+    }
   },
   "Warning": {
-    "PhysicalItemOnly": "물리적 아이템만 지원됩니다."
+    "PhysicalItemOnly": "물리적 아이템만 지원됩니다.",
+    "PlaceMembers": "장면에 토큰을 배치하는데 에러가 발생했습니다."
   }
 },
 "DND5E.Habitat": {
@@ -2651,7 +2958,6 @@
 "DND5E.HalfProficient": "절반 숙련",
 
 "DND5E.HEAL": {
-  "Title": "치유",
   "FIELDS": {
     "healing": {
       "label": "치유",
@@ -2698,7 +3004,9 @@
         "hint": "치유 유형 또는 사용자가 고를 수 있는 선택지입니다."
       }
     }
-  }
+  },
+  "Hint": "캐릭터 치유하기",
+  "Title": "치유"
 },
 
 "DND5E.Healing": "치유",
@@ -2713,6 +3021,9 @@
   },
   "DT": {
     "Abbr": "DT"
+  },
+  "Other": {
+    "label": "다른 옵션"
   }
 },
 
@@ -2736,6 +3047,7 @@
 "DND5E.HPFormulaRollMessage": "체력 점수 수식 굴림",
 
 "DND5E.HITDICE": {
+  "Abbreviation": "HD",
   "Action": {
     "Decrease": "감소",
     "Increase": "증가"
@@ -2755,7 +3067,6 @@
 "DND5E.HitDiceMax": "최대 체력 주사위",
 "DND5E.HitDiceRemaining": "잔여 체력 주사위",
 "DND5E.HitDiceRoll": "체력 주사위 굴림",
-"DND5E.HitDiceUsed": "사용된 체력 주사위",
 "DND5E.HitDiceWarn": "{name}은(는) 남은 {formula} 체력 주사위가 없습니다!",
 "DND5E.HitDiceNPCWarn": "{name}은(는) 남은 체력 주사위가 없습니다!",
 "DND5E.Ideals": "이상",
@@ -2986,6 +3297,7 @@
   },
   "Label": "전설적 저항",
   "LabelPl": "전설적 저항",
+  "LairUses": "{normal}/일, 혹은 은신처에서 {lair}/일",
   "Max": "최대 전설적 저항",
   "Ordinal": {
     "one": "{n}번째 전설적 저항",
@@ -3050,8 +3362,22 @@
 "DND5E.Notes": "노트",
 
 "DND5E.NPC": {
-  "Label": "NPC",
+  "ActionCostCounted": {
+    "other": "{number} 행동 소모"
+  },
   "FIELDS": {
+    "attributes": {
+      "price": {
+        "denomination": {
+          "label": "액면가"
+        },
+        "hint": "일일 임차료 또는 가축 구매 가격입니다.",
+        "label": "가격",
+        "value": {
+          "label": "양"
+        }
+      }
+    },
     "traits": {
       "important": {
         "hint": "중요한 NPC는 죽음 내성 굴림을 하고, 체력 주사위와 충성도(활성화했다면)를 가집니다. 클래스 레벨이 있는 NPC는 이 설정과 상관없이 중요하게 취급합니다.",
@@ -3059,10 +3385,12 @@
       }
     }
   },
+  "Label": "NPC",
   "SECTIONS": {
     "Actions": "행동",
     "BonusActions": "추가 행동",
     "LegendaryActions": "전설 행동",
+    "MythicActions": "신비 행동",
     "Reactions": "반응 행동",
     "Traits": "특장"
   }
@@ -3136,7 +3464,8 @@
 "DND5E.Properties": "속성",
 "DND5E.PropertyBase": "기본",
 "DND5E.PropertyTotal": "총합",
-"DND5E.Public": "Public",
+"DND5E.Public": "공개",
+"DND5E.Quality": "질",
 "DND5E.Quantity": "수량",
 "DND5E.QuantityAbbr": "수량",
 "DND5E.QuantityFormula": "수량 수식",
@@ -3218,8 +3547,11 @@
       "Plants": "식물 혹은 덤불",
       "Rocks": "자갈 혹은 바위",
       "Liquid": "얕은 액체",
+      "Mud": "뻑뻑한 진흙",
+      "Sand": "흐르는 모래",
       "Slope": "가파른 경사",
-      "Snow": "쌓인 눈"
+      "Snow": "쌓인 눈",
+      "Webs": "끈적거리는 거미줄"
     }
   },
   "ROTATEAREA": {
@@ -3405,27 +3737,43 @@
     "Rule": "규칙"
   }
 },
+
+"DND5E.MOVEMENT": {
+  "Action": {
+    "Configure": "이동 속도 설정"
+  },
+  "FIELDS": {
+    "bonus": {
+      "label": "이동 보너스"
+    },
+    "ignoredDifficultTerrain": {
+      "label": "어려운 지형 무시됨"
+    },
+    "special": {
+      "label": "특수 이동"
+    },
+    "speeds": {
+      "label": "이동 속도"
+    },
+    "units": {
+      "label": "단위"
+    }
+  },
+  "Hover": "부유",
+  "Speed": "전투 속도",
+  "Type": {
+    "Burrow": "굴착",
+    "Climb": "등반",
+    "Fly": "비행",
+    "Speed": "속도",
+    "Swim": "수영",
+    "Walk": "보행"
+  }
+},
+
 "DND5E.Movement": "이동",
-"DND5E.MovementConfig": "이동속도 설정",
-"DND5E.MovementConfigHint": "이동 속도와 특수 이동 능력을 설정합니다.",
-"DND5E.MovementWalk": "보행",
-"DND5E.MovementBurrow": "굴착",
-"DND5E.MovementClimb": "등반",
-"DND5E.MovementHover": "부양",
-"DND5E.MovementFly": "비행",
-"DND5E.MovementSwim": "수영",
-"DND5E.MovementLand": "땅",
-"DND5E.MovementWater": "물",
-"DND5E.MovementAir": "공기",
-"DND5E.MovementSpeeds": "이동 속도",
-"DND5E.MovementUnits": "단위",
-"DND5E.MovementIgnoredDifficultTerrain": "어려운 지형 무시",
 
 "DND5E.SAVE": {
-  "Title": {
-    "one": "내성 굴림",
-    "other": "내성 굴림"
-  },
   "FIELDS": {
     "damage": {
       "label": "내성 굴림 피해",
@@ -3468,7 +3816,12 @@
       }
     }
   },
-  "OnSave": "On Save"
+  "Hint": "피해를 굴리는 선택지가 있는 내성 굴림을 요청합니다.",
+  "OnSave": "내성 굴림시",
+  "Title": {
+    "one": "내성 굴림",
+    "other": "내성 굴림"
+  }
 },
 
 "DND5E.SaveBonus": "내성 굴림 보너스",
@@ -3586,6 +3939,7 @@
 "DND5E.SkillSte": "은신",
 "DND5E.SkillSur": "생존술",
 "DND5E.SkillRoll": "{ability} ({skill}) 판정",
+"DND5E.SkillTitle": "{ability} ({skill})",
 "DND5E.SkillPromptTitle": "{skill} 기술 판정",
 "DND5E.SkillConfigureTitle": "{skill} 설정",
 "DND5E.SkillConfigure": "기술 설정",
@@ -3655,6 +4009,7 @@
 "DND5E.SpellAbility": "주문시전 능력",
 "DND5E.SpellAbilitySet": "기본 주문시전 능력으로 설정하기",
 "DND5E.SpellAdd": "주문 추가",
+"DND5E.SpellAttackBonus": "주문 공격 보너스",
 "DND5E.SpellCantrip": "소마법",
 "DND5E.SpellCastConsume": "주문 슬롯 소모",
 "DND5E.SpellCastNoSlots": "{name} 주문을 시전할 {level} 레벨 주문 슬롯이 없습니다.",
@@ -3810,12 +4165,15 @@
     "Tool": "도구 선택",
     "Weapon": "무기 선택"
   },
+  "ChooseList": "<em>{prefixes} 선택:</em> {choices}",
+  "Currency": "화폐",
   "DropHint": "여기에 아이템을 드래그하여 연결",
   "IfProficient": "숙련일 때",
   "Operator": {
     "AND": "전체",
     "OR": "다음 중 하나"
   },
+  "Prefixes":  "abcdefghijklmnopqrstuvwxyz",
   "RequireProficiency": "숙련 필요",
   "SpecificItem": "특정 아이템",
   "Warning": {
@@ -3837,7 +4195,6 @@
 "DND5E.Summary": "요약",
 
 "DND5E.SUMMON": {
-  "Title": "소환",
   "FIELDS": {
     "bonuses": {
       "ac": {
@@ -3877,6 +4234,10 @@
       "ability": {
         "label": "능력치 맞춤",
         "hint": "공격 및 내성 DC를 일치시킬 때 사용할 수 있는 특정 능력입니다."
+      },
+      "disposition": {
+        "label": "기질 일치",
+        "hint": "소환된 크리쳐의 기질을 소환자의 성향과 일치하도록 변경합니다."
       },
       "attacks": {
         "label": "공격 맞춤",
@@ -3943,11 +4304,6 @@
       }
     }
   },
-  "SECTIONS": {
-    "Changes": "변경점",
-    "Profiles": "프로필",
-    "Summoning": "소환중"
-  },
   "Action": {
     "Place": "소환물 배치",
     "Summon": "소환",
@@ -3957,6 +4313,7 @@
     "Label": "크리쳐 변경점",
     "Hint": "소환되는 크리쳐에 변경 사항이 적용됩니다. 다음 수식에서 사용되는 모든 @ 참조는 소환자의 능력치를 기준으로 합니다. 소환된 크리쳐의 능력치는 @summon을 사용하여 참조할 수 있습니다(예: 크리쳐의 명중 주사위 수를 참조하려면 @summon.attributes.hd.max)"
   },
+  "Hint": "장면에 새 크리쳐를 소환합니다.",
   "ItemChanges": {
     "Label": "아이템 변경점",
     "Hint": "소환된 크리쳐에게 있는 아이템의 변경점입니다."
@@ -3972,6 +4329,12 @@
     "Empty": "위의 <i class=\"fas fa-plus\"></i> 버튼을 클릭하여 프로필을 생성하세요.",
     "EmptyDrop": "위의 <i class=\"fas fa-plus\"></i> 버튼을 클릭하여 프로필을 생성하거나 소환할 크리쳐를 여기에 드래그하세요."
   },
+  "SECTIONS": {
+    "Changes": "변경점",
+    "Profiles": "프로필",
+    "Summoning": "소환중"
+  },
+  "Title": "소환",
   "Warning": {
     "NoOwnership": "소환하려면 '{actor}'의 소유권이 있어야 합니다.",
     "NoProfile": "{item}'에서 소환 프로필 {profileId}를 찾을 수 없습니다.",
@@ -4246,23 +4609,6 @@
   "Selected": "Selected",
   "Targeted": "Targeted"
 },
-"DND5E.TokenRings": {
-  "BackgroundColor": "배경 색깔",
-  "Effects": {
-    "Label": "효과",
-    "BackgroundWave": "파동무늬 배경",
-    "RingGradient": "테두리 그라디에이션",
-    "RingPulse": "테두리 깜박임"
-  },
-  "Enabled": "동적 테두리 사용",
-  "RingColor": "테두리 색",
-  "ScaleCorrection": "크기 조정",
-  "Subject": {
-    "Label": "대체 이미지 경로",
-    "Hint": "동적 토큰 테두리 위에 배치할 대체 이미지의 경로입니다. 공란으로 둘 경우, 토큰 이미지 경로에 있는 이미지 파일 중 끝에 \"-subject\"라는 이름이 붙은 이미지를 자동으로 탐색합니다."
-  },
-  "Title": "동적 테두리"
-},
 "DND5E.ToggleDescription": "설명 토글",
 
 "DND5E.TOOL": {
@@ -4404,6 +4750,7 @@
       }
     }
   },
+  "Hint": "액터를 다른 능력치를 사용하도록 바꿉니다.",
   "Preset": {
     "Appearance": {
       "Label": "모습만"
@@ -4542,6 +4889,9 @@
       "Spells": {
         "Label": "주문"
       },
+      "TempHP": {
+        "Label": "임시 HP"
+      },
       "Vision": {
         "Label": "시야"
       }
@@ -4565,12 +4915,35 @@
   }
 },
 
-"DND5E.Travel": {
-  "Label": "Travel Pace",
+"DND5E.TRAVEL": {
+  "FIELDS": {
+    "pace": {
+      "label": "속도"
+    },
+    "time": {
+      "hint": "여행 이속을 속도로 변환하는 데 사용되는 하루 당 이동 시간입니다.",
+      "label": "하루 당 시간"
+    }
+  },
+  "Label": "여행 속도",
   "Pace": {
-    "Fast": "Fast",
-    "Normal": "Normal",
-    "Slow": "Slow"
+    "Fast": "빠름",
+    "Normal": "일반",
+    "Slow": "느림"
+  },
+  "Per": {
+    "Day": "하루 당",
+    "Hour": "시간 당"
+  },
+  "Slowed": {
+    "Group": "한 멤버의 속도가 절반 이하로 감소하여 그룹의 페이스가 느려졌습니다.",
+    "Member": "이 그룹 멤버가 나머지 멤버들의 속도를 늦추고 있습니다."
+  },
+  "Speed": "여행 속도",
+  "Type": {
+    "Air": "공중",
+    "Land": "육상",
+    "Water": "수중"
   }
 },
 
@@ -4657,6 +5030,19 @@
     },
     "Year": {
       "Label": "년"
+    }
+  },
+  "TRAVEL": {
+    "Kilometer": {
+      "AbbreviationHour": "km/h",
+      "AbbreviationDay": "km/d",
+      "Label": "킬로미터"
+    },
+    "Label": "여행 단위",
+    "Mile": {
+      "AbbreviationDay": "mi/d",
+      "AbbreviationHour": "mph",
+      "Label": "마일"
     }
   },
   "VOLUME": {
@@ -4843,7 +5229,6 @@
 },
 
 "DND5E.UTILITY": {
-  "Title": "사용",
   "FIELDS": {
     "roll": {
       "label": "굴림",
@@ -4864,12 +5249,116 @@
         "hint": "굴림 버튼이 모두에게 보이도록 합니까?"
       }
     }
-  }
+  },
+  "Hint": "임의의 주사위를 굴리거나 다른 활동 유형으로 표현되지 않은 다른 행동이 수행되었음을 알립니다.",
+  "Title": "사용"
 },
 
 "DND5E.Value": "값",
 
 "DND5E.VEHICLE": {
+  "Action": {
+    "Create": {
+      "Equipment": "장비 생성",
+      "Feature": "특성 생성",
+      "Weapon": "무기 생성"
+    },
+    "Crew": {
+      "Decrease": "감소",
+      "Increase": "증가"
+    },
+    "Drop": {
+      "Animal": "역축 내리기",
+      "Crew": "승무원 내리기",
+      "Passengers": "승객 내리기"
+    },
+    "Uncrew": "승무원 없음"
+  },
+  "Actions": {
+    "Ordinal": {
+      "one": "{n}번째 행동",
+      "two": "{n}번째 행동",
+      "few": "{n}번째 행동",
+      "other": "{n}번째 행동"
+    }
+  },
+  "Activation": {
+    "Crew": {
+      "label": "승무원 행동"
+    }
+  },
+  "Crew": {
+    "Assigned": "할당",
+    "Label": "승무원",
+    "Passengers": "승객",
+    "Unassigned": "미할당"
+  },
+  "FIELDS": {
+    "attributes": {
+      "actions": {
+        "label": "행동",
+        "max": {
+          "hint": "승무원 전원 탑승 시 수행 가능한 행동",
+          "label": "최대 행동"
+        },
+        "spent": {
+          "label": "행동 소모"
+        },
+        "stations": {
+          "label": "행동 영역"
+        },
+        "thresholds": {
+          "full": {
+            "label": "전원 승무원 보조"
+          },
+          "mid": {
+            "label": "일부 승무원 보조"
+          },
+          "min": {
+            "label": "최소 승무원 보조"
+          },
+          "label": "임계값"
+        }
+      },
+      "capacity": {
+        "cargo": {
+          "value": {
+            "label": "화물"
+          }
+        },
+        "label": "수용량"
+      }
+    },
+    "crew": {
+      "max": {
+        "label": "승무원"
+      }
+    },
+    "passengers": {
+      "max": {
+        "label": "승객"
+      }
+    },
+    "traits": {
+      "beam": {
+        "value": {
+          "label": "기둥"
+        }
+      },
+      "keel": {
+        "value": {
+          "label": "용골"
+        }
+      }
+    }
+  },
+  "Mishap": {
+    "label": "사고",
+    "Threshold": {
+      "abbr": "MT",
+      "label": "사고 임계값"
+    }
+  },
   "MOUNTABLE": {
     "FIELDS": {
       "cover": {
@@ -4903,38 +5392,34 @@
         }
       }
     }
+  },
+  "Option": {
+    "Abilities": "능력치 보이기",
+    "Initiative": "우선권 보이기",
+    "Quality": "양 보이기"
+  },
+  "Tabs": {
+    "Cargo": "화물",
+    "CrewPassengers": "승무원 & 승객"
+  },
+  "Type": {
+    "Air": {
+      "label": "공중 탑승물"
+    },
+    "label": "탑승물 유형",
+    "Land": {
+      "label": "육상 탑승물"
+    },
+    "Space": {
+      "label": "우주 탑승물"
+    },
+    "Water": {
+      "label": "수중 탑승물"
+    }
   }
 },
 
 "DND5E.Vehicle": "탑승물",
-"DND5E.VehicleActions": "행동",
-"DND5E.VehicleActionsHint": "전원 탑승 시 사용하는 행동입니다.",
-"DND5E.VehicleActionMax": "최대 행동",
-"DND5E.VehicleActionStations": "행동 영역",
-"DND5E.VehicleActionThresholds": "행동 한계",
-"DND5E.VehicleActionThresholdsFull": "전원 탑승",
-"DND5E.VehicleActionThresholdsMid": "일부 탑승",
-"DND5E.VehicleActionThresholdsMin": "최소 탑승",
-"DND5E.VehicleCargo": "화물",
-"DND5E.VehicleCargoCapacity": "화물 수용력",
-"DND5E.VehicleCargoCrew": "화물 & 승무원",
-"DND5E.VehicleCreatureCapacity": "크리처 수용력",
-"DND5E.VehicleCrew": "승무원",
-"DND5E.VehicleCrewPassengers": "승무원 & 탑승객",
-"DND5E.VehicleCrewed": "승무원 탑승 중",
-"DND5E.VehicleCrewAction": "승무원 행동",
-"DND5E.VehicleEquipment": "탑승물 장비",
-"DND5E.VehicleMishap": "사고",
-"DND5E.VehicleMishapThreshold": "사고 한계",
-"DND5E.VehiclePassengers": "승객",
-"DND5E.VehiclePassengerName": "탑승객 이름 또는 유형",
-"DND5E.VehiclePassengerQuantity": "탑승객 수",
-"DND5E.VehicleType": "탑승물 유형",
-"DND5E.VehicleTypeAir": "비행 탑승물",
-"DND5E.VehicleTypeLand": "육상 탑승물",
-"DND5E.VehicleTypeSpace": "우주 탑승물",
-"DND5E.VehicleTypeWater": "수상 탑승물",
-"DND5E.VehicleUncrewed": "승무원 미탑승",
 "DND5E.Versatile": "다용도",
 "DND5E.VersatileDamage": "다용도 피해",
 "DND5E.VsDC": "vs DC.",
@@ -5013,6 +5498,7 @@
   "DC": "DC {dc} {check}",
   "DCPassiveShort": "DC {dc} 상시 {check}",
   "DCPassiveLong": "DC {dc} 이상 상시 {check} 점 ",
+  "ItemActivity": "{item} ({activity})",
   "NoActorWarning": "대상 액터를 지정하지 않아 해당 굴림을 시행할 수 없습니다.",
   "PassiveShort": "상시 {check}",
   "PassiveLong": "상시 {check} 점수",
@@ -5212,7 +5698,10 @@
   "AUTOMATION": {
     "Movement": {
       "Name": "이동 자동화 비활성",
-      "Hint": "규칙 버전에 따라 어려운 지형 이동 페널티를 적용하지 않거나, 크리쳐들이 서로를 통과하여 이동하는 것을 막지 않습니다."
+      "Hint": "규칙 버전에 따라 어려운 지형 이동 페널티를 적용하지 않거나, 크리쳐들이 서로를 통과하여 이동하는 것을 막지 않습니다.",
+      "Full": "전부",
+      "NoBlocking": "일부",
+      "None": "없음"
     }
   },
   "BLOODIED": {
