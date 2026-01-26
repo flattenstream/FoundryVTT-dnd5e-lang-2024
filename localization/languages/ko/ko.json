@@ -2065,7 +2065,8 @@
     "None": "단계화 없음",
     "Whole": "매 레벨마다",
     "WholeCantrip": "소마법 단계화"
-  }
+  },
+  "Title": "피해"
 },
 
 "DND5E.DamImm": "피해 면역",
