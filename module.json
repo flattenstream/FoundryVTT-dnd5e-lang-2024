@@ -1,60 +1,69 @@
 {
 	"id": "dnd5e-ko-2024",
-	"name": "dnd5e-ko-2024",
 	"title": "Translation: Korean [D&D 5e](SRD 2024)",
 	"description": "D&D 5e 시스템의 한국어화 모듈입니다.",
-	"version":  "#{VERSION}#",
-	"library": "false",
-	"manifestPlusVersion": "2.0.9",
+	"version":  "2.1.0",
 	"compatibility": {
 		"minimum": 12,
-		"verified": 13.346,
-		"maximum": 13
+		"verified": 13.5,
+		"maximum": 14
 	  },
+	"languages": [
+		{
+			"lang": "ko",
+			"name": "Korean",
+			"path": "lang/ko.json"
+		}
+	],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "5.2.1",
+          "verified": "5.2.5"
+        },
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd-monster-manual",
+        "type": "module",
+        "manifest": "https://foundryvtt.com/packages/dnd-monster-manual",
+        "compatibility": {
+          "minimum": "1.3.0",
+          "verified": "1.3.0"
+        },
+        "reason": "Optional but recommended to resolve external embeds in dnd5e.content24."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/converters.js",
+    "scripts/babele-register.js"
+  ],
 	"authors": [
 		{
 		  "name": "Luunstream"
 		}
 	  ],
-	"esmodules": ["scripts/babele-register.js"],
-	"styles": ["styles/style.css"],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-        		"type": "system",
-				"compatibility": {
-      				"verified": "4.0.1"
-				}
-			}
-		],
-		"requires": [{
-			"id": "babele",
-			"type": "module",
-			"manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-		  }]
-	  },
-	"languages": 
-	[
-		{
-			"lang": "ko",
-			"name": "Korean",
-			"path": "localization/languages/ko/ko.json"
-		}
-	],
-	"packs": [
-    {
-      "name": "rolltables_24sub",
-      "system": "dnd5e",
-      "label": "굴림표(보조)",
-      "path": "./packs/rolltables_24sub.db",
-      "module": "dnd5e-ko-2024",
-      "type": "RollTable"
-    }
-	],
+
 	"license": "LICENSE",
   	"readme": "README.md",
-	"url": "#{URL}#",
-	"manifest": "#{MANIFEST}#",
-	"download": "#{DOWNLOAD}#"
+	"url": "https://github.com/flattenstream/FoundryVTT-dnd5e-lang-2024",
+	"manifest": "https://github.com/flattenstream/FoundryVTT-dnd5e-lang-2024/releases/latest/download/module.json",
+	"download": "https://github.com/flattenstream/FoundryVTT-dnd5e-lang-2024/releases/latest/download/module.zip"
 }
