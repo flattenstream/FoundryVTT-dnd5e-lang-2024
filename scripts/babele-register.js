@@ -45,7 +45,6 @@ Hooks.on("init", () => {
               "dnd5e.tables24": {
                   label: "굴림표",
                   path: "dnd5e.tables24.json"
-                  // aquí normalmente NO hace falta mapping
               },
               "dnd5e.monsterfeatures24": {
                   label: "몬스터",
